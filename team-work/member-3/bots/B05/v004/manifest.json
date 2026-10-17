@@ -1,0 +1,17 @@
+{
+  "bot": "B05",
+  "version": "v004",
+  "mode": "beam",
+  "source_inputs": {
+    "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+    "round2_math.py": "cd46843d8517923bbcb57451acb7df80a3b2e018e53ad2c3afaf87be479cdcaf",
+    "terminal_math.py": "0208724facfabd26a7940bff23022418d91999bb57d5dd96a183da05a590e522",
+    "member3_core.py": "6fa47fe7b18f84e856b697b2222386bb599c10b80d6ff134c270110f577a607f"
+  },
+  "agent_sha256": "8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf",
+  "executable_ast_preserved": true,
+  "parent_version": "v003",
+  "parent_repository_commit": "6406587588131d904054d40327fdb0fc5c02a5a5",
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816"
+}
