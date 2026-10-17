@@ -1,0 +1,13 @@
+{
+  "tests_passed": 15,
+  "exhaustive_trade_cases": 18225,
+  "command": "./team-work/run-python.sh team-work/member-4/implementation/test_member4.py",
+  "source_sha256": {
+    "team-work/member-4/implementation/test_member4.py": "01cf93a91dc8a1582f04e2044c498a0e20828edb52ffee01e3dce1788aafbd68",
+    "team-work/member-4/implementation/route_math.py": "d9d31dde395ec2ec4a424d811b1c1094b3fabc4a5e54fb867263ea6b7fae05d6",
+    "team-work/member-4/implementation/member4_policies.py": "703565d7d77156eb0b48fb9bbad54e56f2d53a9ec8c82c3ec0dd86f673294e9b",
+    "team-work/member-4/implementation/public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+    "team-work/member-4/implementation/build_agents.py": "dd291b8c920985a4d1fd11d40ee29da70bb87b2c9d40e35a3753ec1dbdfcbef0"
+  },
+  "engine_fixture_scope": "Constructed counterfactual fixtures, not all full reached histories"
+}

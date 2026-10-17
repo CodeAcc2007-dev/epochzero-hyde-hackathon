@@ -1,0 +1,110 @@
+[
+  {
+    "game": 0,
+    "board_seed": 931010,
+    "a_first": true,
+    "winner": "b",
+    "turns": 68,
+    "a": {
+      "cpu_s": 0.1,
+      "wall_s": 0.119027,
+      "decisions": 51,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.15,
+      "wall_s": 0.170378,
+      "decisions": 54,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 1,
+    "board_seed": 931010,
+    "a_first": false,
+    "winner": "a",
+    "turns": 90,
+    "a": {
+      "cpu_s": 0.16,
+      "wall_s": 0.199387,
+      "decisions": 77,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.14,
+      "wall_s": 0.172954,
+      "decisions": 74,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 2,
+    "board_seed": 931011,
+    "a_first": true,
+    "winner": "b",
+    "turns": 79,
+    "a": {
+      "cpu_s": 0.19,
+      "wall_s": 0.221182,
+      "decisions": 80,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.16,
+      "wall_s": 0.193979,
+      "decisions": 55,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 3,
+    "board_seed": 931011,
+    "a_first": false,
+    "winner": "b",
+    "turns": 64,
+    "a": {
+      "cpu_s": 0.08,
+      "wall_s": 0.103039,
+      "decisions": 35,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.16,
+      "wall_s": 0.179085,
+      "decisions": 68,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  }
+]

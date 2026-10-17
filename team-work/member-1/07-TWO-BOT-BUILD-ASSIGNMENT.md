@@ -40,3 +40,11 @@ Target zero faults/exhausted clocks. The clock is cumulative, so a three-second 
 Use Hyde/OpenCode for bounded repetitive development work only if configured locally; inspect its actual outputs and verify them. Do not rely on its stated test results. Current research jobs timed out and were rejected; logs contain no accepted code. All design/review evidence belongs in Markdown alongside actual results.
 
 First upload status: **pending human build/test**. Assistant retest status: **not started**. Improvement round: **not started**.
+
+## Subsequent implementation update — 17 October 2026
+
+The user subsequently explicitly requested primary-assistant implementation of B01/B02. That authorization supersedes the original human-only build status above for these two initial candidates. Both frozen standalone v001 files are now built and locally verified: [B01](bots/B01/v001/agent.py), [B02](bots/B02/v001/agent.py).
+
+Each completed the user's current default of 500 paired-seat games against unchanged F: B01 381/500 (76.2%), B02 359/500 (71.8%). Both recorded zero errors, timeouts, crashes, clock overruns and harness random moves. Nineteen semantic verification methods and package checks passed; Hyde supplied a bounded helper that the primary independently reviewed and verified. Read the [complete report](implementation/BUILD-AND-RESULTS.md) for records, provenance, decisions and limitations.
+
+The earlier seven bots and research remain unchanged. Human review and GitHub upload are pending. Direct clashes, component ablations, private scoring and the next improvement round have not been run. Preserve v001; revisions require a new version and fresh confirmation boards.

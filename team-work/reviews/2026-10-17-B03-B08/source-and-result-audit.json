@@ -1,0 +1,392 @@
+{
+  "member2_remote_commit": "791e6705d09f62ceba691777e041980d673f1c69",
+  "review_sources": [
+    {
+      "bot": "B01",
+      "owner_member": 1,
+      "version": "v001",
+      "source_path": "team-work/member-1/bots/B01/v001",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "agent.py": "e3c951ab2a9a1ca7b8e63fa04b955caade84133c7da206a7a1561bd705986a57"
+      },
+      "manifest_hashes_match": true,
+      "component_hashes_and_development_bytes_match": true
+    },
+    {
+      "bot": "B02",
+      "owner_member": 1,
+      "version": "v001",
+      "source_path": "team-work/member-1/bots/B02/v001",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "agent.py": "6e9a3324449a46119c3e94c60bc1ed7528644d8efffa1f457590d5036973020c"
+      },
+      "manifest_hashes_match": true,
+      "component_hashes_and_development_bytes_match": true
+    },
+    {
+      "bot": "B03",
+      "owner_member": 2,
+      "version": "v002",
+      "source_path": "team-work/member-2/bots/B03/v002",
+      "status": "remote snapshot",
+      "files_sha256": {
+        "agent.py": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30"
+      },
+      "manifest_hashes_match": true
+    },
+    {
+      "bot": "B04",
+      "owner_member": 2,
+      "version": "v002",
+      "source_path": "team-work/member-2/bots/B04/v002",
+      "status": "remote snapshot",
+      "files_sha256": {
+        "agent.py": "763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45"
+      },
+      "manifest_hashes_match": true
+    },
+    {
+      "bot": "B05",
+      "owner_member": 3,
+      "version": "v003",
+      "source_path": "team-work/member-3/bots/B05/v003",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+        "agent.py": "27813f37d9ff4d794115b19b193b3d03fb64673465555062bc9595702dafa03b",
+        "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+      },
+      "manifest_hashes_match": true
+    },
+    {
+      "bot": "B06",
+      "owner_member": 3,
+      "version": "v003",
+      "source_path": "team-work/member-3/bots/B06/v003",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+        "agent.py": "7369f4f0ef4eed12794075257d6a2f630c426428982a65a5ca871b43bd2ebb66",
+        "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+      },
+      "manifest_hashes_match": true
+    },
+    {
+      "bot": "B07",
+      "owner_member": 4,
+      "version": "v001",
+      "source_path": "team-work/member-4/bots/B07/v001",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "agent.py": "9e471d1b89a2357e20e168b222347ca4901dbebd1d6ab01359a47ce84961c588"
+      },
+      "manifest_hashes_match": true
+    },
+    {
+      "bot": "B08",
+      "owner_member": 4,
+      "version": "v001",
+      "source_path": "team-work/member-4/bots/B08/v001",
+      "status": "local frozen artifact",
+      "files_sha256": {
+        "agent.py": "7470a4040f4cef80b101ceae144be93d820f8ed317c0f6bb22886e2ba30cb8eb"
+      },
+      "manifest_hashes_match": true
+    }
+  ],
+  "member2_result_records": [
+    {
+      "file": "team-work/member-2/bots/results/dev-b03v2-vs-b04v2-01.json",
+      "games": 16,
+      "a_wins": 11,
+      "a_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+      "b_sha256": "be9b3a53befc2beff5159f7f5e1b9a00b3e9ffe9e3eef964044c0fb58b453b01",
+      "current_a": true,
+      "current_b": false,
+      "seed_min": 771040,
+      "seed_max": 771047,
+      "outcome_and_turn_digest": "b9efc763307b03d6d764f6d8630b1cb4b8efa435dda692aa6678a452b892b87a",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/dev-b03v2-vs-f-01.json",
+      "games": 16,
+      "a_wins": 5,
+      "a_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": true,
+      "current_b": null,
+      "seed_min": 771000,
+      "seed_max": 771007,
+      "outcome_and_turn_digest": "1db557da8e6cb23091ef876b67cf744eb4c18f02b1b002955e0eb7480bb4bbd4",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/dev-b04v2-vs-f-01.json",
+      "games": 16,
+      "a_wins": 3,
+      "a_sha256": "be9b3a53befc2beff5159f7f5e1b9a00b3e9ffe9e3eef964044c0fb58b453b01",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": false,
+      "current_b": null,
+      "seed_min": 771020,
+      "seed_max": 771027,
+      "outcome_and_turn_digest": "d749378e84371b383aeae0e7d76cf7bfcb4488d4625fe8c0f19efdd40f4b3627",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/screen-b03v2-vs-b04v2-01.json",
+      "games": 40,
+      "a_wins": 20,
+      "a_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+      "b_sha256": "763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45",
+      "current_a": true,
+      "current_b": true,
+      "seed_min": 771300,
+      "seed_max": 771319,
+      "outcome_and_turn_digest": "d2a699ed7e78fecc93681ffab901088fcc970c23d7d86f53c006badc750062bd",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/screen-b03v2-vs-f-01.json",
+      "games": 80,
+      "a_wins": 39,
+      "a_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": true,
+      "current_b": null,
+      "seed_min": 771100,
+      "seed_max": 771139,
+      "outcome_and_turn_digest": "cadead958d3eb55f68c9f2afa0220494d9221c990a16df767ff96e9600235cab",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/screen-b03v2-vs-f-02.json",
+      "games": 80,
+      "a_wins": 39,
+      "a_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": true,
+      "current_b": null,
+      "seed_min": 771100,
+      "seed_max": 771139,
+      "outcome_and_turn_digest": "cadead958d3eb55f68c9f2afa0220494d9221c990a16df767ff96e9600235cab",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/screen-b04v2-vs-f-01.json",
+      "games": 80,
+      "a_wins": 32,
+      "a_sha256": "763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": true,
+      "current_b": null,
+      "seed_min": 771200,
+      "seed_max": 771239,
+      "outcome_and_turn_digest": "615ba62d23983cfafa043a1f8caf0ab5387333dbf170c7a6067b0e37702e095c",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    },
+    {
+      "file": "team-work/member-2/bots/results/screen-b04v2-vs-f-02.json",
+      "games": 80,
+      "a_wins": 32,
+      "a_sha256": "763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45",
+      "b_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+      "current_a": true,
+      "current_b": null,
+      "seed_min": 771200,
+      "seed_max": 771239,
+      "outcome_and_turn_digest": "615ba62d23983cfafa043a1f8caf0ab5387333dbf170c7a6067b0e37702e095c",
+      "fault_counts_recomputed": {
+        "a": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        },
+        "b": {
+          "over": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0,
+          "random_moves": 0
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Imported result records recomputed; historical games were not replayed.",
+    "M2 repeated screen-01/02 batches use identical seeds, game indices, winners and turn counts; CPU differs. Do not treat them as independent board samples.",
+    "Some M2 v002 smoke records refer to a superseded B04 hash. See per-record current_b/current_a."
+  ],
+  "historical_local_main_results": [
+    {
+      "bot": "B01",
+      "games": 500,
+      "wins": 381,
+      "result_path": "team-work/member-1/implementation/results/B01-v001-vs-F-500",
+      "mean_cpu_s": 0.20587999999999995,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    },
+    {
+      "bot": "B02",
+      "games": 500,
+      "wins": 359,
+      "result_path": "team-work/member-1/implementation/results/B02-v001-vs-F-500",
+      "mean_cpu_s": 0.2028800000000003,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    },
+    {
+      "bot": "B05",
+      "games": 1000,
+      "wins": 729,
+      "result_path": "team-work/member-3/implementation/results/B05-v003-vs-F",
+      "mean_cpu_s": 0.16021000000000002,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    },
+    {
+      "bot": "B06",
+      "games": 1000,
+      "wins": 695,
+      "result_path": "team-work/member-3/implementation/results/B06-v003-vs-F",
+      "mean_cpu_s": 0.10015999999999974,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    },
+    {
+      "bot": "B07",
+      "games": 500,
+      "wins": 361,
+      "result_path": "team-work/member-4/implementation/results/B07-v001-vs-F-500",
+      "mean_cpu_s": 0.11840000000000007,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    },
+    {
+      "bot": "B08",
+      "games": 500,
+      "wins": 363,
+      "result_path": "team-work/member-4/implementation/results/B08-v001-vs-F-500",
+      "mean_cpu_s": 0.4119199999999998,
+      "source_hashes_match": true,
+      "aggregates_recomputed": true,
+      "replayed_this_review": false
+    }
+  ]
+}

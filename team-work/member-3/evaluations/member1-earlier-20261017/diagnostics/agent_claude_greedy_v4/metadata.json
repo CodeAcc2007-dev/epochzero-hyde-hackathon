@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-10-17T08:57:07.434697+00:00",
+  "python": "3.11.17",
+  "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "processor": "",
+  "repository_base_commit": "3a163059766f3cdc530ce316b519574a6dc1843e",
+  "a": {
+    "entrypoint": "shared-local/member1-earlier-diagnostics/agent_claude_greedy_v4/agent.py",
+    "files": {
+      "shared-local/member1-earlier-diagnostics/agent_claude_greedy_v4/agent.py": "d2dd865d5e173a0db048a2df7622b9c69249c377b88c2677a259f47f2efd59ad"
+    },
+    "fingerprint": "eef60701ebb7639e811b96c1720913215647cb01003f6c04ed89bb555a661d3c"
+  },
+  "b": {
+    "entrypoint": "shared-local/organizer-kit/examples/f_agent.py",
+    "files": {
+      "shared-local/organizer-kit/examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613"
+    },
+    "fingerprint": "709717a7b39b6f624b6b718ae5c47b6bbc7518eb26abe6df52346523e9605819"
+  },
+  "games": 4,
+  "seed0": 870500,
+  "vps": 10,
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+  "dice_key_id": "official-public-default; no private key/board prediction",
+  "clock": {
+    "base_s": 0.3,
+    "increment_s": 0.0125,
+    "max_s": 1.5
+  },
+  "command_arguments": {
+    "a": "shared-local/member1-earlier-diagnostics/agent_claude_greedy_v4/agent.py",
+    "b": "shared-local/organizer-kit/examples/f_agent.py",
+    "games": 4,
+    "seed0": 870500,
+    "chunk_size": 20,
+    "out": "team-work/member-3/evaluations/member1-earlier-20261017/diagnostics/agent_claude_greedy_v4"
+  },
+  "status": "completed",
+  "completed_utc": "2026-10-17T08:57:10.660513+00:00"
+}

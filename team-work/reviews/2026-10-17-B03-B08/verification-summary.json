@@ -1,0 +1,231 @@
+{
+  "member1_existing_suite": {
+    "tests": 19,
+    "status": "passed",
+    "log_sha256": "d2d869c0f64296d20c8d948cf02949d0bcb83c2f598fa6582379a2443b171d39",
+    "scope": "Existing implementation suite; source/component identity checked separately"
+  },
+  "member3_existing_suite": {
+    "tests": 26,
+    "status": "passed",
+    "log_sha256": "afaa03dca0507361e09d8dffc30a928da1277b1e14ff2fd4b829b96820492f34",
+    "scope": "Existing implementation suite; source/component identity checked separately"
+  },
+  "member4_existing_suite": {
+    "tests": 15,
+    "status": "passed",
+    "log_sha256": "16f8ef869ad334523832684153cc459f1664b03c36cdbecd90c590f1ee7185b7",
+    "scope": "Existing implementation suite; source/component identity checked separately"
+  },
+  "counterexample_probe": {
+    "command": "./team-work/run-python.sh team-work/reviews/2026-10-17-B03-B08/verify_findings.py",
+    "status": "passed: reproduced frozen findings, not repairs",
+    "finding_groups": 9,
+    "evidence": "verified-findings.json"
+  },
+  "smoke": {
+    "purpose": "Loading, operational integration and tiny peer diagnostics only; no strength ranking",
+    "games": 68,
+    "batches": [
+      {
+        "id": "B01-vs-B02",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B01-vs-B02/metadata.json"
+      },
+      {
+        "id": "B01-vs-B05",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B01-vs-B05/metadata.json"
+      },
+      {
+        "id": "B01-vs-F",
+        "games": 4,
+        "a_wins": 4,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B01-vs-F/metadata.json"
+      },
+      {
+        "id": "B02-vs-B05",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B02-vs-B05/metadata.json"
+      },
+      {
+        "id": "B02-vs-F",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B02-vs-F/metadata.json"
+      },
+      {
+        "id": "B03-vs-B04",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B03-vs-B04/metadata.json"
+      },
+      {
+        "id": "B03-vs-F",
+        "games": 4,
+        "a_wins": 1,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B03-vs-F/metadata.json"
+      },
+      {
+        "id": "B04-vs-B05",
+        "games": 4,
+        "a_wins": 1,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B04-vs-B05/metadata.json"
+      },
+      {
+        "id": "B04-vs-F",
+        "games": 4,
+        "a_wins": 1,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B04-vs-F/metadata.json"
+      },
+      {
+        "id": "B05-vs-B06",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B05-vs-B06/metadata.json"
+      },
+      {
+        "id": "B05-vs-F",
+        "games": 4,
+        "a_wins": 4,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B05-vs-F/metadata.json"
+      },
+      {
+        "id": "B06-vs-B07",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B06-vs-B07/metadata.json"
+      },
+      {
+        "id": "B06-vs-F",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B06-vs-F/metadata.json"
+      },
+      {
+        "id": "B07-vs-B08",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B07-vs-B08/metadata.json"
+      },
+      {
+        "id": "B07-vs-F",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B07-vs-F/metadata.json"
+      },
+      {
+        "id": "B08-vs-B03",
+        "games": 4,
+        "a_wins": 2,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B08-vs-B03/metadata.json"
+      },
+      {
+        "id": "B08-vs-F",
+        "games": 4,
+        "a_wins": 3,
+        "no_winner": 0,
+        "faults_either_side": 0,
+        "metadata": "smoke/B08-vs-F/metadata.json"
+      }
+    ]
+  },
+  "new_main": {
+    "B03": {
+      "games": 500,
+      "wins": 214,
+      "no_winner": 0,
+      "mean_cpu_s": 0.12980000000000003,
+      "p95_cpu_s": 0.22,
+      "max_cpu_s": 0.37,
+      "pair_bootstrap_95_descriptive": [
+        0.392,
+        0.466
+      ],
+      "seat_first": {
+        "games": 250,
+        "wins": 119
+      },
+      "seat_second": {
+        "games": 250,
+        "wins": 95
+      },
+      "faults_either_side": 0,
+      "source_unchanged": true,
+      "evidence": "main/B03-v002-vs-F-500"
+    },
+    "B04": {
+      "games": 500,
+      "wins": 214,
+      "no_winner": 0,
+      "mean_cpu_s": 0.12678000000000006,
+      "p95_cpu_s": 0.22,
+      "max_cpu_s": 0.28,
+      "pair_bootstrap_95_descriptive": [
+        0.398,
+        0.456
+      ],
+      "seat_first": {
+        "games": 250,
+        "wins": 106
+      },
+      "seat_second": {
+        "games": 250,
+        "wins": 108
+      },
+      "faults_either_side": 0,
+      "source_unchanged": true,
+      "evidence": "main/B04-v002-vs-F-500"
+    }
+  },
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "kit_tracked_status": "",
+  "F_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+  "limits": [
+    "No implementation change, no full eight-bot round robin, no new matched component ablations, no private O/event validation.",
+    "Local timing measured on current machine; no claim that other concurrent user workloads were absent.",
+    "Constructed fixtures are not complete legally reached histories."
+  ],
+  "engine_commit_verified_from_installed_distribution": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "hardware": {
+    "cpu_model": "Intel(R) Core(TM) i7-14650HX",
+    "python": "3.11.17",
+    "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+    "peak_memory_measured": false
+  }
+}

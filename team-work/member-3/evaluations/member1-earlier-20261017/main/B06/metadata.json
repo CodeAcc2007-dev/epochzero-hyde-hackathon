@@ -1,0 +1,45 @@
+{
+  "started_utc": "2026-10-17T08:54:59.288590+00:00",
+  "python": "3.11.17",
+  "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "processor": "",
+  "repository_base_commit": "3a163059766f3cdc530ce316b519574a6dc1843e",
+  "a": {
+    "entrypoint": "team-work/member-3/bots/B06/v003/agent.py",
+    "files": {
+      "team-work/member-3/bots/B06/v003/agent.py": "7369f4f0ef4eed12794075257d6a2f630c426428982a65a5ca871b43bd2ebb66",
+      "team-work/member-3/bots/B06/v003/member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+      "team-work/member-3/bots/B06/v003/race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    "fingerprint": "0e08ab39ac35eba90c4d2bbfdf2aba474629335b8bfef2a40128998dc496447e"
+  },
+  "b": {
+    "entrypoint": "shared-local/organizer-kit/examples/f_agent.py",
+    "files": {
+      "shared-local/organizer-kit/examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613"
+    },
+    "fingerprint": "709717a7b39b6f624b6b718ae5c47b6bbc7518eb26abe6df52346523e9605819"
+  },
+  "games": 400,
+  "seed0": 871000,
+  "vps": 10,
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+  "dice_key_id": "official-public-default; no private key/board prediction",
+  "clock": {
+    "base_s": 0.3,
+    "increment_s": 0.0125,
+    "max_s": 1.5
+  },
+  "command_arguments": {
+    "a": "team-work/member-3/bots/B06/v003/agent.py",
+    "b": "shared-local/organizer-kit/examples/f_agent.py",
+    "games": 400,
+    "seed0": 871000,
+    "chunk_size": 20,
+    "out": "team-work/member-3/evaluations/member1-earlier-20261017/main/B06"
+  },
+  "status": "completed",
+  "completed_utc": "2026-10-17T08:56:56.808716+00:00"
+}

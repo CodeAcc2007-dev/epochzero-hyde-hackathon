@@ -40,3 +40,7 @@ Target zero faults/exhausted clocks. The clock is cumulative, so a three-second 
 Use Hyde/OpenCode for bounded repetitive development work only if configured locally; inspect its actual outputs and verify them. Do not rely on its stated test results. Current research jobs timed out and were rejected; logs contain no accepted code. All design/review evidence belongs in Markdown alongside actual results.
 
 First upload status: **pending human build/test**. Assistant retest status: **not started**. Improvement round: **not started**.
+
+## Subsequent implementation update
+
+The user subsequently explicitly requested primary implementation of Member 4 bots. Initial B07/v001 and B08/v001 are built and locally verified, with 500 F games each under the user's reduced main-evaluation default. See [current handoff](README.md) and [results](implementation/BUILD-AND-RESULTS.md). The earlier human-only status describes the original assignment, not the current authorized build. Human review, GitHub upload, private scoring and extra component/head-to-head comparisons are not marked complete.

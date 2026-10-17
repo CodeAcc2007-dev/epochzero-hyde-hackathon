@@ -1,6 +1,6 @@
 # Catan hackathon: shared research and strategy workspace
 
-Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Assistant research is documented for Aroosh, Pranesh and Anni; human review remains pending. Avadooth's research is excluded and untouched.** Pranesh's B05/B06 are now implemented as standalone v003 candidates; see the [build/test record](team-work/member-3/implementation/BUILD-AND-RESULTS.md) for actual validation status.
+Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Assistant research is documented for Aroosh, Pranesh and Anni; human review remains pending. Avadooth's research is excluded and untouched.** Frozen implementations and evidence are available for Aroosh's B01/B02, Pranesh's B05/B06 and Anni's B07/B08; Avadooth's B03/B04 are reviewed from his pinned branch. The [independent review](team-work/reviews/2026-10-17-B03-B08/README.md) links all owners' proposed improvement handoffs and exact validation status.
 
 ## Start here
 
@@ -14,6 +14,8 @@ Team context for the Hyde two-player Catan hackathon. The repository was made **
 7. [Eight strategies, two bots per member and the improvement cycle](07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md). Start here for the current build assignments.
 
 8. [GLM startup prompt](team-work/GLM-START-PROMPT.md): teammates supply the repository and their name to retrieve context and build only their assigned bots.
+
+9. [Independent eight-bot review and owner improvement handoffs](team-work/reviews/2026-10-17-B03-B08/README.md). The review reproduces nine finding groups and provides a direct GLM context file for each member. These are proposed upgrades; repairs have not been implemented by the review. Aroosh's [B01/B02](team-work/member-1/README.md) and Anni's [B07/B08](team-work/member-4/README.md) frozen files and results are now included alongside Pranesh's B05/B06. Avadooth's B03/B04 remain on the pinned `member-2/avadooth-bots` branch. See the [publication record](team-work/reviews/2026-10-17-B03-B08/PUBLICATION.md) for the sharing scope and checks.
 
 The numbered reports preserve what was known/done at each stage. Earlier statements such as “setup deferred” describe that historical stage; the later setup report records its completion.
 

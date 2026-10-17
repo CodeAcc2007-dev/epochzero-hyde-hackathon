@@ -1,0 +1,110 @@
+[
+  {
+    "game": 0,
+    "board_seed": 931070,
+    "a_first": true,
+    "winner": "b",
+    "turns": 53,
+    "a": {
+      "cpu_s": 0.05,
+      "wall_s": 0.060177,
+      "decisions": 23,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.13,
+      "wall_s": 0.150259,
+      "decisions": 52,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 1,
+    "board_seed": 931070,
+    "a_first": false,
+    "winner": "a",
+    "turns": 53,
+    "a": {
+      "cpu_s": 0.12,
+      "wall_s": 0.147677,
+      "decisions": 69,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.14,
+      "wall_s": 0.153537,
+      "decisions": 36,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 2,
+    "board_seed": 931071,
+    "a_first": true,
+    "winner": "b",
+    "turns": 47,
+    "a": {
+      "cpu_s": 0.05,
+      "wall_s": 0.061467,
+      "decisions": 16,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.14,
+      "wall_s": 0.166405,
+      "decisions": 44,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "game": 3,
+    "board_seed": 931071,
+    "a_first": false,
+    "winner": "b",
+    "turns": 86,
+    "a": {
+      "cpu_s": 0.16,
+      "wall_s": 0.204432,
+      "decisions": 83,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "b": {
+      "cpu_s": 0.28,
+      "wall_s": 0.323147,
+      "decisions": 77,
+      "over": null,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  }
+]

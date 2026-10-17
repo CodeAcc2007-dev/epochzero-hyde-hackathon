@@ -1,0 +1,12 @@
+{
+  "bot": "B08",
+  "control": true,
+  "source_inputs": {
+    "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+    "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+    "route_math.py": "d9d31dde395ec2ec4a424d811b1c1094b3fabc4a5e54fb867263ea6b7fae05d6",
+    "member4_policies.py": "703565d7d77156eb0b48fb9bbad54e56f2d53a9ec8c82c3ec0dd86f673294e9b"
+  },
+  "agent_sha256": "8d50e0f494327c8f3d423238dba11888afb88370c088351bdc122943e8d09c85",
+  "executable_ast_preserved": true
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "bot": "agent",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "38ce203c32287d6a63d41445135b313c1f7f430efa39cca1d4803937eef0f564",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 190
+  },
+  {
+    "bot": "agent_claude",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "0145ea3a5eee51a14d4023e19fddca13fa9a115c4d962cb2ffa01724305110d8",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 207
+  },
+  {
+    "bot": "agent_claude_greedy_v2",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "870cc0b1d90f7c1c8331b714a2fa307bba97b149f0c0367e7fe2c2de6640ef2c",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 210
+  },
+  {
+    "bot": "agent_claude_greedy_v3",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "7d40b5466d1fe7d6bc9f108ac70b2d42e072025a171054a86c9ed0954fcc3e7a",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 229
+  },
+  {
+    "bot": "agent_claude_greedy_v4",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "d2dd865d5e173a0db048a2df7622b9c69249c377b88c2677a259f47f2efd59ad",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 212
+  },
+  {
+    "bot": "agent_modifiedf",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "587b141ddc45029458274ad31033084f3f01a49cb647d976cd73825d6f04467c",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 164
+  },
+  {
+    "bot": "agent_sab",
+    "exit_code": 0,
+    "diagnostic_games": 4,
+    "wrapper_sha256": "05bb2078d164417903dc6918dcef0f536e6e2adb3467bba03c214f8d0ed3e3f8",
+    "observed_internal_exception_fallbacks": 0,
+    "exceptions": [],
+    "method": "Unchanged original import with RNG proxy recording only randrange calls at source-verified exception-return sites; separate instrumented four-game diagnostic, not a benchmark.",
+    "diagnostic_decisions": 165
+  }
+]

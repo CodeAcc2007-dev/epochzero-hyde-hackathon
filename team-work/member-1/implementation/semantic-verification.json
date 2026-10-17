@@ -1,0 +1,14 @@
+{
+  "test_methods_passed": 19,
+  "exhaustive_two_resource_cases": 18225,
+  "command": "./team-work/run-python.sh team-work/member-1/implementation/test_economy.py",
+  "source_sha256": {
+    "test_economy.py": "d0f7f3fcbf9998e8f500a2b2ca10381fbee348a876b637efbf0fe676c41b6c0a",
+    "goal_math.py": "46a3e1e47cc8000fabff463f00b6595cff1bbd7f9484993641e92869dd80b89e",
+    "economy_policies.py": "c3250bf6a8c6978e52090ba5f6054957d9bf89cfc5e8c2d8ee9bae65bf1a4095",
+    "build_agents.py": "edaeb28fb755f149d4281e25c4926b441a4f35a9d2eccde6e036ae8d8814a5a5",
+    "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+    "spatial_context.py": "9ab4361ee1ec10f39a0cd2fc3fd829722f2a78263eee1777c815a08fcc3e11f0"
+  },
+  "scope": "Constructed engine fixtures, not all full reached histories"
+}

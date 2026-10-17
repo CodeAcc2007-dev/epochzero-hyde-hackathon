@@ -1,0 +1,30 @@
+{
+  "B05": {
+    "source_version": "v003",
+    "source_sha256": {
+      "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+      "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+      "agent.py": "27813f37d9ff4d794115b19b193b3d03fb64673465555062bc9595702dafa03b"
+    },
+    "output_sha256": "00b68164d4933fb9f99255eafd0da029429d6d3a7866548bf9d5dbbf8f36c60a",
+    "all_executable_ast_nodes_identical": true,
+    "local_helper_imports_removed": [
+      "race_math",
+      "member3_core"
+    ]
+  },
+  "B06": {
+    "source_version": "v003",
+    "source_sha256": {
+      "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+      "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+      "agent.py": "7369f4f0ef4eed12794075257d6a2f630c426428982a65a5ca871b43bd2ebb66"
+    },
+    "output_sha256": "e649b1227dcacaa3db3ab1fede0f0890434fc73106f1f7d29da32df82d587043",
+    "all_executable_ast_nodes_identical": true,
+    "local_helper_imports_removed": [
+      "race_math",
+      "member3_core"
+    ]
+  }
+}

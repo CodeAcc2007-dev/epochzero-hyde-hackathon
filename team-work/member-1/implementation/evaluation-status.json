@@ -1,0 +1,105 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-17T09:33:52.361121+00:00",
+  "runs": [
+    {
+      "bot": "B01",
+      "exit_code": 0,
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "team-work/member-1/bots/B01/v001/agent.py",
+        "--b",
+        "shared-local/organizer-kit/examples/f_agent.py",
+        "--games",
+        "500",
+        "--seed0",
+        "911000",
+        "--out",
+        "team-work/member-1/implementation/results/B01-v001-vs-F-500"
+      ],
+      "output": "team-work/member-1/implementation/results/B01-v001-vs-F-500",
+      "a": {
+        "games": 500,
+        "wins": 381,
+        "win_rate": 0.762,
+        "ci95": 0.03732819871357309,
+        "no_winner": 0,
+        "mean_cpu_s": 0.20587999999999995,
+        "worst_cpu_s": 0.65,
+        "decisions": 24518,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "f": {
+        "games": 500,
+        "wins": 119,
+        "win_rate": 0.238,
+        "ci95": 0.03732819871357309,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10829999999999992,
+        "worst_cpu_s": 0.26,
+        "decisions": 22675,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    },
+    {
+      "bot": "B02",
+      "exit_code": 0,
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "team-work/member-1/bots/B02/v001/agent.py",
+        "--b",
+        "shared-local/organizer-kit/examples/f_agent.py",
+        "--games",
+        "500",
+        "--seed0",
+        "911000",
+        "--out",
+        "team-work/member-1/implementation/results/B02-v001-vs-F-500"
+      ],
+      "output": "team-work/member-1/implementation/results/B02-v001-vs-F-500",
+      "a": {
+        "games": 500,
+        "wins": 359,
+        "win_rate": 0.718,
+        "ci95": 0.03944190161744233,
+        "no_winner": 0,
+        "mean_cpu_s": 0.2028800000000003,
+        "worst_cpu_s": 0.48,
+        "decisions": 27623,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "f": {
+        "games": 500,
+        "wins": 141,
+        "win_rate": 0.282,
+        "ci95": 0.03944190161744233,
+        "no_winner": 0,
+        "mean_cpu_s": 0.11746000000000002,
+        "worst_cpu_s": 0.29,
+        "decisions": 23587,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      }
+    }
+  ],
+  "completed_utc": "2026-10-17T09:40:39.694184+00:00"
+}
