@@ -1,0 +1,237 @@
+{
+  "label": "hand-worked derivation / no game execution",
+  "resource_order": [
+    "WOOD",
+    "BRICK",
+    "SHEEP",
+    "WHEAT",
+    "ORE"
+  ],
+  "checks": [
+    {
+      "name": "1_bank_trade_then_city",
+      "steps": {
+        "post_roll": [
+          0,
+          4,
+          0,
+          1,
+          3
+        ],
+        "trade": "regular 4:1 brick -> wheat",
+        "post_trade": [
+          0,
+          0,
+          0,
+          2,
+          3
+        ],
+        "city_cost": [
+          0,
+          0,
+          0,
+          2,
+          3
+        ],
+        "final": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "vp": "own public8 actual9 becomes public9 actual10 (city adds 1)"
+      },
+      "result": [
+        [
+          0,
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        9,
+        10
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        9,
+        10
+      ],
+      "caveats": [
+        "legal own settlement and city piece: explicit assumption, not a verified fixture",
+        "no port required (regular 4:1 trade): explicit assumption, not a verified fixture",
+        "bank supplies one wheat: explicit assumption, not a verified fixture"
+      ]
+    },
+    {
+      "name": "2_road_then_settlement",
+      "steps": {
+        "hand": [
+          2,
+          2,
+          1,
+          1,
+          0
+        ],
+        "road_cost": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "after_road": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "settlement_cost": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "after_settlement": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "vp": "actual9 + 1 = 10 (settlement adds 1)"
+      },
+      "result": [
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        10
+      ],
+      "expected": [
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        10
+      ],
+      "caveats": [
+        "assumes the road opens a legal settlement spot",
+        "assumes the road does not already award a bonus"
+      ]
+    },
+    {
+      "name": "3_largest_army",
+      "steps": {
+        "played_knights": "2 + 1 = 3",
+        "unclaimed_army_vp": "own public8 + 2 = 10",
+        "takeover_relative_shift": "adds 2 to us and subtracts 2 from other -> relative difference shifts 4"
+      },
+      "result": [
+        3,
+        10,
+        4
+      ],
+      "expected": [
+        3,
+        10,
+        4
+      ],
+      "caveats": [
+        "tying an existing holder does not take the bonus: source fact, not a math proof"
+      ]
+    },
+    {
+      "name": "4_seven_discard",
+      "steps": {
+        "discard_9_cards": "9 // 2 = 4",
+        "discard_10_cards": "10 // 2 = 5"
+      },
+      "result": [
+        4,
+        5
+      ],
+      "expected": [
+        4,
+        5
+      ],
+      "caveats": [
+        "no simulated dice or claimed measured rates"
+      ]
+    },
+    {
+      "name": "5_hidden_vp_urn",
+      "steps": {
+        "model": "toy urn N=10 cards, V=2 remaining VP, k=2 opponent cards",
+        "H0": "28/45",
+        "H1": "16/45",
+        "H2": "1/45",
+        "unconditioned_P_H_ge_1": "17/45",
+        "conditional_formula": "P(H1 | H<=1) = (16/45) / (44/45) = 16/44 = 4/11",
+        "P_H1_given_H_le_1_ongoing": "4/11"
+      },
+      "result": [
+        "28/45",
+        "16/45",
+        "1/45",
+        "17/45",
+        "4/11"
+      ],
+      "expected": [
+        "28/45",
+        "16/45",
+        "1/45",
+        "17/45",
+        "4/11"
+      ],
+      "caveats": [
+        "condition: if opponent public VP is 8 and the real game is ongoing, H <= 1",
+        "hypothetical exchangeable-card model, not empirical data or an exact opponent policy posterior"
+      ]
+    }
+  ],
+  "all_assertions_passed": true
+}

@@ -1,6 +1,6 @@
 # Member 3 (Pranesh) — Phase 1: tactical sequences, opponent threats and VP races
 
-Status: **assigned research; not executed by this planning task**. Read [common context](01-COMMON-CONTEXT.md), the [shared brief](../PHASE-1-COMMON-BRIEF.md) and [your findings worksheet](04-PHASE-1-FINDINGS.md).
+Status: **source-based research draft completed; user and Avadooth review pending**. See [findings](04-PHASE-1-FINDINGS.md). Read [common context](01-COMMON-CONTEXT.md), the [shared brief](../PHASE-1-COMMON-BRIEF.md) and [your findings worksheet](04-PHASE-1-FINDINGS.md).
 
 ## Mission
 

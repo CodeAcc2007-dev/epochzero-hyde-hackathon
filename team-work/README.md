@@ -74,4 +74,6 @@ See [setup and verification results](../02-LOCAL-SETUP-AND-VALIDATION.md) and [p
 
 The user is Pranesh (Member 3). Suitable repetitive development work now uses Hyde GLM-5.3 Flash through OpenCode, with the primary assistant owning strategy, review, verification and reporting. See the [tested setup](../06-OPENCODE-HYDE-SETUP.md), [operating guide](JUNIOR-ENGINEER-WORKFLOW.md) and [bounded runner](run-hyde-junior.py). Drafts and session logs stay in local job folders until senior review; no credentials are in this repository.
 
-Pranesh has a [junior-drafted, senior-reviewed checklist](member-3/05-PHASE-1-CHECKLIST.md) and [job/review log](member-3/06-JUNIOR-WORK-LOG.md). The checklist does not mark research complete or start bot work.
+Pranesh has a [junior-drafted, senior-reviewed checklist](member-3/05-PHASE-1-CHECKLIST.md) and [job/review log](member-3/06-JUNIOR-WORK-LOG.md). The checklist now tracks source/math work and remaining review; it does not authorize bot work.
+
+Subsequent research update: [Member 3's source/math findings](member-3/04-PHASE-1-FINDINGS.md) are now ready for Pranesh's verification and Avadooth's cross-review. The checklist tracks completed evidence work while human/cross-member review remains open. No bots, new matches or training were performed.

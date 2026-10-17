@@ -1,0 +1,36 @@
+{
+  "date_ist": "2026-10-17",
+  "status": "research draft ready; user and Avadooth review pending",
+  "markdown_files_checked": 12,
+  "valid_local_links": 94,
+  "pinned_source_files_verified": 11,
+  "arithmetic_checks_passed": 5,
+  "new_game_runs": 0,
+  "bots_implemented": 0,
+  "policy_training_runs": 0,
+  "junior_jobs": {
+    "used_with_senior_review": 2,
+    "rejected_timeout": 1
+  },
+  "credential_scan": "passed",
+  "organizer_worktree": "clean",
+  "other_member_findings_changed": false,
+  "git_staging": "empty",
+  "published_by_this_task": false,
+  "evidence_hashes": {
+    "team-work/member-3/phase-1/01-SOURCE-AND-SEMANTIC-AUDIT.md": "8512e7cbdac0bd15e511bd75daf38411d60335ef4e10f1979f071b9658cfeb53",
+    "team-work/member-3/phase-1/02-TACTICAL-SEQUENCES-AND-CASES.md": "8026bed8cbd0cc50e792ff8c7f44c4f8952e12f0f9ced71903f6b2773939a175",
+    "team-work/member-3/phase-1/03-THREATS-VP-RACES-AND-HYPOTHESES.md": "08820fbef9c23bfed275735a86df6399ce5b2d0835af3eeb05296cd60974895f",
+    "team-work/member-3/phase-1/04-VERIFICATION-AND-REVIEW.md": "7407ea6628695b200c30436b3d479d8a54a73708452cbb8b9e576c34f1dc5132",
+    "team-work/member-3/phase-1/derivations.json": "24c057c908f083fa540b8e3e135bdadced243eba9b1f90bb954078f80ffa9397",
+    "team-work/member-3/phase-1/source-verification.json": "594a3aa5dad7daa8008365eb26ef713ac72596f64429d76434394863beda63c3",
+    "team-work/member-3/phase-1/verify_derivations.py": "dfa4f7dcf975f269f09e51a21283f9cea1e980511bc048407353da979d3111a8"
+  },
+  "scope": "Research-task verification snapshot; staging and publication fields below describe the end of research, before the subsequent upload request.",
+  "subsequent_publication": {
+    "date_ist": "2026-10-17",
+    "authorization": "Pranesh requested uploading the findings to GitHub",
+    "review_status": "User and Avadooth review pending",
+    "scope": "Research documents and verification evidence only; no bots, secrets, environments, datasets or raw junior logs"
+  }
+}

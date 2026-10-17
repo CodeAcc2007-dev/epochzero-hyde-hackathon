@@ -1,6 +1,6 @@
 # Member 3 (Pranesh): Phase 1 assignment
 
-Status: **Research assigned; findings pending.** Actual teammate name: **Pranesh**. Research roles do not determine later bot-building roles.
+Status: **Source/math findings ready for user verification; cross-review pending.** Actual teammate name: **Pranesh**. Research roles do not determine later bot-building roles.
 
 ## Your research track
 
@@ -30,3 +30,7 @@ The later objective is multiple bots and repeated clash/selection/improvement ro
 - Pending: completed research, exact commands/evidence, reviewer response and unresolved issues.
 
 Keep every consequential assumption, result, limitation and decision in Markdown, with evidence links. Never record credentials or package an environment here.
+
+## Current research handoff
+
+Member 3 Phase 1 now has [review-ready findings](04-PHASE-1-FINDINGS.md): source audit, tactical cases, threat/VP analysis, three candidate hypotheses and independent arithmetic checks. Hyde handled bounded extraction/calculator drafting; the primary assistant verified and corrected outputs. No bots or game runs were performed. Pranesh subsequently authorized sharing the research draft on GitHub. User verification and Avadooth cross-review are pending.

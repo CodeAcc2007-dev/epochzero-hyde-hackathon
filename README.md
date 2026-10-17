@@ -1,6 +1,6 @@
 # Catan hackathon: shared research and strategy workspace
 
-Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Phase 1 research is assigned; the findings worksheets remain unstarted.** No competition bots or trained policies have been created yet.
+Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Pranesh's Member 3 source/math research draft is ready for review; the other members' work is not reported complete.** No competition bots or trained policies have been created yet.
 
 ## Start here
 
@@ -23,6 +23,8 @@ The numbered reports preserve what was known/done at each stage. Earlier stateme
 | Member 4 (Anni) | Search/learning, text-data suitability and tournament design | [Brief](team-work/member-4/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-4/04-PHASE-1-FINDINGS.md) |
 
 Each folder has common context, member-specific context, detailed instructions and a findings worksheet. Record source-backed findings, assumptions, alternative strategies and counterexamples in Markdown. Use the [research record template](team-work/PHASE-1-RESEARCH-TEMPLATE.md); bring completed reports to the [review and synthesis worksheet](team-work/PHASE-1-REVIEW-AND-SYNTHESIS.md). Bot-building and test assignments follow the research.
+
+Pranesh's [Member 3 findings and review pack](team-work/member-3/04-PHASE-1-FINDINGS.md) include source citations, tactical cases, hidden-VP/bonus risks, hypotheses and arithmetic checks. This is a shared research draft. User verification and Avadooth cross-review remain pending; publication does not authorize bot implementation.
 
 The intended later workflow is **multiple strategy bots → eligibility checks → clashes against each other and F → select/improve/create variants → repeat → eight validated local finalists**. Current organizer rules allow **7 scored submissions and 10 uploads total**. Eight local finalists are a portfolio; they are not eight guaranteed scored uploads.
 

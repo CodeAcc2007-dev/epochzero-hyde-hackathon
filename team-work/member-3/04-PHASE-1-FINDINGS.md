@@ -1,69 +1,57 @@
-# Member 3 (Pranesh) — Phase 1 findings: Tactical sequences, opponent threats and VP races
+# Pranesh: Phase 1 findings — tactics, opponent threats and VP races
 
-Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: **Pranesh**. Reviewer: Member 2 (Avadooth).
+**Status: research draft ready for your verification.** Date: **17 October 2026 (IST)**. Owner: **Pranesh, Member 3**. Primary-assistant source/math verification completed; **your review and Avadooth's cross-review are pending**. No bots, new game simulations, training or match experiments were made.
 
-Use [your detailed brief](03-PHASE-1-RESEARCH-BRIEF.md) and the [record template](../PHASE-1-RESEARCH-TEMPLATE.md). Replace pending fields only after completing the corresponding work. Do not describe these instructions as results.
+## Decision summary
 
-## One-page decision summary
+The proposed direction is to distinguish **known own wins**, **complete legal purchase sequences**, and **conditional opposing threats**, then test those as separate tactical layers later. This is a research recommendation, not a demonstrated improvement over F/O.
 
-- Highest-priority question answered: pending.
-- Supported source/reproduced/descriptive/derived findings: pending.
-- Strongest candidate and meaningful alternative: pending.
-- Exact-rules transfer limits and missing evidence: pending.
-- Recommendation for the later planning discussion, with reason: pending.
+Five findings matter most:
 
-## Assigned questions
+1. **Phase and actual VP matter.** Old action devs can be played before rolling; ordinary builds/trades cannot. A bought VP card contributes immediately. A Knight completing Army can reach ten before a robber move or roll is requested. See S01–S07.
+2. **One action can be only the start of a plan.** Trade → city and road → settlement have exact combined costs; Road Building has a forced free-road subphase. A pre-roll progress card cannot guarantee a purchase because a roll intervenes. See S06/S10–S13 and cases A–C.
+3. **Opponent affordability is visible; future victory is conditional.** Exact cards identify purchase opportunities, but locations, pieces, public/hidden VP, dev timing, rolls and other routes still matter. Blocking production does not remove resources already held.
+4. **Hidden-card samples can contradict ongoing play.** In a real continuing 10-VP game, opposing hidden VP is at most `9 − public VP`; at nine public points, they currently hold zero hidden VP. The supplied masker does not enforce that condition. A sampled winning opponent is not observed truth. See R2 and the toy probability derivation.
+5. **Road interruption needs validation.** Its settlement-cut branch lacks normal five-road/strict-tie guards, and scoring follows the returned owner. This is a verified source-level risk; a legally reached runtime failure has **not** been demonstrated. Do not promise textbook cut scoring. See R1.
 
-1. Which immediate-win, development timing and bonus rules must be handled exactly? — **Pending**
-2. Which legal same-turn sequences could one-action evaluation miss? — **Pending**
-3. Which opponent threats are visible, conditional or hidden-card dependent? — **Pending**
+F already rewards many public-point wins. These findings do not prove it misses the examples or that a tactical layer improves win rate. No new strategy has measured clock compliance.
 
-## Source cards
+## Review pack
 
-Pending. Record primary URLs, revisions/pages/functions, setting, method, actual claim and transfer limits. Use two to four strong sources where available; fewer with an explicit evidence gap is acceptable.
+| Document | What to inspect |
+|---|---|
+| [1. Source and semantic audit](phase-1/01-SOURCE-AND-SEMANTIC-AUDIT.md) | 15 findings, exact function/line citations, two source-level risks and short literature cards |
+| [2. Sequences and cases](phase-1/02-TACTICAL-SEQUENCES-AND-CASES.md) | Trade/city, pre-roll Army, road/settlement, Road takeover and failure cases; explicit assumptions |
+| [3. Threats and hypotheses](phase-1/03-THREATS-VP-RACES-AND-HYPOTHESES.md) | Threat matrix, hidden-card bounds/probability assumptions, three candidate cards and rejection tests |
+| [4. Verification and junior review](phase-1/04-VERIFICATION-AND-REVIEW.md) | Actual checks, Hyde corrections/timeout, arithmetic execution, limits and review questions |
+| [Source verification](phase-1/source-verification.json) | Eleven installed source files compared with pinned source/Git objects |
+| [Arithmetic script](phase-1/verify_derivations.py) and [results](phase-1/derivations.json) | Five deterministic checks; no engine/game execution |
 
-## Dataset audit / semantic audit / offline results
+## Candidate recommendation, pending review
 
-Pending. Use the audit/result format appropriate to your track. Include input hashes, decision-time availability, dependence/leakage, exact commands and output paths for any calculation. If data cannot answer a question or a full reader is unavailable, document that limitation.
+| Candidate | What to try later | Main reason it could fail |
+|---|---|---|
+| **M3-H1: terminal/prompt awareness** | Exact own actual-VP wins, phase eligibility and separation of fictional opponent scores | Could duplicate F; wrong terminal handling can harm |
+| **M3-H2: purchase-completion planning** | Short legal trade/build/progress chains versus the same one-step evaluator | Branching/copies can exhaust the clock; chance/phase changes invalidate plans |
+| **M3-H3: threats and bonus races** | Separate visible winning continuations, conditional dev threats and longer races | Excessive defense, poor calibration or unvalidated road cuts |
 
-## Candidate strategy cards
+Compare each layer with the **same parent evaluator without it**, then F and varied later peer bots. Fixtures precede matches; use paired seats, held-out board groups, weak-matchup reporting, CPU and fault counters. The budget remains `min(0.300 + 0.0125 × decisions, 1.500)` seconds/game, one core/2 GB. **No depth, width, weights, cutoff, expected gain or timing was selected or measured.**
 
-- `M3-H1`: pending; no bot implemented.
-- `M3-H2`: pending; competing alternative or variant.
-- `M3-H3`: optional; pending evidence.
+## Evidence limits and handoff
 
-Each card needs observed inputs, decision concept, assumptions, failure case, CPU risk, future baseline/ablation and rejection criterion. Distinct candidates may feed later bots and repeated clash rounds; no candidate is selected by this template.
+These are static source checks, mathematical derivations and hypothetical cases, not observed match results or complete engine fixtures. Relevant paper passages were reviewed; their results do not validate our candidates. No exact-rules tactical dataset was verified, full text corpora were not newly audited, and no replacement data was generated. The environment and organizer source were unchanged.
 
-## Concrete cases and counterexamples
+**Verify first:** R1 (Road cut path), R2 (nonterminal hidden-VP constraint), and Case B's terminal timing. Exact reachable-state fixtures remain future work.
 
-- Case 1: pending, with assumptions and evidence label.
-- Case 2: pending, with assumptions and evidence label.
-- How the preferred concept could fail: pending.
-
-## Proposed later experiments and tournament implications
-
-Pending. Describe tests without running them in Phase 1. Explain what a candidate should be compared with, which seed/seat/split controls matter, which weak matchups it may have and what could disqualify it operationally. Larger candidate portfolios must fit the future round budget; eight finalists must pass eligibility.
-
-## Cross-member handoff and open questions
-
-- Inputs requested and whether they block progress: pending.
-- Outputs supplied to other members: pending.
-- Conflicting evidence, unresolved assumptions and next planning decisions: pending.
-
-## Reviewer response
-
-Reviewer Member 2 (Avadooth): pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
-
-## Work log and evidence index
-
-- Planning task: worksheet created; no analysis, training or new matches performed.
-- Research commands, files under `phase-1/`, result paths, source access dates and decisions: pending.
+**Aroosh:** retention/denial economics. **Avadooth:** spatial legality and road topology; cross-review pending. **Anni:** sampled-world consistency, forced phases and later profiling/fixtures. These are prepared handoffs, not messages sent or reviews received. Other members' findings were not edited.
 
 ## Completion check
 
-- [ ] Assigned questions answered or bounded by named evidence gaps.
-- [ ] Source claims, own results and hypotheses remain distinguishable.
-- [ ] Raw inputs preserved; reproducible methods and relevant limits recorded.
-- [ ] Alternatives, counterexamples and refutable future experiments included.
-- [ ] Reviewer response recorded; disagreements handed to synthesis.
-- [ ] Stopped before bot implementation/training/new game experiments.
+- [x] Questions answered or bounded by named evidence gaps.
+- [x] Facts, derivations and hypotheses distinguished with traceable evidence.
+- [x] Counterexamples, alternatives and refutable future experiments recorded.
+- [ ] Pranesh verifies this draft.
+- [ ] Avadooth cross-review and other-member responses received.
+- [x] Stopped before bot implementation, training, new games or tournaments.
+
+Pranesh authorized sharing this draft on GitHub on 17 October 2026. User verification and Avadooth cross-review remain pending. Publication does not authorize bot implementation or game experiments.

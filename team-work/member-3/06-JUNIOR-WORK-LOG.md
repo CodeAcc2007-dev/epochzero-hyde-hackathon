@@ -1,6 +1,6 @@
 # Pranesh: junior-engineer task and review log
 
-Date: **17 October 2026 (IST)**. Senior owner: primary assistant; junior: **Hyde GLM-5.3 Flash via OpenCode**. This log records setup/documentation work, not completed tactical research.
+Date: **17 October 2026 (IST)**. Senior owner: primary assistant; junior: **Hyde GLM-5.3 Flash via OpenCode**. Jobs 1–3 concern setup/documentation; jobs 4–6 below concern the newly authorized Phase 1 research. Research findings await user/cross-member review.
 
 ## Job 1: checklist conversion, rejected
 
@@ -34,6 +34,20 @@ Date: **17 October 2026 (IST)**. Senior owner: primary assistant; junior: **Hyde
 - Senior review found an incorrect role label: the draft called the senior a human. Corrected it to the primary assistant reporting to Pranesh, matching the user's request. Formatted source links and added provenance.
 - Accepted artifact: [JUNIOR-ENGINEER-WORKFLOW.md](../JUNIOR-ENGINEER-WORKFLOW.md). Verdict: **accepted with senior edits**, checked against the supplied facts, actual runner and live events.
 - No Catan research, bot implementation or game experiments were performed.
+
+## Jobs 4–6: Member 3 Phase 1 research
+
+Pranesh authorized tactical/opponent/VP research and requested verification before bots. Hyde received selected numbered source packets or a mathematical specification only.
+
+| Job / ID | Task | Result and senior disposition |
+|---|---|---|
+| 4 / `20261017T062414Z-c05b8ae4` | Mechanical core-tactics source table | Output, no tool errors, 182.060 seconds; used selectively after original-source checks and corrections. Raw draft not copied wholesale. |
+| 5 / `20261017T062547Z-35a0fa86` | VP/road/masking source table | Timed out at 240.159 seconds; no output. Rejected. Primary completed the source analysis; no retry loop. |
+| 6 / `20261017T062652Z-5f32a5fa` | Arithmetic-only research checker | Output, no tool errors, 147.269 seconds. Primary inspected code, added assertions, then ran it independently: five derivations passed. No engine/game imports or calls. |
+
+Corrections included the junior's 17-versus-18 dispatch count, explicit prompt assignments and the missing reset helper in its packet. The primary located the actual helper and checked cumulative versus per-turn flags. See [verification details](phase-1/04-VERIFICATION-AND-REVIEW.md).
+
+The accepted checker is [verify_derivations.py](phase-1/verify_derivations.py); its [actual JSON output](phase-1/derivations.json) contains hypothetical arithmetic, not game outcomes. Source packets, raw drafts, reasoning, manifests and provider logs remain local. No credentials or unrelated team files were sent as prompt inputs.
 
 ## Reuse policy
 
