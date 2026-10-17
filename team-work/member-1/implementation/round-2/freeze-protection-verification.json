@@ -1,0 +1,10 @@
+{
+  "command": [
+    "./team-work/run-python.sh",
+    "team-work/member-1/implementation/round-2/build_agents.py",
+    "--freeze"
+  ],
+  "expected_rejection_observed": true,
+  "rejection_log_sha256": "429d5967b09cf1d07b8fed90bd93ea1c7d3e7f4b698e619854de7d80c0ff1739",
+  "both_frozen_agents_still_match_package_hashes": true
+}

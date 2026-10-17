@@ -85,3 +85,7 @@ Current `forecast_end` considers at most one own deterministic follow-up from th
 ```
 
 These verify the parents/reproduce findings; they do not test a future v002. The current `build_agents.py --freeze` targets **v001**. Do not run it expecting a new version. Add an explicit new-version destination or a separate bounded build procedure, preserve executable-AST equivalence and verify new assembled bytes against the component manifest. Load/test the actual ZIP-extracted single `agent.py` for each bot. Main checks use 500 games per bot; fresh confirmation must follow tuning. Keep every outcome and distinguish ablations, timing instrumentation, smoke and main evaluation. Anni's human review remains pending until actually performed.
+
+## Subsequent local round 2 implementation
+
+The user authorized implementation of this prompt for Members 3 and 4. New B07/B08 v002 standalone candidates, manifests, ZIPs, regressions and matched 500-game results are complete locally. Read [the round 2 report](implementation/round-2/BUILD-AND-RESULTS.md) and [remaining ticket scope](implementation/round-2/VERIFICATION-AND-SCOPE.md) before follow-up work. Do not overwrite these freezes or rerun used boards as fresh evidence. Proposed broader experiments remain deferred. Human review and GitHub publication are pending.

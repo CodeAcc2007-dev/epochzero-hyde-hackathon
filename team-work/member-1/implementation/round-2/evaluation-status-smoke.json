@@ -1,0 +1,252 @@
+{
+  "phase": "smoke",
+  "status": "completed",
+  "started_utc": "2026-10-17T10:26:42.018997+00:00",
+  "completed": [
+    {
+      "label": "B01-v002-zip-vs-F-4",
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "shared-local/member1-round2-package-checks/B01/agent.py",
+        "--b",
+        "shared-local/organizer-kit/examples/f_agent.py",
+        "--games",
+        "4",
+        "--seed0",
+        "935800",
+        "--chunk-size",
+        "4",
+        "--out",
+        "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4"
+      ],
+      "output": "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4",
+      "summary": {
+        "a": {
+          "games": 4,
+          "wins": 3,
+          "win_rate": 0.75,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.17250000000000001,
+          "worst_cpu_s": 0.26,
+          "decisions": 207,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "b": {
+          "games": 4,
+          "wins": 1,
+          "win_rate": 0.25,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.095,
+          "worst_cpu_s": 0.13,
+          "decisions": 180,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "uncertainty": {
+          "board_pairs": 2,
+          "pair_bootstrap_95_descriptive": [
+            0.5,
+            1.0
+          ],
+          "hoeffding_95_independent_pairs": [
+            0,
+            1
+          ],
+          "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+        },
+        "cpu_p95_a_s": 0.26,
+        "wall_elapsed_s": 1.561058037001203,
+        "loads": [
+          {
+            "a_init_s": 0.00025304399969172664,
+            "b_init_s": 0.0002006169997912366
+          }
+        ],
+        "source_unchanged": true,
+        "seat_a_first": {
+          "games": 2,
+          "wins": 2
+        },
+        "seat_a_second": {
+          "games": 2,
+          "wins": 1
+        }
+      }
+    },
+    {
+      "label": "B02-v002-zip-vs-F-4",
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "shared-local/member1-round2-package-checks/B02/agent.py",
+        "--b",
+        "shared-local/organizer-kit/examples/f_agent.py",
+        "--games",
+        "4",
+        "--seed0",
+        "935800",
+        "--chunk-size",
+        "4",
+        "--out",
+        "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4"
+      ],
+      "output": "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4",
+      "summary": {
+        "a": {
+          "games": 4,
+          "wins": 3,
+          "win_rate": 0.75,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.15250000000000002,
+          "worst_cpu_s": 0.27,
+          "decisions": 172,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "b": {
+          "games": 4,
+          "wins": 1,
+          "win_rate": 0.25,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.0875,
+          "worst_cpu_s": 0.11,
+          "decisions": 164,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "uncertainty": {
+          "board_pairs": 2,
+          "pair_bootstrap_95_descriptive": [
+            0.5,
+            1.0
+          ],
+          "hoeffding_95_independent_pairs": [
+            0,
+            1
+          ],
+          "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+        },
+        "cpu_p95_a_s": 0.27,
+        "wall_elapsed_s": 1.455731588001072,
+        "loads": [
+          {
+            "a_init_s": 0.00024392500199610367,
+            "b_init_s": 0.00021506299890461378
+          }
+        ],
+        "source_unchanged": true,
+        "seat_a_first": {
+          "games": 2,
+          "wins": 2
+        },
+        "seat_a_second": {
+          "games": 2,
+          "wins": 1
+        }
+      }
+    },
+    {
+      "label": "B01-v002-vs-B02-v002-4",
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "team-work/member-1/bots/B01/v002/agent.py",
+        "--b",
+        "team-work/member-1/bots/B02/v002/agent.py",
+        "--games",
+        "4",
+        "--seed0",
+        "935820",
+        "--chunk-size",
+        "4",
+        "--out",
+        "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4"
+      ],
+      "output": "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4",
+      "summary": {
+        "a": {
+          "games": 4,
+          "wins": 3,
+          "win_rate": 0.75,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.2275,
+          "worst_cpu_s": 0.3,
+          "decisions": 190,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "b": {
+          "games": 4,
+          "wins": 1,
+          "win_rate": 0.25,
+          "ci95": 0.4243524478543749,
+          "no_winner": 0,
+          "mean_cpu_s": 0.21000000000000002,
+          "worst_cpu_s": 0.26,
+          "decisions": 236,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "uncertainty": {
+          "board_pairs": 2,
+          "pair_bootstrap_95_descriptive": [
+            0.5,
+            1.0
+          ],
+          "hoeffding_95_independent_pairs": [
+            0,
+            1
+          ],
+          "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+        },
+        "cpu_p95_a_s": 0.3,
+        "wall_elapsed_s": 2.3349676849975367,
+        "loads": [
+          {
+            "a_init_s": 0.0002924030013673473,
+            "b_init_s": 0.0002491669984010514
+          }
+        ],
+        "source_unchanged": true,
+        "seat_a_first": {
+          "games": 2,
+          "wins": 2
+        },
+        "seat_a_second": {
+          "games": 2,
+          "wins": 1
+        }
+      }
+    }
+  ],
+  "active": null,
+  "completed_utc": "2026-10-17T10:26:47.710689+00:00"
+}

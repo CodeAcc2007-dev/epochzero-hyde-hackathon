@@ -1,0 +1,420 @@
+{
+  "B03": {
+    "version": "v003",
+    "commit": "954d2da93ded80bd98b7456aaa89968a6c7621f5",
+    "source_sha256": "796c80b827515cbdc76a6ca4b41520924e439c2e6f18d5821fa36f28f4b17ffd",
+    "metadata": {
+      "started_utc": "2026-10-17T10:08:25.622264+00:00",
+      "python": "3.11.17",
+      "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+      "processor": "",
+      "repository_base_commit": "d3097f59f1970d059ac6e14796d103dd1cbfbbb8",
+      "a": {
+        "entrypoint": "team-work/member-2/bots/B03/v003/agent.py",
+        "files": {
+          "team-work/member-2/bots/B03/v003/agent.py": "796c80b827515cbdc76a6ca4b41520924e439c2e6f18d5821fa36f28f4b17ffd"
+        },
+        "fingerprint": "61248885be8894ee72142a28ac313eb33df0fbd20b5ae269a6effc8318db7eed"
+      },
+      "b": {
+        "entrypoint": "shared-local/organizer-kit/examples/f_agent.py",
+        "files": {
+          "shared-local/organizer-kit/examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613"
+        },
+        "fingerprint": "709717a7b39b6f624b6b718ae5c47b6bbc7518eb26abe6df52346523e9605819"
+      },
+      "games": 500,
+      "seed0": 933000,
+      "vps": 10,
+      "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+      "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+      "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+      "dice_key_id": "official-public-default; no private key/board prediction",
+      "clock": {
+        "base_s": 0.3,
+        "increment_s": 0.0125,
+        "max_s": 1.5
+      },
+      "command_arguments": {
+        "a": "team-work/member-2/bots/B03/v003/agent.py",
+        "b": "shared-local/organizer-kit/examples/f_agent.py",
+        "games": 500,
+        "seed0": 933000,
+        "chunk_size": 20,
+        "out": "team-work/member-2/implementation/results/B03-v003-vs-F-dev-500"
+      },
+      "status": "completed",
+      "completed_utc": "2026-10-17T10:12:10.061266+00:00"
+    },
+    "summary": {
+      "a": {
+        "games": 500,
+        "wins": 260,
+        "win_rate": 0.52,
+        "ci95": 0.0437918567772594,
+        "no_winner": 0,
+        "mean_cpu_s": 0.1733800000000001,
+        "worst_cpu_s": 0.5,
+        "decisions": 26995,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 240,
+        "win_rate": 0.48,
+        "ci95": 0.0437918567772594,
+        "no_winner": 0,
+        "mean_cpu_s": 0.1782799999999999,
+        "worst_cpu_s": 0.41,
+        "decisions": 27495,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.486,
+          0.556
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.4341061183306525,
+          0.6058938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.3,
+      "wall_elapsed_s": 224.42956552400028,
+      "loads": [
+        {
+          "a_init_s": 0.0018993470002897084,
+          "b_init_s": 0.0003903819997503888
+        },
+        {
+          "a_init_s": 0.005879506999917794,
+          "b_init_s": 0.0002019319999817526
+        },
+        {
+          "a_init_s": 0.001541720999739482,
+          "b_init_s": 0.0002299799998581875
+        },
+        {
+          "a_init_s": 0.0011998810005025007,
+          "b_init_s": 0.00024061200019787066
+        },
+        {
+          "a_init_s": 0.0012830020004912512,
+          "b_init_s": 0.00022405299932870548
+        },
+        {
+          "a_init_s": 0.00103787599982752,
+          "b_init_s": 0.00026225299916404765
+        },
+        {
+          "a_init_s": 0.001229633000548347,
+          "b_init_s": 0.00026434199935465585
+        },
+        {
+          "a_init_s": 0.00137129900031141,
+          "b_init_s": 0.00030135100132611115
+        },
+        {
+          "a_init_s": 0.0014822709999862127,
+          "b_init_s": 0.0002600879997771699
+        },
+        {
+          "a_init_s": 0.0012978260001546005,
+          "b_init_s": 0.0005563480008277111
+        },
+        {
+          "a_init_s": 0.001574570000229869,
+          "b_init_s": 0.00024111899983836338
+        },
+        {
+          "a_init_s": 0.0014261679989431286,
+          "b_init_s": 0.00026521699874137994
+        },
+        {
+          "a_init_s": 0.0013483140010066563,
+          "b_init_s": 0.0006791700016037794
+        },
+        {
+          "a_init_s": 0.0011059549997298745,
+          "b_init_s": 0.0002645170006871922
+        },
+        {
+          "a_init_s": 0.0010932420009339694,
+          "b_init_s": 0.00025837499924818985
+        },
+        {
+          "a_init_s": 0.0013359599997784244,
+          "b_init_s": 0.00026294200142729096
+        },
+        {
+          "a_init_s": 0.0012405060006130952,
+          "b_init_s": 0.00030407800113607664
+        },
+        {
+          "a_init_s": 0.0013626380005007377,
+          "b_init_s": 0.0002775349985313369
+        },
+        {
+          "a_init_s": 0.0012498640007834183,
+          "b_init_s": 0.00028550099887070246
+        },
+        {
+          "a_init_s": 0.0012448899997252738,
+          "b_init_s": 0.00036854999962088186
+        },
+        {
+          "a_init_s": 0.0015102939996722853,
+          "b_init_s": 0.00028765200113411993
+        },
+        {
+          "a_init_s": 0.0012974359997315332,
+          "b_init_s": 0.0002687109990802128
+        },
+        {
+          "a_init_s": 0.0014633339997089934,
+          "b_init_s": 0.00031451299946638756
+        },
+        {
+          "a_init_s": 0.0013534690006054007,
+          "b_init_s": 0.0002598200007923879
+        },
+        {
+          "a_init_s": 0.0015248189993144479,
+          "b_init_s": 0.00029422699844872113
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 117
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 143
+      }
+    },
+    "records_sha256": "78353e9efa9cd411ee3f0e87a4bb78ba83bd2104ddb8d1bfcb8e449f2f30bcaa",
+    "records_recomputed": true,
+    "independently_replayed_here": false,
+    "source_url": "https://github.com/CodeAcc2007-dev/epochzero-hyde-hackathon/tree/954d2da93ded80bd98b7456aaa89968a6c7621f5/team-work/member-2/implementation/results/B03-v003-vs-F-dev-500"
+  },
+  "B04": {
+    "version": "v003",
+    "commit": "954d2da93ded80bd98b7456aaa89968a6c7621f5",
+    "source_sha256": "fa978918ed90ce00ac322aaab6fbac102c66f60d81ddd6bb90f4f1f5223d14d8",
+    "metadata": {
+      "started_utc": "2026-10-17T10:08:30.266966+00:00",
+      "python": "3.11.17",
+      "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+      "processor": "",
+      "repository_base_commit": "d3097f59f1970d059ac6e14796d103dd1cbfbbb8",
+      "a": {
+        "entrypoint": "team-work/member-2/bots/B04/v003/agent.py",
+        "files": {
+          "team-work/member-2/bots/B04/v003/agent.py": "fa978918ed90ce00ac322aaab6fbac102c66f60d81ddd6bb90f4f1f5223d14d8"
+        },
+        "fingerprint": "9ae2b16231a0d6f2117a289f84f16fca2976b554cc2b99fab54fee24f019ec02"
+      },
+      "b": {
+        "entrypoint": "shared-local/organizer-kit/examples/f_agent.py",
+        "files": {
+          "shared-local/organizer-kit/examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613"
+        },
+        "fingerprint": "709717a7b39b6f624b6b718ae5c47b6bbc7518eb26abe6df52346523e9605819"
+      },
+      "games": 500,
+      "seed0": 933500,
+      "vps": 10,
+      "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+      "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+      "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+      "dice_key_id": "official-public-default; no private key/board prediction",
+      "clock": {
+        "base_s": 0.3,
+        "increment_s": 0.0125,
+        "max_s": 1.5
+      },
+      "command_arguments": {
+        "a": "team-work/member-2/bots/B04/v003/agent.py",
+        "b": "shared-local/organizer-kit/examples/f_agent.py",
+        "games": 500,
+        "seed0": 933500,
+        "chunk_size": 20,
+        "out": "team-work/member-2/implementation/results/B04-v003-vs-F-dev-500"
+      },
+      "status": "completed",
+      "completed_utc": "2026-10-17T10:12:29.374437+00:00"
+    },
+    "summary": {
+      "a": {
+        "games": 500,
+        "wins": 216,
+        "win_rate": 0.432,
+        "ci95": 0.04341972919307535,
+        "no_winner": 0,
+        "mean_cpu_s": 0.18386,
+        "worst_cpu_s": 0.42,
+        "decisions": 28369,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 284,
+        "win_rate": 0.568,
+        "ci95": 0.04341972919307535,
+        "no_winner": 0,
+        "mean_cpu_s": 0.1929,
+        "worst_cpu_s": 0.44,
+        "decisions": 29154,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.398,
+          0.466
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.34610611833065247,
+          0.5178938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.32,
+      "wall_elapsed_s": 239.10171212299974,
+      "loads": [
+        {
+          "a_init_s": 0.003755948000616627,
+          "b_init_s": 0.002466800999172847
+        },
+        {
+          "a_init_s": 0.001114859000153956,
+          "b_init_s": 0.00019793399951595347
+        },
+        {
+          "a_init_s": 0.0009764970000105677,
+          "b_init_s": 0.0002516309996281052
+        },
+        {
+          "a_init_s": 0.0012776849998772377,
+          "b_init_s": 0.0002690540004550712
+        },
+        {
+          "a_init_s": 0.0013434730008157203,
+          "b_init_s": 0.0010629950011207256
+        },
+        {
+          "a_init_s": 0.001612165000551613,
+          "b_init_s": 0.00030137500107230153
+        },
+        {
+          "a_init_s": 0.0013451190006890101,
+          "b_init_s": 0.00026388399965071585
+        },
+        {
+          "a_init_s": 0.0011316969994368264,
+          "b_init_s": 0.000241248999373056
+        },
+        {
+          "a_init_s": 0.0012744010000460548,
+          "b_init_s": 0.0003268099990236806
+        },
+        {
+          "a_init_s": 0.0011116379992017755,
+          "b_init_s": 0.0003818770001089433
+        },
+        {
+          "a_init_s": 0.0013795279992336873,
+          "b_init_s": 0.00027041599969379604
+        },
+        {
+          "a_init_s": 0.0019697370007634163,
+          "b_init_s": 0.0002719040003285045
+        },
+        {
+          "a_init_s": 0.0011321040001348592,
+          "b_init_s": 0.00031043400122143794
+        },
+        {
+          "a_init_s": 0.0013334859995666193,
+          "b_init_s": 0.00033975400037888903
+        },
+        {
+          "a_init_s": 0.0016450670009362511,
+          "b_init_s": 0.0008215199995902367
+        },
+        {
+          "a_init_s": 0.0012299699992581736,
+          "b_init_s": 0.000270495998847764
+        },
+        {
+          "a_init_s": 0.0013681649998034118,
+          "b_init_s": 0.00027599999884841964
+        },
+        {
+          "a_init_s": 0.0010745139989012387,
+          "b_init_s": 0.00022096599968790542
+        },
+        {
+          "a_init_s": 0.0014376800008903956,
+          "b_init_s": 0.00028646700047829654
+        },
+        {
+          "a_init_s": 0.0012792819998139748,
+          "b_init_s": 0.0002553610011091223
+        },
+        {
+          "a_init_s": 0.001401769000949571,
+          "b_init_s": 0.00028410500090103596
+        },
+        {
+          "a_init_s": 0.0011808469989773585,
+          "b_init_s": 0.00023802199939382263
+        },
+        {
+          "a_init_s": 0.0013418189992080443,
+          "b_init_s": 0.00027735599906009156
+        },
+        {
+          "a_init_s": 0.0015603560004819883,
+          "b_init_s": 0.0002754659999482101
+        },
+        {
+          "a_init_s": 0.0014097439998295158,
+          "b_init_s": 0.0005051170010119677
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 107
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 109
+      }
+    },
+    "records_sha256": "c79d6bb5290a12c08c606b3cb8e74587568165d624a3312f054432f549ab5d23",
+    "records_recomputed": true,
+    "independently_replayed_here": false,
+    "source_url": "https://github.com/CodeAcc2007-dev/epochzero-hyde-hackathon/tree/954d2da93ded80bd98b7456aaa89968a6c7621f5/team-work/member-2/implementation/results/B04-v003-vs-F-dev-500"
+  }
+}

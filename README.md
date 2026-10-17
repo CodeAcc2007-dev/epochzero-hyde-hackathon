@@ -2,6 +2,8 @@
 
 Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Assistant research is documented for Aroosh, Pranesh and Anni; human review remains pending. Avadooth's research is excluded and untouched.** Frozen implementations and evidence are available for Aroosh's B01/B02, Pranesh's B05/B06 and Anni's B07/B08; Avadooth's B03/B04 are reviewed from his pinned branch. The [independent review](team-work/reviews/2026-10-17-B03-B08/README.md) links all owners' proposed improvement handoffs and exact validation status.
 
+**Latest full-team handoff: [ALL-CONTEXT.md](ALL-CONTEXT.md).** Includes all published upgrade rounds and evaluation context; current recommended submission is B01 v004. Older publication-status statements are historical.
+
 ## Start here
 
 1. [Problem, exact rules and engine findings](01-PROBLEM-AND-ENVIRONMENT-ANALYSIS.md).

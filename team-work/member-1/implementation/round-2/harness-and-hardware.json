@@ -1,0 +1,33 @@
+{
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "kit_tracked_clean": true,
+  "files_unchanged_from_pin": {
+    "examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+    "catan_kit/obs.py": "093ba0a405aa1b7ee9b64511a8cf1298c321cab792a34f0b5a9445d1da4033ca",
+    "catan_kit/host.py": "2d66dbe48247a3cd55ad793764cdf063057d4566f66c3c9f5a4acf8d1391357c",
+    "catan_kit/match.py": "89376648b400c6b6c57f6c53d028e5aba5bd9a6a7f4e8cdf014306b534435587",
+    "catan_kit/evaluate.py": "b38d5629d22b62b112302dd5becc5498ad97df715561ee129252b612af06cda6",
+    "catan_kit/_patch.py": "3d07e5604d50edf167bf80529117d9e385e82285927d8cbf7fc1dff910fcd7fb"
+  },
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "engine_version": "3.3.0",
+  "python": "3.11.17",
+  "executable": "/home/CodeAcc2007/Work Drive/Coding/Projects/Catan-Hyde Hackathon/shared-local/.venv/bin/python",
+  "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "cpu": "Intel(R) Core(TM) i7-14650HX",
+  "runtime_env": {
+    "PYTHONHASHSEED": "0",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "clock": {
+    "base_s": 0.3,
+    "increment_s": 0.0125,
+    "max_s": 1.5
+  },
+  "peak_memory_measured": false,
+  "scorer_hardware_certified": false,
+  "quiet_host_certified": false,
+  "known_concurrent_work": "Preexisting Member3/4 round-2 evaluator PID 83615; B08 parent/candidate evidence finished during this task. This task leaves that runner and its outputs untouched."
+}

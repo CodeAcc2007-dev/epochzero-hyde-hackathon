@@ -1,0 +1,13 @@
+{
+  "upload_original": "/home/CodeAcc2007/Downloads/agent (2).py",
+  "upload_snapshot": "/home/CodeAcc2007/Work Drive/Coding/Projects/Catan-Hyde Hackathon/shared-local/jobs/upload-vs-B05-20261017/source/agent.py",
+  "upload_sha256": "504f11305e1e9a7d1d3db456563a8ec32315fc84a2a675c190e2db7f7da8a868",
+  "B05_version": "v004",
+  "B05_sha256": "8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf",
+  "interpretation": "B05 is second in saved common-F ranking; use current frozen v004, not second-oldest version",
+  "main_games": 500,
+  "main_seed0": 951000,
+  "smoke_games": 4,
+  "smoke_seed0": 950900,
+  "chunk_size": 20
+}

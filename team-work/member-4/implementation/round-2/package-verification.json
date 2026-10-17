@@ -1,0 +1,22 @@
+{
+  "B07": {
+    "source": "team-work/member-4/bots/B07/v002/agent.py",
+    "agent_sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919",
+    "zip": "team-work/member-4/artifacts/B07-v002.zip",
+    "zip_sha256": "b32046354e6fc4a3da955ef35d539872a2f7c71ab24fc054b9529e0ebd809243",
+    "zip_bytes": 11865,
+    "single_file": true,
+    "CRC_and_exact_extract": "passed",
+    "development_frozen_bytes": "identical"
+  },
+  "B08": {
+    "source": "team-work/member-4/bots/B08/v002/agent.py",
+    "agent_sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc",
+    "zip": "team-work/member-4/artifacts/B08-v002.zip",
+    "zip_sha256": "a49b17e4795920e1ae1d1b13c55efd05aaf1c650d14f419ee9f47cfeb0377784",
+    "zip_bytes": 11865,
+    "single_file": true,
+    "CRC_and_exact_extract": "passed",
+    "development_frozen_bytes": "identical"
+  }
+}

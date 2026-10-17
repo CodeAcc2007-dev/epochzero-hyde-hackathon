@@ -12,3 +12,7 @@ Both had zero recorded errors, timeouts, crashes, clock overruns or harness rand
 [Full evidence and limitations](implementation/BUILD-AND-RESULTS.md) · [Design decisions](implementation/DESIGN-AND-DECISIONS.md) · [Hyde contribution and review](implementation/HYDE-AND-VERIFICATION.md)
 
 Each agent includes all helpers; use the existing organizer environment. No secrets, environment directory, runtime API key or trained weights. No SSH, portal submission or GitHub upload was performed. Default main evaluations are now 500 games per bot; extra tournaments/ablations were deferred.
+
+## Round 2 local review candidates — 17 October 2026
+
+B07/B08 v002 are complete and independently verified locally. [Matched results and files](implementation/round-2/BUILD-AND-RESULTS.md). Each new version and parent played 500 games against unchanged F on the same fresh boards, with zero recorded faults or clock overruns. Win-rate gains remain unestablished. These candidates await human verification and publication; all frozen parents and earlier reports remain intact.

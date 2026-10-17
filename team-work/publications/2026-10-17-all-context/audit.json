@@ -1,0 +1,1245 @@
+{
+  "scope": "All previously uncommitted public project context, plus unified handoff and exact uploaded-agent snapshot",
+  "new_simulations": 0,
+  "secret_scan": "Known local secret values and credential patterns checked, including ZIP contents; no matches",
+  "excluded": [
+    "shared-local environment and organizer checkout",
+    ".env and credentials",
+    "downloaded datasets and papers",
+    "dataset row previews",
+    "raw provider/session logs",
+    "caches"
+  ],
+  "new_zip_checks": [
+    {
+      "path": "team-work/member-1/artifacts/B02-v002.zip",
+      "exact_agent_sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b"
+    },
+    {
+      "path": "team-work/member-3/artifacts/B06-v004.zip",
+      "exact_agent_sha256": "6de00e4acd7bc79c304e306fbb8111b2514b510265eef22627d9a3150ba446fa"
+    },
+    {
+      "path": "team-work/member-4/artifacts/B07-v002.zip",
+      "exact_agent_sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919"
+    },
+    {
+      "path": "team-work/member-4/artifacts/B08-v002.zip",
+      "exact_agent_sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc"
+    }
+  ],
+  "parse_checks": {
+    "python": 46,
+    "json": 119
+  },
+  "saved_run_checks": [
+    {
+      "metadata": "team-work/member-1/implementation/round-2/main/B01-v001-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/main/B02-v001-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/evaluations/common-F-20261017/results/B02-v002-vs-F-500/metadata.json",
+      "status": "stopped_by_user",
+      "planned_games": 500,
+      "saved_games": 20
+    },
+    {
+      "metadata": "team-work/member-3/evaluations/upload-vs-B05-20261017/main/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/evaluations/upload-vs-B05-20261017/smoke/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/main/B05-v003-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/main/B06-v003-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/smoke/B05-v004-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/smoke/B05-vs-B06-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-3/implementation/round-2/smoke/B06-v004-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/main/B07-v001-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/main/B08-v001-parent-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500/metadata.json",
+      "status": "completed",
+      "planned_games": 500,
+      "saved_games": 500,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/smoke/B07-v002-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/smoke/B07-vs-B08-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    },
+    {
+      "metadata": "team-work/member-4/implementation/round-2/smoke/B08-v002-zip-vs-F-4/metadata.json",
+      "status": "completed",
+      "planned_games": 4,
+      "saved_games": 4,
+      "saved_summary_recomputed": true
+    }
+  ],
+  "new_handoff_links_verified": 44,
+  "file_inventory_excludes_this_audit_itself": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7978,
+      "sha256": "02aa89e6e2d001857f92ad7e904dc9516f77d405458fe87f9d92fa259eaa1033"
+    },
+    {
+      "path": "ALL-CONTEXT.md",
+      "bytes": 6302,
+      "sha256": "bf86b478f7019cb5814bd244cb6e8a509e8c9d6836ade669dd25d975221efc45"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8938,
+      "sha256": "d5b887629055624043e7d570a59e657d2a076c303a96226a9cf4d0d141c91079"
+    },
+    {
+      "path": "team-work/member-1/09-ROUND-2-LOCAL-UPGRADES.md",
+      "bytes": 1736,
+      "sha256": "acf5454037b3945df1f55eaec0d1cde21327f659f964baedbf448cf1d3f21663"
+    },
+    {
+      "path": "team-work/member-1/artifacts/B02-v002.zip",
+      "bytes": 9391,
+      "sha256": "af68599fffd691b353519ad41be058a2550865320a8ee6425c41b8d1cbda40eb"
+    },
+    {
+      "path": "team-work/member-1/bots/B02/v002/README.md",
+      "bytes": 528,
+      "sha256": "69c578ff7b87829821bb111f261b2ac3561918e427fe9e2125b65f37b8d83424"
+    },
+    {
+      "path": "team-work/member-1/bots/B02/v002/agent.py",
+      "bytes": 32183,
+      "sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b"
+    },
+    {
+      "path": "team-work/member-1/bots/B02/v002/manifest.json",
+      "bytes": 1161,
+      "sha256": "00ebb59b4adea9aad275b0bf5bcaf39a75f6445d46ef4f5a517788b725b7775f"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/BUILD-AND-RESULTS.md",
+      "bytes": 8170,
+      "sha256": "eceea765d8845786d7f584be1f127e308bc2afd94451154ba60c28d70cb1f01a"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/HYDE-REVIEW.md",
+      "bytes": 2088,
+      "sha256": "8c1150ecff91b09ffe0a7f0269d29b28545cbd3bab2bc2282f0d552ad7978fe9"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/PLAN-AND-DECISIONS.md",
+      "bytes": 2970,
+      "sha256": "7592e00f9ccab53042c928b24cad48854f5c4e9b71ad1bb5ef3769f20489ad0a"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/README.md",
+      "bytes": 1202,
+      "sha256": "a61f833435dfa18feb43cf5dffd7ded317bf1a1f2f725d570c6f1ad29f01eecd"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/VERIFICATION-AND-SCOPE.md",
+      "bytes": 8672,
+      "sha256": "ff6bbcf708b4a504bfc823e5db83b2dfd05164433416dfec35fae2f6a7e97bad"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/audit_artifacts.py",
+      "bytes": 5820,
+      "sha256": "e77a3b284f1b7d735d061a85934f76a27885f5bda5f1151d66dbcf155c627f34"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/build_agents.py",
+      "bytes": 2739,
+      "sha256": "85fd39530c541f272b960de66e25efcab28d631f2da8e9416c67a74b7d1d8cba"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/comparison.json",
+      "bytes": 21779,
+      "sha256": "3e416e2124d990ebedc6e448b89400e027cd12c5a015f950c2f517f1d0394f1f"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/development/B01/agent.py",
+      "bytes": 32184,
+      "sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/development/B01/manifest.json",
+      "bytes": 903,
+      "sha256": "423bb039c99a1ff4d808604907283171f3e0c58c048f183de0fb3cdf3c9dc330"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/development/B02/agent.py",
+      "bytes": 32183,
+      "sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/development/B02/manifest.json",
+      "bytes": 900,
+      "sha256": "43d7dab9dabf3edc0d6222d4bb3c34ff78f1abb1681bc1f3d1b79a3b8f93e2c4"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/diagnostics.json",
+      "bytes": 94196,
+      "sha256": "234bafda488bbad50f559323403141c5fc124f5644b074311841ca76c5d98a6d"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/discard-diagnostics.json",
+      "bytes": 5925,
+      "sha256": "2bfd09bce16a08b191171a9933ed7cc0d8cd2f0e75c7d389df9e2c0c6fe7244b"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/evaluation-status-main.json",
+      "bytes": 21084,
+      "sha256": "96f9948f20691d0d8dea93609dac9b94dbc445afcd62c4a68ac0fa63e8763e1c"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/evaluation-status-smoke.json",
+      "bytes": 7026,
+      "sha256": "d239f12af9b5f62427b874a05a71089ed4101871e06c33bbcdab02f242fb0fab"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/fault-audit.json",
+      "bytes": 1023,
+      "sha256": "0e2fb0259ef212adbdec144dd94a69c2e7fcfba462f83f68b6c22ddc99268c99"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/freeze-protection-verification.json",
+      "bytes": 326,
+      "sha256": "6fa2118a13013f6d6fbf4bdcfee644a5059e6c8f332b3d87dbb3ad5338dd7d2a"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/harness-and-hardware.json",
+      "bytes": 1550,
+      "sha256": "95e6f05dd1267d65a60f7efd9ac69d50ab7efee06d03cad72366479365eeddee"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v001-parent-vs-F-500/games.json",
+      "bytes": 245945,
+      "sha256": "c8301a6a6e35c91f626827c52cf4092a98dda8f0785f4d7a54ce7c22b8e7fa8e"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v001-parent-vs-F-500/metadata.json",
+      "bytes": 1656,
+      "sha256": "c00f5852951fab77a219f543ce0295b1f7e393c46d59d4859184ee3029ced0d6"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v001-parent-vs-F-500/summary.json",
+      "bytes": 3648,
+      "sha256": "ca35ed8b0e558a0b6228b0708d40e75ac727a7061dbe73bc8d74a4149be50646"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500/games.json",
+      "bytes": 245928,
+      "sha256": "4b6b97ce67d5c4bf4a9622f5a54549381383a117614956890867c9ec39baa293"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500/metadata.json",
+      "bytes": 1653,
+      "sha256": "6415c3564110de2ad323206f1dca84655a875f70420002ca3ec9957a68cafd5b"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500/summary.json",
+      "bytes": 3651,
+      "sha256": "6491c8642aa1914e718d6d148d3cd412d1147eaf37ce5db44bdb4fee07a5d5e5"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v001-parent-vs-F-500/games.json",
+      "bytes": 245965,
+      "sha256": "f6b9e223ef3c73ee6944a00e77311adc2c4e8a4a62a25ab5b2abd5cd8e76e554"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v001-parent-vs-F-500/metadata.json",
+      "bytes": 1656,
+      "sha256": "fd7134312247dbc894d2868e654eeacc81167465f79374620d7e7cbb8573db21"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v001-parent-vs-F-500/summary.json",
+      "bytes": 3650,
+      "sha256": "284f6b344ad6dd63357f6e758f9c03f77b3f80b63900fa91b12dfbaa819de155"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500/games.json",
+      "bytes": 245976,
+      "sha256": "4dd9c86a4edd8704abbe23d6572b69f7c559a9a8238ea4039a1dab9bd2a5c8d6"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500/metadata.json",
+      "bytes": 1653,
+      "sha256": "a6960daecc9ca698f623ab86a7994495b32e4df5f59a295034cefe749152b8d4"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500/summary.json",
+      "bytes": 3651,
+      "sha256": "3a54fd9d6f68afd7991d888d103a5d1645d63d8ac5d431288bfa0b6a27d629ad"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/package-verification.json",
+      "bytes": 805,
+      "sha256": "866a7ac696db50a11aee57346a4a3e70ac8eeca7f11cf81da512f29703f22b08"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/package_agents.py",
+      "bytes": 2401,
+      "sha256": "50c96ceede6e6f672ef1458911295ee2618bc1c1cf2a170bae0421788d489c02"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/parent-inventory.json",
+      "bytes": 2070,
+      "sha256": "29587c48a81f3c9d863a49f4d3f30c04d6d156f55e0bf3526068c9c1594023ee"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/preservation-before.json",
+      "bytes": 72113,
+      "sha256": "faf12731ca59b816a1b9bb2e39dff6c2f667efece2bea50960833a3d76feca6a"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/preservation-verification.json",
+      "bytes": 5872,
+      "sha256": "c65fc2e5c8b753e3078fa30d1752f348032ba3e70b5dcf86a4db000c73f68fd4"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/profile_diagnostics.py",
+      "bytes": 3862,
+      "sha256": "869aca536d67efa215d027644011cb812e66d4853939178d12352289c3382660"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/run_round.py",
+      "bytes": 2654,
+      "sha256": "608d26d0baaac2a2567ff75ca1fe19baacdd985596f4e42320575c167e1aaf93"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/semantic-verification.json",
+      "bytes": 1907,
+      "sha256": "4b41de86a658402eb4fb05b03d3e82a14db9e0844225bc9e4ed00d2e937ba42c"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4/games.json",
+      "bytes": 1962,
+      "sha256": "1045b4b87a212094719316e94165436ba01d4ecfd9440a5d881bd757356ebfd1"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4/metadata.json",
+      "bytes": 1634,
+      "sha256": "cf402f6951c6f91387804d7fdae33be9aab32d1abe4cbb02508e9fb13ee9c107"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-vs-B02-v002-4/summary.json",
+      "bytes": 1280,
+      "sha256": "7ed1fddcece319059523d9bac645ed278b3f9925160b3f0929719bb6467e6a8e"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4/games.json",
+      "bytes": 1964,
+      "sha256": "ea76d9f9499635d1c594fb1d59a977ac1d86818d65cecf3029466d4878cc9981"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4/metadata.json",
+      "bytes": 1688,
+      "sha256": "ed4b2915c6e2ddee3012b0b6480d98ae3380dadacc9e3d0afec2431f1ffc089b"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B01-v002-zip-vs-F-4/summary.json",
+      "bytes": 1281,
+      "sha256": "f3d31473e81c421509a067006472e90f03a2d77ac830b0a38894291a08d42555"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4/games.json",
+      "bytes": 1964,
+      "sha256": "60b4e55a94305472d9c917b296b28e0da8f8178fedddca472e978305f05ae914"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4/metadata.json",
+      "bytes": 1688,
+      "sha256": "2daaaee1dfad3a87aad9cd689e4044055995a17595d5f2f2192da45e98532b51"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/smoke/B02-v002-zip-vs-F-4/summary.json",
+      "bytes": 1283,
+      "sha256": "e6c1893898027fd2a7c39389c53c68e7904d9412e8fe9fe912f638dd3fafa717"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/source-review.json",
+      "bytes": 681,
+      "sha256": "2df6e40014d8eb7ce9ed0091b92d9d95953d12284c6982bb9d20d8bdc9dd1636"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/economy_policies.py",
+      "bytes": 11832,
+      "sha256": "7d018862f0b8e0b521f9e024ae786af5c54e853a18db656c335e833c5b2e6ebe"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/goal_math.py",
+      "bytes": 2092,
+      "sha256": "46a3e1e47cc8000fabff463f00b6595cff1bbd7f9484993641e92869dd80b89e"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/public_context.py",
+      "bytes": 11422,
+      "sha256": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/race_math.py",
+      "bytes": 2310,
+      "sha256": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/spatial_context.py",
+      "bytes": 2109,
+      "sha256": "9ab4361ee1ec10f39a0cd2fc3fd829722f2a78263eee1777c815a08fcc3e11f0"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/sources/terminal_math.py",
+      "bytes": 3880,
+      "sha256": "3c1abecb66c34588049132ca68a15cb2df7134d1c14642483b0261e02711906f"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/terminal-profile.json",
+      "bytes": 756,
+      "sha256": "ad7de883ac09ca9b36210d500b4694342f61ec4e43bc6deef785c8bbca4f264f"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/test_round2.py",
+      "bytes": 11322,
+      "sha256": "d00aebfb9f4b2ce911f8a7aec666f711a76bdf5d0b4f1f366bbf4f0089700e34"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/test_terminal_guards.py",
+      "bytes": 3170,
+      "sha256": "f33a8b53fc219221e99c6d50a3fa329ed711282b61c8f5f0866bd63fbf9f249e"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/verify_contracts.py",
+      "bytes": 848,
+      "sha256": "ee8f5afe6f58081a89ba628700f55e9ef26c1f6981f191aaa16e0afd4e608335"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/verify_semantics.py",
+      "bytes": 2314,
+      "sha256": "4af9fd745d74a538a52eee3800b687db422b5432f1c219062f018880c671373b"
+    },
+    {
+      "path": "team-work/member-1/implementation/round-2/write_results.py",
+      "bytes": 13496,
+      "sha256": "c2cb8f7978bbb1b0b8a6e832609f10e88deadc93e56df6543783261b56882013"
+    },
+    {
+      "path": "team-work/member-3/08-GLM-IMPROVEMENT-CONTEXT.md",
+      "bytes": 13397,
+      "sha256": "77bff186712d83f4b5f032ba57ea4e3e8f85e536c9480f6ea137df60c905f1c9"
+    },
+    {
+      "path": "team-work/member-3/README.md",
+      "bytes": 502,
+      "sha256": "50f7c47e0cdb76283a7d63c490eaa9b402df1bc3881cd8ea8a204d793948f5d7"
+    },
+    {
+      "path": "team-work/member-3/artifacts/B06-v004.zip",
+      "bytes": 8925,
+      "sha256": "d1ad8520d62da6c51c246d2970a51ae8863a59a331c191408e8acd04f2edca4c"
+    },
+    {
+      "path": "team-work/member-3/bots/B06/v004/README.md",
+      "bytes": 1212,
+      "sha256": "f68b8e91fef3650fccf28bfa8ebbb986f834076d5d2082e1f402fbbc90d9411c"
+    },
+    {
+      "path": "team-work/member-3/bots/B06/v004/agent.py",
+      "bytes": 28100,
+      "sha256": "6de00e4acd7bc79c304e306fbb8111b2514b510265eef22627d9a3150ba446fa"
+    },
+    {
+      "path": "team-work/member-3/bots/B06/v004/manifest.json",
+      "bytes": 793,
+      "sha256": "e2e3aec78b6013fce90b371d59b2996bab8ec367f5f3485062471ae8b84db1f2"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/HYDE-REVIEW.md",
+      "bytes": 1142,
+      "sha256": "1644d632733a7c484110b1cff56b925f4ba5a31ce903c9367919e9d5b61181ff"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/PLAN.md",
+      "bytes": 2425,
+      "sha256": "1c83235a1302e980636ab0abf2375a5ce08d5a37fa7c76ded547fba7c16eee5e"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/PRIOR-EVIDENCE-TABLE.md",
+      "bytes": 1440,
+      "sha256": "754afb062f7bbe781cf03579d2f44e39dbe6660fc279a10cfc1b9900240ae669"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/STOPPED-AND-RECOMMENDATION.md",
+      "bytes": 2987,
+      "sha256": "5b1b23ab9e645168cb1a381f9c090319f6b56a8eedfb384d7d921e5450e69cce"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/member2-upload-audit.json",
+      "bytes": 13263,
+      "sha256": "32ce84f5c66125b2f9d4c9a61bb2373c1fb094e8b2b1a9a45736a34d29e4da5e"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/results/B02-v002-vs-F-500/games.json",
+      "bytes": 9810,
+      "sha256": "c5f7b9efd3feb623eee4fd0713c874898bdd78659c41241a599af48561064e0f"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/results/B02-v002-vs-F-500/metadata.json",
+      "bytes": 1768,
+      "sha256": "db058390f597ecc5d7f485c13b548b7511101d08124ce6143f2b71856c7a12d2"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/run_batch.py",
+      "bytes": 1925,
+      "sha256": "f72f64b880d202a04990f4723ed05a4cb2291a98a52861774d42b02b20130b75"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/source-index.json",
+      "bytes": 2625,
+      "sha256": "73a8bf34f1e1008e78bb38d36d43b71ac7dfcb0a8621af969fee9fe1b0384a01"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/status.json",
+      "bytes": 5349,
+      "sha256": "bf7f4a0c9c1e9ff4f6b91cdce45e104e2262e3cb9b48bc7911a71e60002f2104"
+    },
+    {
+      "path": "team-work/member-3/evaluations/common-F-20261017/write_results.py",
+      "bytes": 11119,
+      "sha256": "0ca07556dcfbaf49d92aa72b43b459d8ed27fe2f6f5dce18fa89692efa9b37a4"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/HYDE-REVIEW.md",
+      "bytes": 1284,
+      "sha256": "3a61e974f22efe3ae7df40b4123f33a2281114b3b66de81ef5771fd657834996"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/PLAN.md",
+      "bytes": 495,
+      "sha256": "6ca29877568d1cee1dedb436f2f50d26a12d5b9cb2eb7b953055c6ea13d81af1"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/RESULTS.md",
+      "bytes": 3707,
+      "sha256": "ac4dfc524f74258f0392852f4a67a3b87980a2279527b2190def6e9734f66ec9"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/final-verification.json",
+      "bytes": 711,
+      "sha256": "0252813c7d64e9e8f2349fc55cb05b3657098b6778ff84382767d273d2466927"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/main/games.json",
+      "bytes": 245975,
+      "sha256": "ee7c3006ae9c29baeb6288cc9bacf99fb4069e0529747e40d4d7c4051789b491"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/main/metadata.json",
+      "bytes": 1673,
+      "sha256": "eed0404f336a9a159c1e087e242ec81256fc152e47c41f59ed3d83b97ef8d83e"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/main/summary.json",
+      "bytes": 3638,
+      "sha256": "05cd9096e78a5387c8412c47f8af8c92552814aff15cd24a27c20dc23c6e9930"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/smoke/games.json",
+      "bytes": 1964,
+      "sha256": "fc749da5166389c77a0d5cdd6022a7a2612b4fea32cd967a7512d2ba5806ac69"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/smoke/metadata.json",
+      "bytes": 1670,
+      "sha256": "57ab8b4d8b03364035a286700a3dc0372066a0e3425aa1761908d34874d4b8e4"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/smoke/summary.json",
+      "bytes": 1262,
+      "sha256": "76f471b5295084442ad64319399eb1d65b6a94bfd7acd39443bb44d0c4876e5b"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/source-and-harness-audit.json",
+      "bytes": 1819,
+      "sha256": "7b31941048f658b94228a2aafab344b2d1e553f4a622b1069d37c1bdc2460fe3"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/source-inventory.json",
+      "bytes": 636,
+      "sha256": "7d689ec5031763cd0a3d8fa26c8d18d63cbb098a124bebcde746e92df093524f"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/sources/README.md",
+      "bytes": 701,
+      "sha256": "77ea4567a127d6d8b255626457ccfbe3e7a58e7a5d240b0a01cce55343aeb70c"
+    },
+    {
+      "path": "team-work/member-3/evaluations/upload-vs-B05-20261017/sources/uploaded-agent.py",
+      "bytes": 32654,
+      "sha256": "504f11305e1e9a7d1d3db456563a8ec32315fc84a2a675c190e2db7f7da8a868"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/.gitignore",
+      "bytes": 19,
+      "sha256": "7c0aeb67bf6449dbe3e217858fc7c87153ffb3fe22462e5ebe31506b847d1164"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/BUILD-AND-RESULTS.md",
+      "bytes": 9308,
+      "sha256": "8c0d0b409508cc6c1a765dff6e61389d7f8f1b17cc8d46c7a91ebc44b2a052bc"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/HYDE-REVIEW.md",
+      "bytes": 1607,
+      "sha256": "0da442924c711e7fdebf45ce0a006ed2c847962076acc594fb9ca4445b30f497"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/PLAN-AND-DECISIONS.md",
+      "bytes": 3929,
+      "sha256": "0b5b09d53949feb9d10f5ed7522aab6347555b3ae69561c8ca486ff9af33cea0"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/README.md",
+      "bytes": 954,
+      "sha256": "c76ce2977c956676df94d958b3f29122edc13aab9b5c867af6d707ce8f5ff47c"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/SOURCE-INVENTORY.md",
+      "bytes": 11675,
+      "sha256": "d9767d201836e9c48fc4c2d37a8652d228faf415af68dcb49180d1e5c5a46777"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/VERIFICATION-AND-SCOPE.md",
+      "bytes": 7323,
+      "sha256": "60cdb6f9d9cbec9613a3d7c4bbc15990d73e897ba58e0505337023b63fec843c"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/build_agents.py",
+      "bytes": 2522,
+      "sha256": "9d253b86e6c40bc05f140109bc3cfd5500cb6f7be621170ee621ec1d1d122f3e"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/comparison.json",
+      "bytes": 20498,
+      "sha256": "5139d7df5ae8f1042d47c8529bd2620e8c5af47e1470460a8a5e471a5ea49894"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/development/B05/agent.py",
+      "bytes": 28098,
+      "sha256": "8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/development/B05/manifest.json",
+      "bytes": 791,
+      "sha256": "255d2e5082fb36d4d0c5124606ecc3a2922de6e7e8d620c56f05f009229d1e21"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/development/B06/agent.py",
+      "bytes": 28100,
+      "sha256": "6de00e4acd7bc79c304e306fbb8111b2514b510265eef22627d9a3150ba446fa"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/development/B06/manifest.json",
+      "bytes": 793,
+      "sha256": "e2e3aec78b6013fce90b371d59b2996bab8ec367f5f3485062471ae8b84db1f2"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/diagnostics.json",
+      "bytes": 72777,
+      "sha256": "32ca7532d322876f2a7be00ed48224684318091113845ec236bfc8924ed542bc"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/evaluation-status-main.json",
+      "bytes": 11144,
+      "sha256": "19a768210aa9bf25f3416b9306a7a2f6334f26f3772037a3504ef931587602ad"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/evaluation-status-smoke.json",
+      "bytes": 7929,
+      "sha256": "f36236c544cfbaa29d7636e8ab9ad30e82d51a735c7acbe08781aa57d4bf7809"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/final-verification.json",
+      "bytes": 1243,
+      "sha256": "7022dfa75f988ce71a858f44553a46d3d5261b0fc9e3df541760312ab47dd2ca"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/harness-and-hardware.json",
+      "bytes": 1241,
+      "sha256": "0d12e15346fd6fd3fba5bead14ddb9297c45cbac65a68cccd5db45cccd02bdb4"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B05-v003-parent-vs-F-500/games.json",
+      "bytes": 245953,
+      "sha256": "88297bf0fa3f29af4775a74505e356982baa37bf08e9a0a80c473498de7edfe5"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B05-v003-parent-vs-F-500/metadata.json",
+      "bytes": 1905,
+      "sha256": "384384919a0864d5e39693c04b88f098b6c1f97fdda46026df8a6f99c20033f2"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B05-v003-parent-vs-F-500/summary.json",
+      "bytes": 3646,
+      "sha256": "80d0d3995040dc12083c36e64cc150315a84d385b331e9e5035aa265bdc07a8b"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v003-parent-vs-F-500/games.json",
+      "bytes": 245966,
+      "sha256": "1746df77377e6292ee791f164bf6b9bd73fff3b2e4ae2569be672bae83d364cf"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v003-parent-vs-F-500/metadata.json",
+      "bytes": 1905,
+      "sha256": "c714583b645fb2314b6325fbae703270e677d2446926eb202d27f37e6d86419a"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v003-parent-vs-F-500/summary.json",
+      "bytes": 3643,
+      "sha256": "8208f7ef5e5af51790645963a21a6cc7a57acef96c094fb565bb18a978515c81"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500/games.json",
+      "bytes": 245948,
+      "sha256": "88a042d73eb517dfb7440e016eb6c94b783147a073cc0da5c3fa1f9f0bd03f9f"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500/metadata.json",
+      "bytes": 1653,
+      "sha256": "48b86c50327e62943846c91f83c05ab965122648a92495fccf134414015d6efc"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500/summary.json",
+      "bytes": 3651,
+      "sha256": "33ec5375cb75e651c569fc243f925ef16fe505f2c593d6ec9e70eae43e20cf30"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/package-verification.json",
+      "bytes": 875,
+      "sha256": "b3c60bbe0487f84bcc57a745073c5197b43eca5a788bbccade33fb2638ad871e"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/parent-inventory.json",
+      "bytes": 1657,
+      "sha256": "a4a6254afb1e7f79e2dddce47b79999fc71344064cae5e1bd17da26ad0473fd2"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/profile_diagnostics.py",
+      "bytes": 4743,
+      "sha256": "b8afbb1693195df25a6cb6a5ae1e1916dd56d1f118aa56ef958f54ae1d3153be"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/run_round.py",
+      "bytes": 3527,
+      "sha256": "d128cb221194fd58a0de396959128340ee637b8786ad12ac1f5eac2cc9958d76"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/semantic-verification.json",
+      "bytes": 1525,
+      "sha256": "e0dd6e0c061f51b3db3fd59a062eaefb66c2566188356275043bc5d536711055"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-v004-zip-vs-F-4/games.json",
+      "bytes": 1963,
+      "sha256": "61aa2c2c17723ab9248d0e5e2dc1df088199e8626cd9467709a585122e000fb8"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-v004-zip-vs-F-4/metadata.json",
+      "bytes": 1664,
+      "sha256": "02d124a630cac6e632d7d5447285ceae83d9b6da0348cb843d55df2087cfa115"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-v004-zip-vs-F-4/summary.json",
+      "bytes": 1235,
+      "sha256": "ca893104e4b0e08cdd17ac0158e5e5ad115e52128c485d460efbcdd552d41872"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-vs-B06-4/games.json",
+      "bytes": 1963,
+      "sha256": "8296fc61c11b5d98ba6d91cd9a1b5552d065fee3f83c14f967c37e81088f5dde"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-vs-B06-4/metadata.json",
+      "bytes": 1624,
+      "sha256": "c25c4975b059fccf8be9eab852895ae674b3bc47d124ed413bdae6852364a26f"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B05-vs-B06-4/summary.json",
+      "bytes": 1269,
+      "sha256": "8453359f3bea0b63289073c907f48a96dfb270ac400204ad433a4f8d679906ed"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B06-v004-zip-vs-F-4/games.json",
+      "bytes": 1963,
+      "sha256": "1760d85e5ec355b76d29c31c5673858420c3c57446b0555c9bf4cfc127f5c84c"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B06-v004-zip-vs-F-4/metadata.json",
+      "bytes": 1664,
+      "sha256": "421c44f9c07b934f4c6cb3110dcc5f12d81b25271b073700e03f501161245a4b"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/smoke/B06-v004-zip-vs-F-4/summary.json",
+      "bytes": 1236,
+      "sha256": "30b6a83f33e1041c01afd5c4b96b4257feb68e67cf72edbe785633d6cc25271f"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/sources/member3_core.py",
+      "bytes": 21049,
+      "sha256": "6fa47fe7b18f84e856b697b2222386bb599c10b80d6ff134c270110f577a607f"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/sources/race_math.py",
+      "bytes": 2310,
+      "sha256": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/sources/round2_math.py",
+      "bytes": 3320,
+      "sha256": "cd46843d8517923bbcb57451acb7df80a3b2e018e53ad2c3afaf87be479cdcaf"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/sources/terminal_math.py",
+      "bytes": 2240,
+      "sha256": "0208724facfabd26a7940bff23022418d91999bb57d5dd96a183da05a590e522"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/terminal-profile.json",
+      "bytes": 964,
+      "sha256": "ef4fdba517e909d60cb06500779425cc5ed8046c07842dfcfd9d4e18cb965a48"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/test_round2.py",
+      "bytes": 16327,
+      "sha256": "f93cbe7b684efb3a11a721e90bf220a567405994e88f183fa0babe368862ffad"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/verify_contracts.py",
+      "bytes": 4391,
+      "sha256": "8658e3bbd37d51c1de11ef97f57d2236f675a5927efe0d2808b3636f8d0880b7"
+    },
+    {
+      "path": "team-work/member-3/implementation/round-2/write_results.py",
+      "bytes": 16513,
+      "sha256": "7316ec1cc3dcaaeadfb877019f31ddf0df635aa2bccd9b4f6b92e3796fd6d2ed"
+    },
+    {
+      "path": "team-work/member-4/08-GLM-IMPROVEMENT-CONTEXT.md",
+      "bytes": 14563,
+      "sha256": "ea9814d552af4708cd309d88513cabf901170102567d813e920a68547e9c3736"
+    },
+    {
+      "path": "team-work/member-4/README.md",
+      "bytes": 1803,
+      "sha256": "6190bb536dae95fba3afaf121fe7e6ff05589242263cc5d9d664094d2e6192e7"
+    },
+    {
+      "path": "team-work/member-4/artifacts/B07-v002.zip",
+      "bytes": 11865,
+      "sha256": "b32046354e6fc4a3da955ef35d539872a2f7c71ab24fc054b9529e0ebd809243"
+    },
+    {
+      "path": "team-work/member-4/artifacts/B08-v002.zip",
+      "bytes": 11865,
+      "sha256": "a49b17e4795920e1ae1d1b13c55efd05aaf1c650d14f419ee9f47cfeb0377784"
+    },
+    {
+      "path": "team-work/member-4/bots/B07/v002/README.md",
+      "bytes": 1209,
+      "sha256": "4e608fd81081f988521c95063d4cff81199c8de83e67753be59b2b7d677c4369"
+    },
+    {
+      "path": "team-work/member-4/bots/B07/v002/agent.py",
+      "bytes": 42350,
+      "sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919"
+    },
+    {
+      "path": "team-work/member-4/bots/B07/v002/manifest.json",
+      "bytes": 979,
+      "sha256": "9dbdd1669b0ea1a6fb6ab0a222818939f9312fab46247f383cf54fc314081092"
+    },
+    {
+      "path": "team-work/member-4/bots/B08/v002/README.md",
+      "bytes": 1209,
+      "sha256": "e0c03561e33a4e0850dd9ee26a4ded49bc0718bd2bab0ea242fa8abd99b595fd"
+    },
+    {
+      "path": "team-work/member-4/bots/B08/v002/agent.py",
+      "bytes": 42349,
+      "sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc"
+    },
+    {
+      "path": "team-work/member-4/bots/B08/v002/manifest.json",
+      "bytes": 978,
+      "sha256": "fbb954498e4ff875c8913cb819994683569cf5f2c993450cda8737c5af614b47"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/.gitignore",
+      "bytes": 19,
+      "sha256": "7c0aeb67bf6449dbe3e217858fc7c87153ffb3fe22462e5ebe31506b847d1164"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/BUILD-AND-RESULTS.md",
+      "bytes": 9357,
+      "sha256": "fd7772e2c12d22be2d3bb26689b2bd7d3830656ade2b4ae4753a80d4d37d9b86"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/HYDE-REVIEW.md",
+      "bytes": 1607,
+      "sha256": "0da442924c711e7fdebf45ce0a006ed2c847962076acc594fb9ca4445b30f497"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/PLAN-AND-DECISIONS.md",
+      "bytes": 3929,
+      "sha256": "0b5b09d53949feb9d10f5ed7522aab6347555b3ae69561c8ca486ff9af33cea0"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/README.md",
+      "bytes": 951,
+      "sha256": "3297100beb27942e84497a8363d3e10085d413ea6721ba1e925504a73cdc11a9"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/SOURCE-INVENTORY.md",
+      "bytes": 11675,
+      "sha256": "d9767d201836e9c48fc4c2d37a8652d228faf415af68dcb49180d1e5c5a46777"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/VERIFICATION-AND-SCOPE.md",
+      "bytes": 7323,
+      "sha256": "60cdb6f9d9cbec9613a3d7c4bbc15990d73e897ba58e0505337023b63fec843c"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/build_agents.py",
+      "bytes": 2572,
+      "sha256": "ec5c5d0ab094a5dd1682953ae23d6b80089223ac06c4bf5fadb10e5ac630666a"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/comparison.json",
+      "bytes": 20890,
+      "sha256": "4540c4fe2d37cae1132619f15e61e8c0aece465be48da97352ff721878730276"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/development/B07/agent.py",
+      "bytes": 42350,
+      "sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/development/B07/manifest.json",
+      "bytes": 979,
+      "sha256": "9dbdd1669b0ea1a6fb6ab0a222818939f9312fab46247f383cf54fc314081092"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/development/B08/agent.py",
+      "bytes": 42349,
+      "sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/development/B08/manifest.json",
+      "bytes": 978,
+      "sha256": "fbb954498e4ff875c8913cb819994683569cf5f2c993450cda8737c5af614b47"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/diagnostics.json",
+      "bytes": 85314,
+      "sha256": "7f892dd97dc2bd40fe3fdac0676b9e6aade3c70ccbac3a6d132b96cbad00aa76"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/evaluation-status-main.json",
+      "bytes": 11144,
+      "sha256": "19a768210aa9bf25f3416b9306a7a2f6334f26f3772037a3504ef931587602ad"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/evaluation-status-smoke.json",
+      "bytes": 7929,
+      "sha256": "f36236c544cfbaa29d7636e8ab9ad30e82d51a735c7acbe08781aa57d4bf7809"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/final-verification.json",
+      "bytes": 1243,
+      "sha256": "7022dfa75f988ce71a858f44553a46d3d5261b0fc9e3df541760312ab47dd2ca"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/harness-and-hardware.json",
+      "bytes": 1241,
+      "sha256": "0d12e15346fd6fd3fba5bead14ddb9297c45cbac65a68cccd5db45cccd02bdb4"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v001-parent-vs-F-500/games.json",
+      "bytes": 245936,
+      "sha256": "f45225a86aec8a41659ef1d04641c3ca64c535d49085deb45683cfb3676a77c1"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v001-parent-vs-F-500/metadata.json",
+      "bytes": 1656,
+      "sha256": "eb368718739aaece2dc1ce62be7c75d16d9cb2af206118d33d442f9fab4c3ce9"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v001-parent-vs-F-500/summary.json",
+      "bytes": 3623,
+      "sha256": "53f1b6b5615d666aabca1f21c17150f96e9c849c7b2799e98f1eb7020a2f8384"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500/games.json",
+      "bytes": 245953,
+      "sha256": "51992fd38a402265278633e57d262fd7aad8734dae81e789ff4fceab6d735335"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500/metadata.json",
+      "bytes": 1653,
+      "sha256": "526a52f75ee3aa8fae345287d5caef35dc1667cc4e7c444b9e8960c9f9792049"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500/summary.json",
+      "bytes": 3641,
+      "sha256": "f17a4987d3fcd4b3197ab152bbe77878dbe68be465f7ab7150e077cd00724cd0"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v001-parent-vs-F-500/games.json",
+      "bytes": 245946,
+      "sha256": "ee1edede4ae9ff4dc9479dba7f289eef951a19b1c85e2c412720eac1cfbc6aff"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v001-parent-vs-F-500/metadata.json",
+      "bytes": 1656,
+      "sha256": "bffe731503bbec60bcded7236f12c77d59f7d61dc2c1c1818f7212703588a553"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v001-parent-vs-F-500/summary.json",
+      "bytes": 3645,
+      "sha256": "9a3ca406323b3eb21d56e8ce04a4cd51d7a042eaa303675c1dde3b01ba66f35b"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500/games.json",
+      "bytes": 245962,
+      "sha256": "89c6a9180812ec81d182a05bebff5191449b91d02a1140ffdbe1f9110326faa3"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500/metadata.json",
+      "bytes": 1653,
+      "sha256": "f8ff50650480c3d193f7fe5d377b071920bb47b2ec6646d5caae561e6488bfa8"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500/summary.json",
+      "bytes": 3642,
+      "sha256": "8912aa30118f77acf14b0646365514a579d2a2b11a554f338d145cb1a0082bfe"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/package-verification.json",
+      "bytes": 877,
+      "sha256": "16ee322044daf8209090bab2c203e32a9a2978be11f0bd58c241283e95f4d15b"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/parent-inventory.json",
+      "bytes": 647,
+      "sha256": "ceb1b21f3cecd88a6b896c7f43781dc793b42c265e2a7e66ed7f9816e96da604"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/semantic-verification.json",
+      "bytes": 1525,
+      "sha256": "e0dd6e0c061f51b3db3fd59a062eaefb66c2566188356275043bc5d536711055"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-v002-zip-vs-F-4/games.json",
+      "bytes": 1964,
+      "sha256": "78c543c3ffd4563c9187da83a64b64b57f9d717702619c14e78c095f4480c989"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-v002-zip-vs-F-4/metadata.json",
+      "bytes": 1664,
+      "sha256": "bc3d0a952cdf28d25f11e028cb015354e852388f6cd5bfeb071fb34081fc3280"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-v002-zip-vs-F-4/summary.json",
+      "bytes": 1237,
+      "sha256": "7f3830476b94d05ff3a3e9742128df94a85c5d1c6453207d5c8555a64209eef4"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-vs-B08-4/games.json",
+      "bytes": 1964,
+      "sha256": "2c5fedde1f90eac8ca1c5c5f68ce441a8e074454130b05fc20c6d636f4da6ea5"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-vs-B08-4/metadata.json",
+      "bytes": 1624,
+      "sha256": "a1bcb5397b8f70d0dcfd6408f3157903e5ac9ee07b074666da162047edb3e883"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B07-vs-B08-4/summary.json",
+      "bytes": 1266,
+      "sha256": "5e7d833128cb55fe3786d6d6956ef9b4e4e8225d31156a9cffea6c5cdc4539f2"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B08-v002-zip-vs-F-4/games.json",
+      "bytes": 1963,
+      "sha256": "165063f95651e1676c9837eb88c430e3a8f8c178054e5473121561f0321b5cf5"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B08-v002-zip-vs-F-4/metadata.json",
+      "bytes": 1664,
+      "sha256": "47a58a726b201b715d41cd3070dcabcd0901264798a874737d359275d5835bc7"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/smoke/B08-v002-zip-vs-F-4/summary.json",
+      "bytes": 1232,
+      "sha256": "ec3c00f4d3ce14550957d04c7d1845db6046c8a400dfa70e32602cae0bf011ee"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/member4_policies.py",
+      "bytes": 22200,
+      "sha256": "0dbf8462359bd90d73c5df9f197bcfae0f080394a2466a6f385c01074de37325"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/public_context.py",
+      "bytes": 11422,
+      "sha256": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/race_math.py",
+      "bytes": 2310,
+      "sha256": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/round2_math.py",
+      "bytes": 3320,
+      "sha256": "cd46843d8517923bbcb57451acb7df80a3b2e018e53ad2c3afaf87be479cdcaf"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/route_math.py",
+      "bytes": 2171,
+      "sha256": "d9d31dde395ec2ec4a424d811b1c1094b3fabc4a5e54fb867263ea6b7fae05d6"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/sources/terminal_math.py",
+      "bytes": 2240,
+      "sha256": "0208724facfabd26a7940bff23022418d91999bb57d5dd96a183da05a590e522"
+    },
+    {
+      "path": "team-work/member-4/implementation/round-2/terminal-profile.json",
+      "bytes": 964,
+      "sha256": "ef4fdba517e909d60cb06500779425cc5ed8046c07842dfcfd9d4e18cb965a48"
+    },
+    {
+      "path": "team-work/publications/2026-10-17-all-context/README.md",
+      "bytes": 2660,
+      "sha256": "1f91c66b12cdceb986c12add615faef12a967c157ac4719682ec48f751cc4a81"
+    }
+  ]
+}

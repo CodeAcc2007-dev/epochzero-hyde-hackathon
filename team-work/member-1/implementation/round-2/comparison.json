@@ -1,0 +1,722 @@
+{
+  "B01": {
+    "new_version": "v002",
+    "parent_version": "v001",
+    "new": {
+      "a": {
+        "games": 500,
+        "wins": 371,
+        "win_rate": 0.742,
+        "ci95": 0.038351545929727525,
+        "no_winner": 0,
+        "mean_cpu_s": 0.2152999999999999,
+        "worst_cpu_s": 0.71,
+        "decisions": 25138,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 129,
+        "win_rate": 0.258,
+        "ci95": 0.038351545929727525,
+        "no_winner": 0,
+        "mean_cpu_s": 0.11211999999999993,
+        "worst_cpu_s": 0.25,
+        "decisions": 22762,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.708,
+          0.778
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6561061183306525,
+          0.8278938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.39,
+      "wall_elapsed_s": 207.66474596199987,
+      "loads": [
+        {
+          "a_init_s": 0.0002260509972984437,
+          "b_init_s": 0.0002092299982905388
+        },
+        {
+          "a_init_s": 0.0002468570019118488,
+          "b_init_s": 0.00019969999993918464
+        },
+        {
+          "a_init_s": 0.00023309300013352185,
+          "b_init_s": 0.0001976749990717508
+        },
+        {
+          "a_init_s": 0.00024315200062119402,
+          "b_init_s": 0.00019238799723098055
+        },
+        {
+          "a_init_s": 0.0002420919990981929,
+          "b_init_s": 0.00020126500021433458
+        },
+        {
+          "a_init_s": 0.000257376999797998,
+          "b_init_s": 0.00019994999820482917
+        },
+        {
+          "a_init_s": 0.00025008400189108215,
+          "b_init_s": 0.0002077999997709412
+        },
+        {
+          "a_init_s": 0.0002390200024819933,
+          "b_init_s": 0.00020922499970765784
+        },
+        {
+          "a_init_s": 0.0002543869995861314,
+          "b_init_s": 0.00020747599774040282
+        },
+        {
+          "a_init_s": 0.00024132699763868004,
+          "b_init_s": 0.00020304900317569263
+        },
+        {
+          "a_init_s": 0.0002542000001994893,
+          "b_init_s": 0.00022556800104212016
+        },
+        {
+          "a_init_s": 0.00021546199786826037,
+          "b_init_s": 0.00020283299818402156
+        },
+        {
+          "a_init_s": 0.00023606899776495993,
+          "b_init_s": 0.00020420299915713258
+        },
+        {
+          "a_init_s": 0.00025246299992431886,
+          "b_init_s": 0.00020937099907314405
+        },
+        {
+          "a_init_s": 0.00023096199947758578,
+          "b_init_s": 0.00021473800006788224
+        },
+        {
+          "a_init_s": 0.00022171399905346334,
+          "b_init_s": 0.00021335400015232153
+        },
+        {
+          "a_init_s": 0.00021953599934931844,
+          "b_init_s": 0.0001970250013982877
+        },
+        {
+          "a_init_s": 0.00024960999871836975,
+          "b_init_s": 0.00019972900190623477
+        },
+        {
+          "a_init_s": 0.0002637550023791846,
+          "b_init_s": 0.00022321899814414792
+        },
+        {
+          "a_init_s": 0.00023193000015453435,
+          "b_init_s": 0.00019857200095430017
+        },
+        {
+          "a_init_s": 0.00022542199803865515,
+          "b_init_s": 0.00019444599820417352
+        },
+        {
+          "a_init_s": 0.00024260200007120147,
+          "b_init_s": 0.0002064159998553805
+        },
+        {
+          "a_init_s": 0.00023623100059921853,
+          "b_init_s": 0.00019117299962090328
+        },
+        {
+          "a_init_s": 0.00022666400036541745,
+          "b_init_s": 0.00021080000078654848
+        },
+        {
+          "a_init_s": 0.00022705899755237624,
+          "b_init_s": 0.0002119109994964674
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 188
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 183
+      }
+    },
+    "parent": {
+      "a": {
+        "games": 500,
+        "wins": 371,
+        "win_rate": 0.742,
+        "ci95": 0.038351545929727525,
+        "no_winner": 0,
+        "mean_cpu_s": 0.21503999999999984,
+        "worst_cpu_s": 0.77,
+        "decisions": 25196,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 129,
+        "win_rate": 0.258,
+        "ci95": 0.038351545929727525,
+        "no_winner": 0,
+        "mean_cpu_s": 0.11488000000000002,
+        "worst_cpu_s": 0.42,
+        "decisions": 22782,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.708,
+          0.778
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6561061183306525,
+          0.8278938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.39,
+      "wall_elapsed_s": 210.5380410809994,
+      "loads": [
+        {
+          "a_init_s": 0.00022913800057722256,
+          "b_init_s": 0.00020698799926321954
+        },
+        {
+          "a_init_s": 0.0002312360011273995,
+          "b_init_s": 0.00020554799993988127
+        },
+        {
+          "a_init_s": 0.0001930880025611259,
+          "b_init_s": 0.0002032449992839247
+        },
+        {
+          "a_init_s": 0.00019784699907177128,
+          "b_init_s": 0.0002017639999394305
+        },
+        {
+          "a_init_s": 0.00021336899953894317,
+          "b_init_s": 0.00021252599981380627
+        },
+        {
+          "a_init_s": 0.00023718100055702962,
+          "b_init_s": 0.00021310900046955794
+        },
+        {
+          "a_init_s": 0.00024271499933092855,
+          "b_init_s": 0.00021022600049036555
+        },
+        {
+          "a_init_s": 0.00023274699924513698,
+          "b_init_s": 0.0002084440020553302
+        },
+        {
+          "a_init_s": 0.00024321800083271228,
+          "b_init_s": 0.0002116860014211852
+        },
+        {
+          "a_init_s": 0.00021242900038487278,
+          "b_init_s": 0.00020702199981315061
+        },
+        {
+          "a_init_s": 0.0002281380002386868,
+          "b_init_s": 0.00021612499767798
+        },
+        {
+          "a_init_s": 0.0002179200018872507,
+          "b_init_s": 0.00020117399981245399
+        },
+        {
+          "a_init_s": 0.00023336099911830388,
+          "b_init_s": 0.0002167670027120039
+        },
+        {
+          "a_init_s": 0.00021191800260567106,
+          "b_init_s": 0.00020722099725389853
+        },
+        {
+          "a_init_s": 0.0002283750000060536,
+          "b_init_s": 0.0002054920005321037
+        },
+        {
+          "a_init_s": 0.0002124740021827165,
+          "b_init_s": 0.00020118500106036663
+        },
+        {
+          "a_init_s": 0.00023257599968928844,
+          "b_init_s": 0.00021975500203552656
+        },
+        {
+          "a_init_s": 0.00020426699848030694,
+          "b_init_s": 0.00018729600196820684
+        },
+        {
+          "a_init_s": 0.00020922900148434564,
+          "b_init_s": 0.0001995269994949922
+        },
+        {
+          "a_init_s": 0.00022277100288192742,
+          "b_init_s": 0.00020739599858643487
+        },
+        {
+          "a_init_s": 0.00021606600057566538,
+          "b_init_s": 0.0001995900020119734
+        },
+        {
+          "a_init_s": 0.00022163700123201124,
+          "b_init_s": 0.00021042500156909227
+        },
+        {
+          "a_init_s": 0.00023732999761705287,
+          "b_init_s": 0.00021765399651485495
+        },
+        {
+          "a_init_s": 0.0002021670006797649,
+          "b_init_s": 0.00020353799845906906
+        },
+        {
+          "a_init_s": 0.00023487200087402016,
+          "b_init_s": 0.00020645299809984863
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 188
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 183
+      }
+    },
+    "paired": {
+      "degenerate_all_paired_differences_zero": true,
+      "bootstrap_limit": "A zero-width bootstrap when all observed differences are zero is not proof of equivalence or absence of rare effects.",
+      "win_difference": 0,
+      "difference_pp": 0.0,
+      "pair_bootstrap_95_difference_pp": [
+        0.0,
+        0.0
+      ],
+      "process_chunk_bootstrap_95_difference_pp": [
+        0.0,
+        0.0
+      ],
+      "new_only_wins": 0,
+      "parent_only_wins": 0,
+      "scope": "Descriptive unadjusted whole-version comparison across two candidates. 250 board pairs and 25 process-reset chunks, 2000 resamples each. Timing/F process RNG and shared-host effects remain. No component causality or private-event guarantee."
+    },
+    "new_metadata": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500/metadata.json",
+    "parent_metadata": "team-work/member-1/implementation/round-2/main/B01-v001-parent-vs-F-500/metadata.json",
+    "manifest": {
+      "bot": "B01",
+      "source_inputs": {
+        "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+        "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+        "spatial_context.py": "9ab4361ee1ec10f39a0cd2fc3fd829722f2a78263eee1777c815a08fcc3e11f0",
+        "goal_math.py": "46a3e1e47cc8000fabff463f00b6595cff1bbd7f9484993641e92869dd80b89e",
+        "terminal_math.py": "3c1abecb66c34588049132ca68a15cb2df7134d1c14642483b0261e02711906f",
+        "economy_policies.py": "7d018862f0b8e0b521f9e024ae786af5c54e853a18db656c335e833c5b2e6ebe"
+      },
+      "agent_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+      "executable_ast_preserved": true,
+      "strategy": "bottleneck economy",
+      "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+      "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+      "version": "v002",
+      "parent_version": "v001",
+      "parent_sha256": "e3c951ab2a9a1ca7b8e63fa04b955caade84133c7da206a7a1561bd705986a57",
+      "changes": [
+        "M1-C01 deterministic one-trade building terminal certificate",
+        "M1-C02 immediate public terminal before low-clock fallback"
+      ]
+    }
+  },
+  "B02": {
+    "new_version": "v002",
+    "parent_version": "v001",
+    "new": {
+      "a": {
+        "games": 500,
+        "wins": 357,
+        "win_rate": 0.714,
+        "ci95": 0.039609849441773946,
+        "no_winner": 0,
+        "mean_cpu_s": 0.19361999999999985,
+        "worst_cpu_s": 0.45,
+        "decisions": 26680,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 143,
+        "win_rate": 0.286,
+        "ci95": 0.039609849441773946,
+        "no_winner": 0,
+        "mean_cpu_s": 0.11161999999999994,
+        "worst_cpu_s": 0.26,
+        "decisions": 23606,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.672,
+          0.754
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6281061183306524,
+          0.7998938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.34,
+      "wall_elapsed_s": 196.03222502599965,
+      "loads": [
+        {
+          "a_init_s": 0.00021478100097738206,
+          "b_init_s": 0.000220848000026308
+        },
+        {
+          "a_init_s": 0.00021032599761383608,
+          "b_init_s": 0.00021219400150584988
+        },
+        {
+          "a_init_s": 0.0002209839985880535,
+          "b_init_s": 0.00019898100072168745
+        },
+        {
+          "a_init_s": 0.0002327250003872905,
+          "b_init_s": 0.00018891299987444654
+        },
+        {
+          "a_init_s": 0.00020622100055334158,
+          "b_init_s": 0.00019421500110183842
+        },
+        {
+          "a_init_s": 0.00020161899738013744,
+          "b_init_s": 0.00019637799778138287
+        },
+        {
+          "a_init_s": 0.0002305489979335107,
+          "b_init_s": 0.00022251599875744432
+        },
+        {
+          "a_init_s": 0.00022683400311507285,
+          "b_init_s": 0.0002024570021603722
+        },
+        {
+          "a_init_s": 0.00020610300271073356,
+          "b_init_s": 0.00020302899793023244
+        },
+        {
+          "a_init_s": 0.0002223149967903737,
+          "b_init_s": 0.0002134749993274454
+        },
+        {
+          "a_init_s": 0.0002271129997097887,
+          "b_init_s": 0.00020050899911439046
+        },
+        {
+          "a_init_s": 0.00022849800006952137,
+          "b_init_s": 0.00020481200044741854
+        },
+        {
+          "a_init_s": 0.00023641300140297972,
+          "b_init_s": 0.00019318799968459643
+        },
+        {
+          "a_init_s": 0.00021289600044838153,
+          "b_init_s": 0.00022108800112619065
+        },
+        {
+          "a_init_s": 0.0002145510006812401,
+          "b_init_s": 0.00020423900059540756
+        },
+        {
+          "a_init_s": 0.0002381289996264968,
+          "b_init_s": 0.00020693300029961392
+        },
+        {
+          "a_init_s": 0.00023563099966850132,
+          "b_init_s": 0.0002002080000238493
+        },
+        {
+          "a_init_s": 0.00022973599698161706,
+          "b_init_s": 0.0001857089991972316
+        },
+        {
+          "a_init_s": 0.00026402200091979466,
+          "b_init_s": 0.00019867700029863045
+        },
+        {
+          "a_init_s": 0.00021521300004678778,
+          "b_init_s": 0.0002124900020135101
+        },
+        {
+          "a_init_s": 0.00022129500212031417,
+          "b_init_s": 0.0001863209981820546
+        },
+        {
+          "a_init_s": 0.00021549600205617025,
+          "b_init_s": 0.0001882679971458856
+        },
+        {
+          "a_init_s": 0.00020997200044803321,
+          "b_init_s": 0.00020963399947504513
+        },
+        {
+          "a_init_s": 0.00023940399842103943,
+          "b_init_s": 0.00020582700017257594
+        },
+        {
+          "a_init_s": 0.00021206399833317846,
+          "b_init_s": 0.00023349399998551235
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 185
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 172
+      }
+    },
+    "parent": {
+      "a": {
+        "games": 500,
+        "wins": 357,
+        "win_rate": 0.714,
+        "ci95": 0.039609849441773946,
+        "no_winner": 0,
+        "mean_cpu_s": 0.19491999999999995,
+        "worst_cpu_s": 0.49,
+        "decisions": 26726,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 500,
+        "wins": 143,
+        "win_rate": 0.286,
+        "ci95": 0.039609849441773946,
+        "no_winner": 0,
+        "mean_cpu_s": 0.11456000000000004,
+        "worst_cpu_s": 0.28,
+        "decisions": 23654,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 250,
+        "pair_bootstrap_95_descriptive": [
+          0.67,
+          0.754
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6281061183306524,
+          0.7998938816693475
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.34,
+      "wall_elapsed_s": 199.697083457002,
+      "loads": [
+        {
+          "a_init_s": 0.00021987800209899433,
+          "b_init_s": 0.00020286499784560874
+        },
+        {
+          "a_init_s": 0.00024233400108641945,
+          "b_init_s": 0.0002027750015258789
+        },
+        {
+          "a_init_s": 0.00022834300034446642,
+          "b_init_s": 0.00021795799693791196
+        },
+        {
+          "a_init_s": 0.00021051799922133796,
+          "b_init_s": 0.00020923999909427948
+        },
+        {
+          "a_init_s": 0.00023315799990086816,
+          "b_init_s": 0.0002178430004278198
+        },
+        {
+          "a_init_s": 0.00023283400150830857,
+          "b_init_s": 0.0001983519978239201
+        },
+        {
+          "a_init_s": 0.000195644999621436,
+          "b_init_s": 0.00021285399998305365
+        },
+        {
+          "a_init_s": 0.00019390500165172853,
+          "b_init_s": 0.00021004500013077632
+        },
+        {
+          "a_init_s": 0.00021467699843924493,
+          "b_init_s": 0.0002025459980359301
+        },
+        {
+          "a_init_s": 0.00022391699894797057,
+          "b_init_s": 0.0001972739992197603
+        },
+        {
+          "a_init_s": 0.00022638399968855083,
+          "b_init_s": 0.00019298500046716072
+        },
+        {
+          "a_init_s": 0.00021141300021554343,
+          "b_init_s": 0.00019683900245581754
+        },
+        {
+          "a_init_s": 0.00020645599943236448,
+          "b_init_s": 0.00020679199951700866
+        },
+        {
+          "a_init_s": 0.0001915340035338886,
+          "b_init_s": 0.0001812390000850428
+        },
+        {
+          "a_init_s": 0.0002161189986509271,
+          "b_init_s": 0.0001903749980556313
+        },
+        {
+          "a_init_s": 0.00025375699988217093,
+          "b_init_s": 0.00021272000230965205
+        },
+        {
+          "a_init_s": 0.00022481600171886384,
+          "b_init_s": 0.00019103999875369482
+        },
+        {
+          "a_init_s": 0.00023038200015434995,
+          "b_init_s": 0.000223327999265166
+        },
+        {
+          "a_init_s": 0.00022256100055528805,
+          "b_init_s": 0.00019441599943093024
+        },
+        {
+          "a_init_s": 0.00020548300017253496,
+          "b_init_s": 0.00018555399947217666
+        },
+        {
+          "a_init_s": 0.00022315300157060847,
+          "b_init_s": 0.00019787899873335846
+        },
+        {
+          "a_init_s": 0.00024152600235538557,
+          "b_init_s": 0.00020338000103947707
+        },
+        {
+          "a_init_s": 0.00022396499844035134,
+          "b_init_s": 0.0001808399974834174
+        },
+        {
+          "a_init_s": 0.00019492600040393881,
+          "b_init_s": 0.00018658900080481544
+        },
+        {
+          "a_init_s": 0.00020463400142034516,
+          "b_init_s": 0.00019552899902919307
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 250,
+        "wins": 184
+      },
+      "seat_a_second": {
+        "games": 250,
+        "wins": 173
+      }
+    },
+    "paired": {
+      "degenerate_all_paired_differences_zero": false,
+      "bootstrap_limit": "A zero-width bootstrap when all observed differences are zero is not proof of equivalence or absence of rare effects.",
+      "win_difference": 0,
+      "difference_pp": 0.0,
+      "pair_bootstrap_95_difference_pp": [
+        -0.6,
+        0.6
+      ],
+      "process_chunk_bootstrap_95_difference_pp": [
+        -0.6,
+        0.6
+      ],
+      "new_only_wins": 1,
+      "parent_only_wins": 1,
+      "scope": "Descriptive unadjusted whole-version comparison across two candidates. 250 board pairs and 25 process-reset chunks, 2000 resamples each. Timing/F process RNG and shared-host effects remain. No component causality or private-event guarantee."
+    },
+    "new_metadata": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500/metadata.json",
+    "parent_metadata": "team-work/member-1/implementation/round-2/main/B02-v001-parent-vs-F-500/metadata.json",
+    "manifest": {
+      "bot": "B02",
+      "source_inputs": {
+        "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+        "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+        "spatial_context.py": "9ab4361ee1ec10f39a0cd2fc3fd829722f2a78263eee1777c815a08fcc3e11f0",
+        "goal_math.py": "46a3e1e47cc8000fabff463f00b6595cff1bbd7f9484993641e92869dd80b89e",
+        "terminal_math.py": "3c1abecb66c34588049132ca68a15cb2df7134d1c14642483b0261e02711906f",
+        "economy_policies.py": "7d018862f0b8e0b521f9e024ae786af5c54e853a18db656c335e833c5b2e6ebe"
+      },
+      "agent_sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b",
+      "executable_ast_preserved": true,
+      "strategy": "city/dev engine",
+      "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+      "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+      "version": "v002",
+      "parent_version": "v001",
+      "parent_sha256": "6e9a3324449a46119c3e94c60bc1ed7528644d8efffa1f457590d5036973020c",
+      "changes": [
+        "M1-C01 deterministic one-trade building terminal certificate",
+        "M1-C02 immediate public terminal before low-clock fallback"
+      ]
+    }
+  }
+}

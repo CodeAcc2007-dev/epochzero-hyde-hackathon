@@ -1,0 +1,49 @@
+{
+  "new_regression_methods": 15,
+  "new_methods_executed_per_artifact_form": {
+    "frozen": {
+      "test_methods_executed": 15,
+      "passed": true,
+      "output_sha256": "ef50f90bf992f87f60f248a505cbf8c094ab94c91640259811d65ac7e514aa53"
+    },
+    "zip-extracted": {
+      "test_methods_executed": 15,
+      "passed": true,
+      "output_sha256": "ef50f90bf992f87f60f248a505cbf8c094ab94c91640259811d65ac7e514aa53"
+    }
+  },
+  "adapted_existing_methods": 19,
+  "original_parent_methods_before_repairs": 19,
+  "conversion_oracle_cases": 18225,
+  "independent_trade_certificate_fixtures": 96,
+  "discard_sequences": 12,
+  "main_clocked_games_separate_from_semantic_fixtures": true,
+  "test_entrypoint_sha256": {
+    "test_round2.py": "d00aebfb9f4b2ce911f8a7aec666f711a76bdf5d0b4f1f366bbf4f0089700e34",
+    "test_terminal_guards.py": "f33a8b53fc219221e99c6d50a3fa329ed711282b61c8f5f0866bd63fbf9f249e",
+    "verify_contracts.py": "ee8f5afe6f58081a89ba628700f55e9ef26c1f6981f191aaa16e0afd4e608335",
+    "verify_semantics.py": "4af9fd745d74a538a52eee3800b687db422b5432f1c219062f018880c671373b"
+  },
+  "artifacts": {
+    "B01": {
+      "path": "team-work/member-1/bots/B01/v002/agent.py",
+      "sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4"
+    },
+    "B02": {
+      "path": "team-work/member-1/bots/B02/v002/agent.py",
+      "sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b"
+    }
+  },
+  "commands": [
+    [
+      "./team-work/run-python.sh",
+      "team-work/member-1/implementation/round-2/verify_semantics.py"
+    ],
+    [
+      "./team-work/run-python.sh",
+      "team-work/member-1/implementation/round-2/verify_contracts.py"
+    ]
+  ],
+  "original_review_probe_output_sha256": "41edc59171db11d6d3df042de95af788c15b31d5cb412fdb49a8f58571d13292",
+  "parent_tests_log_sha256": "387d6ab080cb1bf1feebae1d5f5d733ae00dbcbd02b6217d3c54649d034f7330"
+}

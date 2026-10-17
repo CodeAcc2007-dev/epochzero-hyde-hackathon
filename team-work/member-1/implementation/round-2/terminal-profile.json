@@ -1,0 +1,18 @@
+{
+  "B01": {
+    "calls": 200,
+    "source_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+    "median_cpu_s": 0.0001637129999999959,
+    "p95_cpu_s": 0.00017913099999999904,
+    "max_cpu_s": 0.0002204250000000102,
+    "scope": "Constructed low-clock settlement-win calls; excludes serialization and does not certify zero-credit/scorer timing"
+  },
+  "B02": {
+    "calls": 200,
+    "source_sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b",
+    "median_cpu_s": 0.00016932799999999637,
+    "p95_cpu_s": 0.00018401899999997973,
+    "max_cpu_s": 0.0002532769999999962,
+    "scope": "Constructed low-clock settlement-win calls; excludes serialization and does not certify zero-credit/scorer timing"
+  }
+}

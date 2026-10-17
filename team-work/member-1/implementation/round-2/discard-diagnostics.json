@@ -1,0 +1,446 @@
+[
+  {
+    "bot": "B01",
+    "out_of_turn": false,
+    "initial_hand": [
+      0,
+      0,
+      1,
+      2,
+      6
+    ],
+    "families": [
+      "city",
+      "city",
+      "city",
+      "city"
+    ],
+    "retained_hand": [
+      0,
+      0,
+      0,
+      2,
+      3
+    ],
+    "fixed_initial_goal_oracle": [
+      14.0,
+      [
+        0,
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    "chosen_score": 14.0,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B01",
+    "out_of_turn": false,
+    "initial_hand": [
+      5,
+      2,
+      1,
+      1,
+      0
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      2,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      2.9042904290429044,
+      [
+        3,
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chosen_score": 2.9042904290429044,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B01",
+    "out_of_turn": false,
+    "initial_hand": [
+      4,
+      4,
+      2,
+      2,
+      3
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      3,
+      3,
+      1,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      14.666666666666666,
+      [
+        3,
+        3,
+        1,
+        1,
+        0
+      ]
+    ],
+    "chosen_score": 14.666666666666666,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B01",
+    "out_of_turn": true,
+    "initial_hand": [
+      0,
+      0,
+      1,
+      2,
+      6
+    ],
+    "families": [
+      "city",
+      "city",
+      "city",
+      "city"
+    ],
+    "retained_hand": [
+      0,
+      0,
+      0,
+      2,
+      3
+    ],
+    "fixed_initial_goal_oracle": [
+      14.0,
+      [
+        0,
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    "chosen_score": 14.0,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B01",
+    "out_of_turn": true,
+    "initial_hand": [
+      5,
+      2,
+      1,
+      1,
+      0
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      2,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      2.9042904290429044,
+      [
+        3,
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chosen_score": 2.9042904290429044,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B01",
+    "out_of_turn": true,
+    "initial_hand": [
+      4,
+      4,
+      2,
+      2,
+      3
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      3,
+      3,
+      1,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      14.666666666666666,
+      [
+        3,
+        3,
+        1,
+        1,
+        0
+      ]
+    ],
+    "chosen_score": 14.666666666666666,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": false,
+    "initial_hand": [
+      0,
+      0,
+      1,
+      2,
+      6
+    ],
+    "families": [
+      "city",
+      "city",
+      "city",
+      "city"
+    ],
+    "retained_hand": [
+      0,
+      0,
+      0,
+      2,
+      3
+    ],
+    "fixed_initial_goal_oracle": [
+      14.0,
+      [
+        0,
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    "chosen_score": 14.0,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": false,
+    "initial_hand": [
+      5,
+      2,
+      1,
+      1,
+      0
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      2,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      2.9042904290429044,
+      [
+        3,
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chosen_score": 2.9042904290429044,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": false,
+    "initial_hand": [
+      4,
+      4,
+      2,
+      2,
+      3
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      3,
+      3,
+      1,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      14.666666666666666,
+      [
+        3,
+        3,
+        1,
+        1,
+        0
+      ]
+    ],
+    "chosen_score": 14.666666666666666,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": true,
+    "initial_hand": [
+      0,
+      0,
+      1,
+      2,
+      6
+    ],
+    "families": [
+      "city",
+      "city",
+      "city",
+      "city"
+    ],
+    "retained_hand": [
+      0,
+      0,
+      0,
+      2,
+      3
+    ],
+    "fixed_initial_goal_oracle": [
+      14.0,
+      [
+        0,
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    "chosen_score": 14.0,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": true,
+    "initial_hand": [
+      5,
+      2,
+      1,
+      1,
+      0
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      2,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      2.9042904290429044,
+      [
+        3,
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chosen_score": 2.9042904290429044,
+    "score_regret": 0.0
+  },
+  {
+    "bot": "B02",
+    "out_of_turn": true,
+    "initial_hand": [
+      4,
+      4,
+      2,
+      2,
+      3
+    ],
+    "families": [
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand",
+      "expand"
+    ],
+    "retained_hand": [
+      3,
+      3,
+      1,
+      1,
+      0
+    ],
+    "fixed_initial_goal_oracle": [
+      14.666666666666666,
+      [
+        3,
+        3,
+        1,
+        1,
+        0
+      ]
+    ],
+    "chosen_score": 14.666666666666666,
+    "score_regret": 0.0
+  }
+]

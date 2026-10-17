@@ -1,0 +1,30 @@
+{
+  "new_regression_methods": 18,
+  "adapted_existing_methods": 36,
+  "adaptation": "Existing Member3 PolicyTests use new Policy/Context; parent-file identity excluded. Member4 Engine/RouteMath cases use new standalone classes; zero-theft Monopoly expected count updated from 5 to 2, standalone loading targets new files. Road-to-settlement fixture accepts an earlier Road-bonus win and still asserts the exact engine winner.",
+  "artifacts": {
+    "B05": {
+      "path": "team-work/member-3/bots/B05/v004/agent.py",
+      "sha256": "8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf"
+    },
+    "B06": {
+      "path": "team-work/member-3/bots/B06/v004/agent.py",
+      "sha256": "6de00e4acd7bc79c304e306fbb8111b2514b510265eef22627d9a3150ba446fa"
+    },
+    "B07": {
+      "path": "team-work/member-4/bots/B07/v002/agent.py",
+      "sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919"
+    },
+    "B08": {
+      "path": "team-work/member-4/bots/B08/v002/agent.py",
+      "sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc"
+    }
+  },
+  "status": "passed",
+  "new_regression_log_sha256": "89a17b8f2dd9f08ef827b7e2746d9555916886dd3b4c22c974873a43e5b064c2",
+  "adapted_contract_log_sha256": "ebb142de193dc733a8fd171c603bdcefc0b5fefcc226b0cf2d9743547fe612f5",
+  "commands": [
+    "./team-work/run-python.sh team-work/member-3/implementation/round-2/test_round2.py",
+    "./team-work/run-python.sh team-work/member-3/implementation/round-2/verify_contracts.py"
+  ]
+}

@@ -1,0 +1,5 @@
+# Mechanical evidence formatting and primary review
+
+Hyde job20261017T104347Z-8e9561f9, GLM-5.3 Flash, normal exit0 after9.185s with no reported tool errors. It formatted one explicitly supplied sanitized JSON summary into a prior-evidence table. Output SHA-256 `e937f3f9eec9986d00216e09fb97580cb918986ed06f3bc71d5d79d39bf8dd1d`. Primary checked every bot/version, win count, percentage, board range, CPU figure and source kind against the audited JSON. This is a table of **prior** evidence on different groups, not the final common-board ranking. [Accepted table](PRIOR-EVIDENCE-TABLE.md). Raw provider logs remain local. No generated bot/test code or model ranking recommendation was accepted. Primary independently validates final records and computes all ranking/pair statistics.
+
+Primary corrected two prose issues before accepting the appendix: there are four unique seed0 groups, not three; the uploaded Member2 record audit was performed here against immutable Git objects, not an unspecified upstream audit. Accepted table SHA-256 `754afb062f7bbe781cf03579d2f44e39dbe6660fc279a10cfc1b9900240ae669`. All row values remain unchanged.

@@ -1,0 +1,28 @@
+{
+  "B01": {
+    "agent_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+    "imports": [
+      "catanatron.models.board",
+      "catanatron.models.enums",
+      "math",
+      "random",
+      "time"
+    ],
+    "no_try_fallback": true,
+    "four_unchanged_components": true,
+    "manifest_inputs_match": true
+  },
+  "B02": {
+    "agent_sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b",
+    "imports": [
+      "catanatron.models.board",
+      "catanatron.models.enums",
+      "math",
+      "random",
+      "time"
+    ],
+    "no_try_fallback": true,
+    "four_unchanged_components": true,
+    "manifest_inputs_match": true
+  }
+}

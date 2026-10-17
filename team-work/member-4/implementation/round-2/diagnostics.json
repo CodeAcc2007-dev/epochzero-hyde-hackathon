@@ -1,0 +1,2295 @@
+{
+  "B07": {
+    "scope": "100-action partial legal game history against F, fixed seed, resource/dev outcomes are engine results; not original clock/private dice or strength evidence",
+    "seed": 933602,
+    "actions": 100,
+    "completed_game": false,
+    "winner": "None",
+    "source_sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919",
+    "decisions": [
+      {
+        "step": 0,
+        "prompt": "ActionPrompt.BUILD_INITIAL_SETTLEMENT",
+        "legal_roots": 54,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=21)",
+        "cpu_s": 0.00019868000000000663,
+        "copies": 1,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 0,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 1,
+        "prompt": "ActionPrompt.BUILD_INITIAL_ROAD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(16, 21))",
+        "cpu_s": 0.0004531969999999885,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 6,
+        "prompt": "ActionPrompt.BUILD_INITIAL_SETTLEMENT",
+        "legal_roots": 43,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8)",
+        "cpu_s": 0.00020112999999999381,
+        "copies": 1,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 0,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 7,
+        "prompt": "ActionPrompt.BUILD_INITIAL_ROAD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 27))",
+        "cpu_s": 0.0005423660000000163,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 18,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 10,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(5, 16))",
+        "cpu_s": 0.0014433699999999994,
+        "copies": 10,
+        "simulated_actions": 9,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 10,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 19,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.00025397700000001633,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 23,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value=None)",
+        "cpu_s": 0.0002674029999999994,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 28,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.PLAY_KNIGHT_CARD, value=None)",
+        "cpu_s": 0.0021470120000000037,
+        "copies": 20,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 29,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 1, 0), C.BLUE))",
+        "cpu_s": 0.0021070400000000045,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 35,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 5,
+        "chosen": "Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('WOOD', 'WOOD', 'WOOD', 'WOOD', 'ORE'))",
+        "cpu_s": 0.0005119949999999873,
+        "copies": 6,
+        "simulated_actions": 5,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 5,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 40,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 4,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_CITY, value=21)",
+        "cpu_s": 0.0005171909999999724,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 4,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 45,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 10,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(4, 5))",
+        "cpu_s": 0.002076884000000001,
+        "copies": 11,
+        "simulated_actions": 10,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 10,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 46,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 11,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0017839209999999661,
+        "copies": 12,
+        "simulated_actions": 11,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 11,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 51,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 12,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=5)",
+        "cpu_s": 0.0020495660000000027,
+        "copies": 13,
+        "simulated_actions": 12,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 12,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 56,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 11,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 4))",
+        "cpu_s": 0.002240672999999971,
+        "copies": 12,
+        "simulated_actions": 11,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 11,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 57,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 12,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(2, 3))",
+        "cpu_s": 0.0022453779999999646,
+        "copies": 13,
+        "simulated_actions": 12,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 12,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 64,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE))",
+        "cpu_s": 0.0022935669999999964,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 86,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 13,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0025255670000000063,
+        "copies": 14,
+        "simulated_actions": 13,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 13,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 91,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE))",
+        "cpu_s": 0.0027462710000000223,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 92,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 15,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=2)",
+        "cpu_s": 0.003184778999999971,
+        "copies": 16,
+        "simulated_actions": 15,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 15,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      },
+      {
+        "step": 98,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 13,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 12))",
+        "cpu_s": 0.00245146199999996,
+        "copies": 14,
+        "simulated_actions": 13,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 13,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        }
+      }
+    ],
+    "history": [
+      {
+        "step": 0,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=21)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=21), result=None)"
+      },
+      {
+        "step": 1,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(16, 21))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(16, 21)), result=None)"
+      },
+      {
+        "step": 2,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=18)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=18), result=None)"
+      },
+      {
+        "step": 3,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(17, 18))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(17, 18)), result=None)"
+      },
+      {
+        "step": 4,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=22)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=22), result=None)"
+      },
+      {
+        "step": 5,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(22, 23))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(22, 23)), result=None)"
+      },
+      {
+        "step": 6,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8), result=None)"
+      },
+      {
+        "step": 7,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 27))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 27)), result=None)"
+      },
+      {
+        "step": 8,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 2)), result=(2, 2))"
+      },
+      {
+        "step": 9,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 10,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 2)), result=(4, 2))"
+      },
+      {
+        "step": 11,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(15, 17))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(15, 17)), result=None)"
+      },
+      {
+        "step": 12,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 13,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 5)), result=(3, 5))"
+      },
+      {
+        "step": 14,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 15,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 5)), result=(5, 5))"
+      },
+      {
+        "step": 16,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 17,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 2)), result=(3, 2))"
+      },
+      {
+        "step": 18,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(5, 16))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(5, 16)), result=None)"
+      },
+      {
+        "step": 19,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 20,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(3, 1)), result=(3, 1))"
+      },
+      {
+        "step": 21,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 22,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 6)), result=(2, 6))"
+      },
+      {
+        "step": 23,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value='KNIGHT'), result='KNIGHT')"
+      },
+      {
+        "step": 24,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 25,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(3, 3)), result=(3, 3))"
+      },
+      {
+        "step": 26,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=15)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=15), result=None)"
+      },
+      {
+        "step": 27,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 28,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.PLAY_KNIGHT_CARD, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.PLAY_KNIGHT_CARD, value=None), result=None)"
+      },
+      {
+        "step": 29,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 1, 0), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 1, 0), C.BLUE)), result='WHEAT')"
+      },
+      {
+        "step": 30,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(5, 4)), result=(5, 4))"
+      },
+      {
+        "step": 31,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 32,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(6, 3)), result=(6, 3))"
+      },
+      {
+        "step": 33,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 34,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 1)), result=(3, 1))"
+      },
+      {
+        "step": 35,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('WOOD', 'WOOD', 'WOOD', 'WOOD', 'ORE'))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('WOOD', 'WOOD', 'WOOD', 'WOOD', 'ORE')), result=None)"
+      },
+      {
+        "step": 36,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 37,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(6, 4)), result=(6, 4))"
+      },
+      {
+        "step": 38,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 39,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 1)), result=(2, 1))"
+      },
+      {
+        "step": 40,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_CITY, value=21)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_CITY, value=21), result=None)"
+      },
+      {
+        "step": 41,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 42,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 1)), result=(4, 1))"
+      },
+      {
+        "step": 43,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 44,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(6, 3)), result=(6, 3))"
+      },
+      {
+        "step": 45,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(4, 5))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(4, 5)), result=None)"
+      },
+      {
+        "step": 46,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 47,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 3)), result=(5, 3))"
+      },
+      {
+        "step": 48,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_CITY, value=22)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_CITY, value=22), result=None)"
+      },
+      {
+        "step": 49,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 50,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(4, 5)), result=(4, 5))"
+      },
+      {
+        "step": 51,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=5)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=5), result=None)"
+      },
+      {
+        "step": 52,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 53,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(1, 2)), result=(1, 2))"
+      },
+      {
+        "step": 54,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 55,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(4, 1)), result=(4, 1))"
+      },
+      {
+        "step": 56,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 4))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 4)), result=None)"
+      },
+      {
+        "step": 57,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(2, 3))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(2, 3)), result=None)"
+      },
+      {
+        "step": 58,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 59,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(1, 2)), result=(1, 2))"
+      },
+      {
+        "step": 60,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('WHEAT', 'WHEAT', 'WHEAT', 'WHEAT', 'BRICK'))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('WHEAT', 'WHEAT', 'WHEAT', 'WHEAT', 'BRICK')), result=None)"
+      },
+      {
+        "step": 61,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(6, 23))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(6, 23)), result=None)"
+      },
+      {
+        "step": 62,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 63,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 5)), result=(2, 5))"
+      },
+      {
+        "step": 64,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE)), result='WHEAT')"
+      },
+      {
+        "step": 65,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 66,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(3, 4)), result=(3, 4))"
+      },
+      {
+        "step": 67,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.RED)), result='WHEAT')"
+      },
+      {
+        "step": 68,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 69,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(1, 5)), result=(1, 5))"
+      },
+      {
+        "step": 70,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 71,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 3)), result=(5, 3))"
+      },
+      {
+        "step": 72,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=6)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=6), result=None)"
+      },
+      {
+        "step": 73,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(23, 52))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(23, 52)), result=None)"
+      },
+      {
+        "step": 74,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 75,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(1, 1)), result=(1, 1))"
+      },
+      {
+        "step": 76,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 77,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(1, 1)), result=(1, 1))"
+      },
+      {
+        "step": 78,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 79,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 1)), result=(2, 1))"
+      },
+      {
+        "step": 80,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 81,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(3, 3)), result=(3, 3))"
+      },
+      {
+        "step": 82,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=52)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=52), result=None)"
+      },
+      {
+        "step": 83,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(17, 39))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(17, 39)), result=None)"
+      },
+      {
+        "step": 84,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 85,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 2)), result=(3, 2))"
+      },
+      {
+        "step": 86,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 87,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(2, 5)), result=(2, 5))"
+      },
+      {
+        "step": 88,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 2, -2), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 2, -2), C.RED)), result='BRICK')"
+      },
+      {
+        "step": 89,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 90,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(4, 3)), result=(4, 3))"
+      },
+      {
+        "step": 91,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((2, 0, -2), C.BLUE)), result='SHEEP')"
+      },
+      {
+        "step": 92,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=2)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=2), result=None)"
+      },
+      {
+        "step": 93,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 94,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 3)), result=(4, 3))"
+      },
+      {
+        "step": 95,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.RED)), result='WHEAT')"
+      },
+      {
+        "step": 96,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 97,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(6, 3)), result=(6, 3))"
+      },
+      {
+        "step": 98,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 12))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(3, 12)), result=None)"
+      },
+      {
+        "step": 99,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      }
+    ],
+    "b07_control_calls": 0,
+    "b07_changes_from_root": {}
+  },
+  "B08": {
+    "scope": "100-action partial legal game history against F, fixed seed, resource/dev outcomes are engine results; not original clock/private dice or strength evidence",
+    "seed": 933603,
+    "actions": 100,
+    "completed_game": false,
+    "winner": "None",
+    "source_sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc",
+    "decisions": [
+      {
+        "step": 0,
+        "prompt": "ActionPrompt.BUILD_INITIAL_SETTLEMENT",
+        "legal_roots": 54,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=15)",
+        "cpu_s": 0.0002176899999999926,
+        "copies": 1,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 0,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "estimate_calls": 0
+        }
+      },
+      {
+        "step": 1,
+        "prompt": "ActionPrompt.BUILD_INITIAL_ROAD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(15, 17))",
+        "cpu_s": 0.0012378370000000194,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 3,
+          "estimate_calls": 12
+        }
+      },
+      {
+        "step": 6,
+        "prompt": "ActionPrompt.BUILD_INITIAL_SETTLEMENT",
+        "legal_roots": 42,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=10)",
+        "cpu_s": 0.00022113300000004,
+        "copies": 1,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 0,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "estimate_calls": 0
+        }
+      },
+      {
+        "step": 7,
+        "prompt": "ActionPrompt.BUILD_INITIAL_ROAD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(9, 10))",
+        "cpu_s": 0.0014970979999999745,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 3,
+          "estimate_calls": 12
+        }
+      },
+      {
+        "step": 9,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.BLUE))",
+        "cpu_s": 0.006407372999999994,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 15,
+          "cache_misses": 13,
+          "estimate_calls": 52
+        }
+      },
+      {
+        "step": 10,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0008875899999999937,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 2,
+          "estimate_calls": 8
+        }
+      },
+      {
+        "step": 14,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0008703100000000408,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 2,
+          "estimate_calls": 8
+        }
+      },
+      {
+        "step": 18,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 6,
+        "chosen": "Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value=None)",
+        "cpu_s": 0.0022877510000000045,
+        "copies": 6,
+        "simulated_actions": 5,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 6,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 6,
+          "estimate_calls": 24
+        }
+      },
+      {
+        "step": 23,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 5,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.001954552000000054,
+        "copies": 6,
+        "simulated_actions": 5,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 5,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 5,
+          "estimate_calls": 20
+        }
+      },
+      {
+        "step": 27,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 5,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0019575310000000123,
+        "copies": 6,
+        "simulated_actions": 5,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 5,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 5,
+          "estimate_calls": 20
+        }
+      },
+      {
+        "step": 32,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 5,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.005312626999999959,
+        "copies": 14,
+        "simulated_actions": 13,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 13,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 3,
+          "cache_misses": 10,
+          "estimate_calls": 43
+        }
+      },
+      {
+        "step": 36,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 5,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.005426978000000027,
+        "copies": 14,
+        "simulated_actions": 13,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 13,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 3,
+          "cache_misses": 10,
+          "estimate_calls": 43
+        }
+      },
+      {
+        "step": 40,
+        "prompt": "ActionPrompt.DISCARD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP')",
+        "cpu_s": 0.0012105219999999917,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 3,
+          "estimate_calls": 12
+        }
+      },
+      {
+        "step": 41,
+        "prompt": "ActionPrompt.DISCARD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "cpu_s": 0.0012004679999999546,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 3,
+          "estimate_calls": 12
+        }
+      },
+      {
+        "step": 42,
+        "prompt": "ActionPrompt.DISCARD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "cpu_s": 0.0012006519999999687,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 3,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 0,
+          "cache_misses": 3,
+          "estimate_calls": 12
+        }
+      },
+      {
+        "step": 43,
+        "prompt": "ActionPrompt.DISCARD",
+        "legal_roots": 3,
+        "chosen": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP')",
+        "cpu_s": 0.012466209000000006,
+        "copies": 39,
+        "simulated_actions": 2,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 1,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 32,
+          "cache_misses": 30,
+          "estimate_calls": 120
+        }
+      },
+      {
+        "step": 44,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 2, -1), C.BLUE))",
+        "cpu_s": 0.007124972000000007,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 15,
+          "cache_misses": 15,
+          "estimate_calls": 60
+        }
+      },
+      {
+        "step": 45,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 9,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 9))",
+        "cpu_s": 0.0037938309999999698,
+        "copies": 10,
+        "simulated_actions": 9,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 9,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 3,
+          "cache_misses": 6,
+          "estimate_calls": 27
+        }
+      },
+      {
+        "step": 55,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0018917760000000117,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 2,
+          "estimate_calls": 10
+        }
+      },
+      {
+        "step": 60,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 4,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_CITY, value=15)",
+        "cpu_s": 0.0019770450000000106,
+        "copies": 4,
+        "simulated_actions": 3,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 4,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 4,
+          "estimate_calls": 20
+        }
+      },
+      {
+        "step": 67,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 6,
+        "chosen": "Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('ORE', 'ORE', 'ORE', 'ORE', 'BRICK'))",
+        "cpu_s": 0.010344630000000021,
+        "copies": 16,
+        "simulated_actions": 15,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 16,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 6,
+          "cache_misses": 12,
+          "estimate_calls": 61
+        }
+      },
+      {
+        "step": 68,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 11,
+        "chosen": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8)",
+        "cpu_s": 0.00831800399999999,
+        "copies": 12,
+        "simulated_actions": 11,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 11,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 4,
+          "cache_misses": 7,
+          "estimate_calls": 36
+        }
+      },
+      {
+        "step": 88,
+        "prompt": "ActionPrompt.MOVE_ROBBER",
+        "legal_roots": 18,
+        "chosen": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((1, 0, -1), C.BLUE))",
+        "cpu_s": 0.007603093000000005,
+        "copies": 19,
+        "simulated_actions": 0,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 18,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 24,
+          "cache_misses": 15,
+          "estimate_calls": 60
+        }
+      },
+      {
+        "step": 94,
+        "prompt": "ActionPrompt.PLAY_TURN",
+        "legal_roots": 2,
+        "chosen": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "cpu_s": 0.0009448180000000139,
+        "copies": 2,
+        "simulated_actions": 1,
+        "counters": {
+          "sampled_replies": 0,
+          "adaptive": 0,
+          "decisions": 1,
+          "nodes": 2,
+          "cutoffs": 0,
+          "sample_attempts": 0,
+          "valid_samples": 0,
+          "reply_nodes": 0,
+          "reply_comparisons": 0,
+          "reply_changes": 0
+        },
+        "route_cache": {
+          "cache_hits": 2,
+          "cache_misses": 2,
+          "estimate_calls": 8
+        }
+      }
+    ],
+    "history": [
+      {
+        "step": 0,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=15)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=15), result=None)"
+      },
+      {
+        "step": 1,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(15, 17))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(15, 17)), result=None)"
+      },
+      {
+        "step": 2,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=16)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=16), result=None)"
+      },
+      {
+        "step": 3,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(16, 21))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(16, 21)), result=None)"
+      },
+      {
+        "step": 4,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=20)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=20), result=None)"
+      },
+      {
+        "step": 5,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(20, 22))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(20, 22)), result=None)"
+      },
+      {
+        "step": 6,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=10)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=10), result=None)"
+      },
+      {
+        "step": 7,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(9, 10))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(9, 10)), result=None)"
+      },
+      {
+        "step": 8,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(6, 1)), result=(6, 1))"
+      },
+      {
+        "step": 9,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((0, 1, -1), C.BLUE)), result='SHEEP')"
+      },
+      {
+        "step": 10,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 11,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(2, 6)), result=(2, 6))"
+      },
+      {
+        "step": 12,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 13,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 6)), result=(3, 6))"
+      },
+      {
+        "step": 14,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 15,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(6, 2)), result=(6, 2))"
+      },
+      {
+        "step": 16,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 17,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(5, 5)), result=(5, 5))"
+      },
+      {
+        "step": 18,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUY_DEVELOPMENT_CARD, value='VICTORY_POINT'), result='VICTORY_POINT')"
+      },
+      {
+        "step": 19,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 20,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(2, 6)), result=(2, 6))"
+      },
+      {
+        "step": 21,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 22,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(5, 6)), result=(5, 6))"
+      },
+      {
+        "step": 23,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 24,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 5)), result=(5, 5))"
+      },
+      {
+        "step": 25,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 26,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(6, 4)), result=(6, 4))"
+      },
+      {
+        "step": 27,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 28,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 1)), result=(4, 1))"
+      },
+      {
+        "step": 29,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(22, 23))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(22, 23)), result=None)"
+      },
+      {
+        "step": 30,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 31,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(1, 2)), result=(1, 2))"
+      },
+      {
+        "step": 32,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 33,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 6)), result=(4, 6))"
+      },
+      {
+        "step": 34,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 35,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 6)), result=(3, 6))"
+      },
+      {
+        "step": 36,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 37,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 6)), result=(5, 6))"
+      },
+      {
+        "step": 38,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 39,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 5)), result=(2, 5))"
+      },
+      {
+        "step": 40,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP')",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP'), result='SHEEP')"
+      },
+      {
+        "step": 41,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 42,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 43,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP')",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.DISCARD_RESOURCE, value='SHEEP'), result='SHEEP')"
+      },
+      {
+        "step": 44,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 2, -1), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((-1, 2, -1), C.BLUE)), result='BRICK')"
+      },
+      {
+        "step": 45,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 9))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_ROAD, value=(8, 9)), result=None)"
+      },
+      {
+        "step": 46,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 47,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(2, 3)), result=(2, 3))"
+      },
+      {
+        "step": 48,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=23)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_SETTLEMENT, value=23), result=None)"
+      },
+      {
+        "step": 49,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 50,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 1)), result=(2, 1))"
+      },
+      {
+        "step": 51,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 52,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(3, 1)), result=(3, 1))"
+      },
+      {
+        "step": 53,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 54,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(1, 4)), result=(1, 4))"
+      },
+      {
+        "step": 55,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 56,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(1, 3)), result=(1, 3))"
+      },
+      {
+        "step": 57,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('ORE', 'ORE', 'ORE', 'ORE', 'WHEAT'))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('ORE', 'ORE', 'ORE', 'ORE', 'WHEAT')), result=None)"
+      },
+      {
+        "step": 58,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 59,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(1, 3)), result=(1, 3))"
+      },
+      {
+        "step": 60,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_CITY, value=15)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_CITY, value=15), result=None)"
+      },
+      {
+        "step": 61,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 62,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(6, 3)), result=(6, 3))"
+      },
+      {
+        "step": 63,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('SHEEP', 'SHEEP', 'SHEEP', 'SHEEP', 'BRICK'))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('SHEEP', 'SHEEP', 'SHEEP', 'SHEEP', 'BRICK')), result=None)"
+      },
+      {
+        "step": 64,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(6, 23))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(6, 23)), result=None)"
+      },
+      {
+        "step": 65,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 66,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(5, 4)), result=(5, 4))"
+      },
+      {
+        "step": 67,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('ORE', 'ORE', 'ORE', 'ORE', 'BRICK'))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MARITIME_TRADE, value=('ORE', 'ORE', 'ORE', 'ORE', 'BRICK')), result=None)"
+      },
+      {
+        "step": 68,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.BUILD_SETTLEMENT, value=8), result=None)"
+      },
+      {
+        "step": 69,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 70,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 2)), result=(5, 2))"
+      },
+      {
+        "step": 71,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((-1, 0, 1), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((-1, 0, 1), C.RED)), result='WOOD')"
+      },
+      {
+        "step": 72,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 73,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 1)), result=(3, 1))"
+      },
+      {
+        "step": 74,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 75,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(6, 6)), result=(6, 6))"
+      },
+      {
+        "step": 76,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 77,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(4, 1)), result=(4, 1))"
+      },
+      {
+        "step": 78,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 79,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(4, 5)), result=(4, 5))"
+      },
+      {
+        "step": 80,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('SHEEP', 'SHEEP', 'SHEEP', 'SHEEP', 'BRICK'))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MARITIME_TRADE, value=('SHEEP', 'SHEEP', 'SHEEP', 'SHEEP', 'BRICK')), result=None)"
+      },
+      {
+        "step": 81,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(1, 6))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.BUILD_ROAD, value=(1, 6)), result=None)"
+      },
+      {
+        "step": 82,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 83,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(3, 4)), result=(3, 4))"
+      },
+      {
+        "step": 84,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 85,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 86,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 87,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE')",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.DISCARD_RESOURCE, value='ORE'), result='ORE')"
+      },
+      {
+        "step": 88,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((1, 0, -1), C.BLUE))",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.MOVE_ROBBER, value=((1, 0, -1), C.BLUE)), result='WOOD')"
+      },
+      {
+        "step": 89,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 90,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(5, 2)), result=(5, 2))"
+      },
+      {
+        "step": 91,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((-1, 0, 1), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((-1, 0, 1), C.RED)), result='WOOD')"
+      },
+      {
+        "step": 92,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 93,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(2, 1)), result=(2, 1))"
+      },
+      {
+        "step": 94,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 95,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.ROLL, value=(1, 6)), result=(1, 6))"
+      },
+      {
+        "step": 96,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((1, -2, 1), C.RED))",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.MOVE_ROBBER, value=((1, -2, 1), C.RED)), result='SHEEP')"
+      },
+      {
+        "step": 97,
+        "color": "Color.BLUE",
+        "action": "Action(color=C.BLUE, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.BLUE, action_type=AT.END_TURN, value=None), result=None)"
+      },
+      {
+        "step": 98,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.ROLL, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.ROLL, value=(6, 2)), result=(6, 2))"
+      },
+      {
+        "step": 99,
+        "color": "Color.RED",
+        "action": "Action(color=C.RED, action_type=AT.END_TURN, value=None)",
+        "engine_record": "ActionRecord(action=Action(color=C.RED, action_type=AT.END_TURN, value=None), result=None)"
+      }
+    ],
+    "b07_control_calls": 0,
+    "b07_changes_from_root": {}
+  }
+}

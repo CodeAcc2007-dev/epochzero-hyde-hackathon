@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "artifacts": {
+    "B05": {
+      "version": "v004",
+      "runtime_hash_matches": true,
+      "components_match": true,
+      "ZIP_matches": true,
+      "runtime_import_and_IO_check": "passed"
+    },
+    "B06": {
+      "version": "v004",
+      "runtime_hash_matches": true,
+      "components_match": true,
+      "ZIP_matches": true,
+      "runtime_import_and_IO_check": "passed"
+    },
+    "B07": {
+      "version": "v002",
+      "runtime_hash_matches": true,
+      "components_match": true,
+      "ZIP_matches": true,
+      "runtime_import_and_IO_check": "passed"
+    },
+    "B08": {
+      "version": "v002",
+      "runtime_hash_matches": true,
+      "components_match": true,
+      "ZIP_matches": true,
+      "runtime_import_and_IO_check": "passed"
+    }
+  },
+  "original_local_parent_hashes_preserved": true,
+  "markdown_documents_checked": 18,
+  "broken_relative_links": [],
+  "main_games_validated": 4000,
+  "smoke_games": 24,
+  "new_regression_and_adapted_methods": 54,
+  "other_work": "Separately created Member1 round-2 artifacts appeared during this task; left untouched and excluded from this handoff. Quiet-host conditions are not claimed.",
+  "publication": "not performed; human verification pending"
+}

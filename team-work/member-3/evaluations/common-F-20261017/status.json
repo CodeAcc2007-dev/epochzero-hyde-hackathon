@@ -1,0 +1,185 @@
+{
+  "status": "stopped_by_user",
+  "started_utc": "2026-10-17T10:43:13.924833+00:00",
+  "completed": [
+    {
+      "bot": "B01",
+      "command": [
+        "./team-work/run-python.sh",
+        "team-work/member-3/implementation/run_comparison.py",
+        "--a",
+        "team-work/member-1/bots/B01/v002/agent.py",
+        "--b",
+        "shared-local/organizer-kit/examples/f_agent.py",
+        "--games",
+        "500",
+        "--seed0",
+        "934000",
+        "--chunk-size",
+        "20",
+        "--out",
+        "team-work/member-3/evaluations/common-F-20261017/results/B01-v002-vs-F-500"
+      ],
+      "summary": {
+        "a": {
+          "games": 500,
+          "wins": 390,
+          "win_rate": 0.78,
+          "ci95": 0.03631028945078791,
+          "no_winner": 0,
+          "mean_cpu_s": 0.21194000000000007,
+          "worst_cpu_s": 0.77,
+          "decisions": 24599,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "b": {
+          "games": 500,
+          "wins": 110,
+          "win_rate": 0.22,
+          "ci95": 0.03631028945078791,
+          "no_winner": 0,
+          "mean_cpu_s": 0.10635999999999993,
+          "worst_cpu_s": 0.3,
+          "decisions": 22701,
+          "games_over_budget": 0,
+          "random_moves": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "crashes": 0
+        },
+        "uncertainty": {
+          "board_pairs": 250,
+          "pair_bootstrap_95_descriptive": [
+            0.744,
+            0.812
+          ],
+          "hoeffding_95_independent_pairs": [
+            0.6941061183306525,
+            0.8658938816693476
+          ],
+          "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+        },
+        "cpu_p95_a_s": 0.4,
+        "wall_elapsed_s": 202.03580499099917,
+        "loads": [
+          {
+            "a_init_s": 0.00023011500161373988,
+            "b_init_s": 0.000209672001801664
+          },
+          {
+            "a_init_s": 0.00024050700085354038,
+            "b_init_s": 0.0002550810022512451
+          },
+          {
+            "a_init_s": 0.0001984369991987478,
+            "b_init_s": 0.00020640200091293082
+          },
+          {
+            "a_init_s": 0.00022151699886308052,
+            "b_init_s": 0.00022375799744622782
+          },
+          {
+            "a_init_s": 0.0002491230006853584,
+            "b_init_s": 0.00021175799702177756
+          },
+          {
+            "a_init_s": 0.00023047099966788664,
+            "b_init_s": 0.00020376300017233007
+          },
+          {
+            "a_init_s": 0.0002166459998989012,
+            "b_init_s": 0.00018347299919696525
+          },
+          {
+            "a_init_s": 0.0002397520001977682,
+            "b_init_s": 0.00020896400019410066
+          },
+          {
+            "a_init_s": 0.00021045100220362656,
+            "b_init_s": 0.00020578699695761316
+          },
+          {
+            "a_init_s": 0.00022576799892704003,
+            "b_init_s": 0.0001974339975276962
+          },
+          {
+            "a_init_s": 0.0002505410011508502,
+            "b_init_s": 0.0002131039982486982
+          },
+          {
+            "a_init_s": 0.00023344500004895963,
+            "b_init_s": 0.00019904399960068986
+          },
+          {
+            "a_init_s": 0.00019714900190592743,
+            "b_init_s": 0.00019897099991794676
+          },
+          {
+            "a_init_s": 0.00022471700140158646,
+            "b_init_s": 0.0001971040001080837
+          },
+          {
+            "a_init_s": 0.00022415700004785322,
+            "b_init_s": 0.0002203050025855191
+          },
+          {
+            "a_init_s": 0.00023840399808250368,
+            "b_init_s": 0.00019783400057349354
+          },
+          {
+            "a_init_s": 0.00023018599677016027,
+            "b_init_s": 0.00022187000286066905
+          },
+          {
+            "a_init_s": 0.00022790999719290994,
+            "b_init_s": 0.0002515740015951451
+          },
+          {
+            "a_init_s": 0.00022329400235321373,
+            "b_init_s": 0.0002060229999187868
+          },
+          {
+            "a_init_s": 0.0002408619984635152,
+            "b_init_s": 0.00020875300106126815
+          },
+          {
+            "a_init_s": 0.00021394199939095415,
+            "b_init_s": 0.00028591199952643365
+          },
+          {
+            "a_init_s": 0.0002206960016337689,
+            "b_init_s": 0.00018268500207341276
+          },
+          {
+            "a_init_s": 0.00021271600053296424,
+            "b_init_s": 0.0002062640014628414
+          },
+          {
+            "a_init_s": 0.00024199600011343136,
+            "b_init_s": 0.00020498599769780412
+          },
+          {
+            "a_init_s": 0.00020888299695798196,
+            "b_init_s": 0.0001851090019044932
+          }
+        ],
+        "source_unchanged": true,
+        "seat_a_first": {
+          "games": 250,
+          "wins": 188
+        },
+        "seat_a_second": {
+          "games": 250,
+          "wins": 202
+        }
+      }
+    }
+  ],
+  "active": "B02",
+  "stop_reason": "User explicitly requested no more tests due to time limits.",
+  "terminated_process_count": 5
+}

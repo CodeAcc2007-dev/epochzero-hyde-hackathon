@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-10-17T11:14:12.921093+00:00",
+  "independent_count_and_cpu_recalculation": "passed",
+  "source_original_and_snapshot_unchanged": true,
+  "B05_manifest_hash_unchanged": true,
+  "all_250_board_pairs_seat_swapped": true,
+  "all_500_outcomes_retained": true,
+  "reset_chunk_bootstrap_95_descriptive": [
+    0.514,
+    0.604
+  ],
+  "report_inference": "Uploaded agent favored in this direct local matchup. Broader superiority not established. Bootstrap is descriptive; conservative Hoeffding range includes 50%.",
+  "summary_sha256": "05cd9096e78a5387c8412c47f8af8c92552814aff15cd24a27c20dc23c6e9930",
+  "games_sha256": "ee7c3006ae9c29baeb6288cc9bacf99fb4069e0529747e40d4d7c4051789b491"
+}

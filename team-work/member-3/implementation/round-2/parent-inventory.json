@@ -1,0 +1,50 @@
+{
+  "B05": {
+    "bot": "B05",
+    "owner_member": 3,
+    "version": "v003",
+    "source_path": "team-work/member-3/bots/B05/v003",
+    "status": "local frozen artifact",
+    "files_sha256": {
+      "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+      "agent.py": "27813f37d9ff4d794115b19b193b3d03fb64673465555062bc9595702dafa03b",
+      "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    "manifest_hashes_match": true
+  },
+  "B06": {
+    "bot": "B06",
+    "owner_member": 3,
+    "version": "v003",
+    "source_path": "team-work/member-3/bots/B06/v003",
+    "status": "local frozen artifact",
+    "files_sha256": {
+      "member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+      "agent.py": "7369f4f0ef4eed12794075257d6a2f630c426428982a65a5ca871b43bd2ebb66",
+      "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+    },
+    "manifest_hashes_match": true
+  },
+  "B07": {
+    "bot": "B07",
+    "owner_member": 4,
+    "version": "v001",
+    "source_path": "team-work/member-4/bots/B07/v001",
+    "status": "local frozen artifact",
+    "files_sha256": {
+      "agent.py": "9e471d1b89a2357e20e168b222347ca4901dbebd1d6ab01359a47ce84961c588"
+    },
+    "manifest_hashes_match": true
+  },
+  "B08": {
+    "bot": "B08",
+    "owner_member": 4,
+    "version": "v001",
+    "source_path": "team-work/member-4/bots/B08/v001",
+    "status": "local frozen artifact",
+    "files_sha256": {
+      "agent.py": "7470a4040f4cef80b101ceae144be93d820f8ed317c0f6bb22886e2ba30cb8eb"
+    },
+    "manifest_hashes_match": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "B01-new-a": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B01-new-b": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B01-parent-a": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B01-parent-b": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B02-new-a": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B02-new-b": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B02-parent-a": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  },
+  "B02-parent-b": {
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "games_over_budget": 0,
+    "random_moves": 0
+  }
+}

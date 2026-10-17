@@ -1,0 +1,30 @@
+{
+  "B05": {
+    "scope": "Isolated constructed terminal-selector CPU; no serialization/harness clock certification",
+    "calls": 200,
+    "mean_us": 168.32260000000022,
+    "p95_us": 175.17899999999753,
+    "max_us": 187.17199999999934
+  },
+  "B06": {
+    "scope": "Isolated constructed terminal-selector CPU; no serialization/harness clock certification",
+    "calls": 200,
+    "mean_us": 166.27213000000168,
+    "p95_us": 172.62200000001116,
+    "max_us": 202.74500000000418
+  },
+  "B07": {
+    "scope": "Isolated constructed terminal-selector CPU; no serialization/harness clock certification",
+    "calls": 200,
+    "mean_us": 167.33696500000022,
+    "p95_us": 173.0510000000074,
+    "max_us": 187.18100000000848
+  },
+  "B08": {
+    "scope": "Isolated constructed terminal-selector CPU; no serialization/harness clock certification",
+    "calls": 200,
+    "mean_us": 166.11601000000073,
+    "p95_us": 172.2789999999974,
+    "max_us": 197.8539999999973
+  }
+}

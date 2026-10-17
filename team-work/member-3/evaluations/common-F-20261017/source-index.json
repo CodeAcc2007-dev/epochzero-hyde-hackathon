@@ -1,0 +1,62 @@
+{
+  "B01": {
+    "member": 1,
+    "version": "v002",
+    "entrypoint": "team-work/member-1/bots/B01/v002/agent.py",
+    "sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+    "prior_result": "team-work/member-1/implementation/round-2/main/B01-v002-new-vs-F-500",
+    "prior_seed0": 935000,
+    "prior_wins": 371,
+    "common_result": "team-work/member-3/evaluations/common-F-20261017/results/B01-v002-vs-F-500"
+  },
+  "B02": {
+    "member": 1,
+    "version": "v002",
+    "entrypoint": "team-work/member-1/bots/B02/v002/agent.py",
+    "sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b",
+    "prior_result": "team-work/member-1/implementation/round-2/main/B02-v002-new-vs-F-500",
+    "prior_seed0": 935000,
+    "prior_wins": 357,
+    "common_result": "team-work/member-3/evaluations/common-F-20261017/results/B02-v002-vs-F-500"
+  },
+  "B05": {
+    "member": 3,
+    "version": "v004",
+    "entrypoint": "team-work/member-3/bots/B05/v004/agent.py",
+    "sha256": "8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf",
+    "prior_result": "team-work/member-3/implementation/round-2/main/B05-v004-new-vs-F-500",
+    "prior_seed0": 934000,
+    "prior_wins": 375,
+    "common_result": "team-work/member-3/implementation/round-2/main/B05-v004-new-vs-F-500"
+  },
+  "B06": {
+    "member": 3,
+    "version": "v004",
+    "entrypoint": "team-work/member-3/bots/B06/v004/agent.py",
+    "sha256": "6de00e4acd7bc79c304e306fbb8111b2514b510265eef22627d9a3150ba446fa",
+    "prior_result": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500",
+    "prior_seed0": 934000,
+    "prior_wins": 356,
+    "common_result": "team-work/member-3/implementation/round-2/main/B06-v004-new-vs-F-500"
+  },
+  "B07": {
+    "member": 4,
+    "version": "v002",
+    "entrypoint": "team-work/member-4/bots/B07/v002/agent.py",
+    "sha256": "26cfee14e8c9af935c173142878050799358144d24f850f0565f2a20a7892919",
+    "prior_result": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500",
+    "prior_seed0": 934000,
+    "prior_wins": 369,
+    "common_result": "team-work/member-4/implementation/round-2/main/B07-v002-new-vs-F-500"
+  },
+  "B08": {
+    "member": 4,
+    "version": "v002",
+    "entrypoint": "team-work/member-4/bots/B08/v002/agent.py",
+    "sha256": "66a2910feaf3c1467d01ff2518bb083a3bb230ed0fc322b9c68c62b109f3eccc",
+    "prior_result": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500",
+    "prior_seed0": 934000,
+    "prior_wins": 359,
+    "common_result": "team-work/member-4/implementation/round-2/main/B08-v002-new-vs-F-500"
+  }
+}

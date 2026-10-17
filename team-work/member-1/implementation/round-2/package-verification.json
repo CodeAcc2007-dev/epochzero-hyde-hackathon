@@ -1,0 +1,26 @@
+{
+  "B01": {
+    "agent_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+    "zip_sha256": "dfecb9e46edaa61070646477fe0d44c1e78fd7a6302fa689fbca6ca0799e20c2",
+    "zip_members": [
+      "agent.py"
+    ],
+    "crc_ok": true,
+    "extracted_byte_equal": true,
+    "clean_standalone_import": true,
+    "development_frozen_equal": true,
+    "executable_ast_preserved": true
+  },
+  "B02": {
+    "agent_sha256": "d58b13e2be01b4d8ac69db0d805ec410da460079c73e50c9362d97ac0d34ca1b",
+    "zip_sha256": "af68599fffd691b353519ad41be058a2550865320a8ee6425c41b8d1cbda40eb",
+    "zip_members": [
+      "agent.py"
+    ],
+    "crc_ok": true,
+    "extracted_byte_equal": true,
+    "clean_standalone_import": true,
+    "development_frozen_equal": true,
+    "executable_ast_preserved": true
+  }
+}

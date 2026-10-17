@@ -81,3 +81,7 @@ Current penalties can favor robber/Monopoly denial when the bot should advance i
 ```
 
 The first command checks the old implementation suite; the second reproduces frozen defects. Add a separate new-version regression entrypoint and package-load tests. The old26 passing tests plus reproduced defects do not certify v004. Use the contract's500-game driver with explicit B05/B06 v004 paths, matched v003 parents, fresh seeds and new output directories. Package all three runtime modules (or independently verified standalone assembly); do not ship only the tiny `agent.py` wrapper. Do not overwrite v003 ZIPs/manifests. Human Pranesh review remains separate from assistant checks.
+
+## Subsequent local round 2 implementation
+
+The user authorized implementation of this prompt for Members 3 and 4. New B05/B06 v004 standalone candidates, manifests, ZIPs, regressions and matched 500-game results are complete locally. Read [the round 2 report](implementation/round-2/BUILD-AND-RESULTS.md) and [remaining ticket scope](implementation/round-2/VERIFICATION-AND-SCOPE.md) before follow-up work. Do not overwrite these freezes or rerun used boards as fresh evidence. Proposed broader experiments remain deferred. Human review and GitHub publication are pending.
