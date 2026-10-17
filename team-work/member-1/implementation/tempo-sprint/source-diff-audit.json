@@ -1,0 +1,10 @@
+{
+  "added_function": "production_readiness",
+  "changed_methods": [
+    "EconomyContext.priority"
+  ],
+  "all_other_function_and_class_asts_preserved": true,
+  "parent_sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+  "candidate_sha256": "63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5",
+  "note": "Inherited top-level docstring still says v004; v005 identity is its directory, exact digest and manifest. Source remains immutable throughout evaluation."
+}

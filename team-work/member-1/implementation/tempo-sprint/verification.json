@@ -1,0 +1,27 @@
+{
+  "agent_sha256": "63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5",
+  "zip_sha256": "701c25ffc1198616aedbb0e21bea23fbe81cd6039e0c355f66299efed8624d00",
+  "zip_exact": true,
+  "parent_preserved": true,
+  "F_unchanged": true,
+  "verification": {
+    "frozen": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5",
+      "extra_methods": 14,
+      "extra_passed": true
+    },
+    "zip": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5",
+      "extra_methods": 14,
+      "extra_passed": true
+    }
+  }
+}

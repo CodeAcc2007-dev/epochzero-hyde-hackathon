@@ -1,0 +1,56 @@
+{
+  "finished_utc": "2026-10-17T11:19:08.724151+00:00",
+  "candidate": {
+    "games": 500,
+    "wins": 383,
+    "win_rate": 0.766,
+    "ci95": 0.03711020750144089,
+    "no_winner": 0,
+    "mean_cpu_s": 0.26214000000000004,
+    "worst_cpu_s": 0.75,
+    "decisions": 24074,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "parent": {
+    "games": 500,
+    "wins": 381,
+    "win_rate": 0.762,
+    "ci95": 0.03732819871357309,
+    "no_winner": 0,
+    "mean_cpu_s": 0.23822000000000013,
+    "worst_cpu_s": 0.66,
+    "decisions": 24030,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "difference_pp": 0.4,
+  "paired_board_bootstrap_95_pp": [
+    -2.0,
+    2.8000000000000003
+  ],
+  "reset_chunk_bootstrap_95_pp": [
+    -2.0,
+    2.8000000000000003
+  ],
+  "candidate_only_wins": 23,
+  "parent_only_wins": 21,
+  "candidate_first_seat_wins": 193,
+  "candidate_second_seat_wins": 190,
+  "all_fault_counter_sum": 0,
+  "recommended_version": "v004",
+  "agent_sha256": "63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5",
+  "zip_sha256": "701c25ffc1198616aedbb0e21bea23fbe81cd6039e0c355f66299efed8624d00",
+  "seed0": 945000,
+  "games_per_bot": 500,
+  "records_sha256": {
+    "candidate-vs-F": "d4889eaaabdf6bd75b38363fa23638bae49b1afdfb7588eb7e6458ace39c22ba",
+    "parent-vs-F": "c60ed62e501a6f4fbac8035b6b862c16ee622a4056158be80bb7e4bcd6526a46"
+  }
+}
