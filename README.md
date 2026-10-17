@@ -1,6 +1,6 @@
 # Catan hackathon: shared research and strategy workspace
 
-Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Assistant research is documented for Aroosh, Pranesh and Anni; human review remains pending. Avadooth's research is excluded and untouched.** No competition bots or trained policies have been created yet.
+Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Assistant research is documented for Aroosh, Pranesh and Anni; human review remains pending. Avadooth's research is excluded and untouched.** Pranesh's B05/B06 are now implemented as standalone v003 candidates; see the [build/test record](team-work/member-3/implementation/BUILD-AND-RESULTS.md) for actual validation status.
 
 ## Start here
 
@@ -12,6 +12,8 @@ Team context for the Hyde two-player Catan hackathon. The repository was made **
 6. [OpenCode–Hyde setup and verification](06-OPENCODE-HYDE-SETUP.md) and [junior-engineer workflow](team-work/JUNIOR-ENGINEER-WORKFLOW.md). Pranesh is Member 3; routine work goes to GLM-5.3 Flash with primary-assistant review.
 
 7. [Eight strategies, two bots per member and the improvement cycle](07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md). Start here for the current build assignments.
+
+8. [GLM startup prompt](team-work/GLM-START-PROMPT.md): teammates supply the repository and their name to retrieve context and build only their assigned bots.
 
 The numbered reports preserve what was known/done at each stage. Earlier statements such as “setup deferred” describe that historical stage; the later setup report records its completion.
 

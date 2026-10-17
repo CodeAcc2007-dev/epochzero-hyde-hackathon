@@ -81,3 +81,7 @@ Subsequent research update: [Member 3's source/math findings](member-3/04-PHASE-
 ## Current build and iteration assignments
 
 See [eight-bot plan](../07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md), [synthesis](PHASE-1-REVIEW-AND-SYNTHESIS.md) and [verification/work log](PHASE-1-COMPLETION-AND-VERIFICATION.md). Aroosh: B01/B02; Avadooth: B03/B04; Pranesh: B05/B06; Anni: B07/B08. Each member folder has `07-TWO-BOT-BUILD-ASSIGNMENT.md`. Members implement, self-test and upload; assistant independent review/clashes and feedback follow a later requested upload review. Historical planning paragraphs above describe their original stage.
+
+## Member3 implementation and GLM handoff
+
+Pranesh explicitly requested assistant implementation of B05/B06. Active candidates: [B05 v003](member-3/bots/B05/v003/README.md), [B06 v003](member-3/bots/B06/v003/README.md), with [strategy and actual test record](member-3/implementation/BUILD-AND-RESULTS.md). Superseded prototypes are retained as development evidence. Other members can use the [GLM starter prompt](GLM-START-PROMPT.md) with their own name and this repository link; read current status before starting duplicate work. No environment is transferred or committed.

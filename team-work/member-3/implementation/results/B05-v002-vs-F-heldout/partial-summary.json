@@ -1,0 +1,35 @@
+{
+  "status": "deliberately_interrupted_preliminary_only",
+  "completed_records": 240,
+  "a": {
+    "games": 240,
+    "wins": 170,
+    "win_rate": 0.7083333333333334,
+    "ci95": 0.057505937696644596,
+    "no_winner": 0,
+    "mean_cpu_s": 0.1538749999999999,
+    "worst_cpu_s": 0.41,
+    "decisions": 11349,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "b": {
+    "games": 240,
+    "wins": 70,
+    "win_rate": 0.2916666666666667,
+    "ci95": 0.057505937696644596,
+    "no_winner": 0,
+    "mean_cpu_s": 0.10599999999999997,
+    "worst_cpu_s": 0.22,
+    "decisions": 10758,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "excludes": "Unfinished next20-game chunk; not pooled with final evaluation"
+}

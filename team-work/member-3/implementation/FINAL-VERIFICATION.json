@@ -1,0 +1,31 @@
+{
+  "date_ist": "2026-10-17",
+  "markdown_files": 60,
+  "valid_local_links": 385,
+  "broken_local_links": [],
+  "shareable_file_count_pre_verification_record": 143,
+  "known_credential_and_signature_scan": "passed, including decompressed ZIP contents",
+  "runtime_static_dependency_scan": "passed",
+  "frozen_runtime_and_result_hashes": "passed",
+  "other_members_preexisting_files_unchanged": true,
+  "organizer_checkout": "clean pinned source",
+  "main_F_games_per_bot": 1000,
+  "main_total_with_control_and_peer": 2600,
+  "package_smoke_games": 8,
+  "retained_preliminary_games": 264,
+  "retained_completed_harness_records_total": 2872,
+  "policy_test_methods": 22,
+  "helper_test_methods": 4,
+  "card_enumeration_subcases": 486,
+  "main_bot_faults": 0,
+  "main_exhausted_games": 0,
+  "main_fallback_moves": 0,
+  "publication": "authorized; remote commit/tree check is performed after push and recorded in ignored local publication metadata",
+  "limits": [
+    "No O/private/scorer-machine result",
+    "Constructed fixtures not full reachable histories",
+    "Explicit20-game process lifecycle",
+    "No peak-memory measurement",
+    "No event/SSH action"
+  ]
+}

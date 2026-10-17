@@ -57,3 +57,7 @@ The official event accepts at most **7 scored submissions and 10 total uploads**
 Chosen now: eight interpretable initial strategies, two per human, no external-corpus training dependency, independent assistant verification after uploads, explicit owner feedback/retest loop, shared stable environment. Deferred until real code/evidence: coefficients/search limits, exact fixtures, measured CPU/memory/throughput, final rankings, learned replacements and event upload selection. Full optimality or exhaustive coverage of Catan strategies is not claimed.
 
 See [synthesis](team-work/PHASE-1-REVIEW-AND-SYNTHESIS.md) and [task verification/provenance](team-work/PHASE-1-COMPLETION-AND-VERIFICATION.md). No new agent performance is reported.
+
+## Subsequent Member3 implementation
+
+Pranesh separately authorized the primary assistant to build B05/B06 with Hyde assistance and F testing. The [build/results record](team-work/member-3/implementation/BUILD-AND-RESULTS.md) is the current status for his bots; active v003 artifacts are linked there. This does not mark all eight bots built or all human reviews complete. [GLM starter prompt](team-work/GLM-START-PROMPT.md) supports other members retrieving the full context and building their own two candidates.

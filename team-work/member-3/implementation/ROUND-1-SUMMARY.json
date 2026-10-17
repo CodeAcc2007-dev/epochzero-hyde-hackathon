@@ -1,0 +1,837 @@
+{
+  "status": "completed",
+  "frozen_versions": {
+    "B05": "v003",
+    "B06": "v003"
+  },
+  "main_comparisons": {
+    "B05_vs_F": {
+      "a": {
+        "games": 1000,
+        "wins": 729,
+        "win_rate": 0.729,
+        "ci95": 0.02754891385154776,
+        "no_winner": 0,
+        "mean_cpu_s": 0.16021000000000002,
+        "worst_cpu_s": 0.53,
+        "decisions": 49290,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 1000,
+        "wins": 271,
+        "win_rate": 0.271,
+        "ci95": 0.02754891385154776,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10888999999999982,
+        "worst_cpu_s": 0.27,
+        "decisions": 46488,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 500,
+        "pair_bootstrap_95_descriptive": [
+          0.703,
+          0.757
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6682638538091694,
+          0.7897361461908305
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.3,
+      "wall_elapsed_s": 353.8695866679991,
+      "loads": [
+        {
+          "a_init_s": 0.0003760090003197547,
+          "b_init_s": 0.00019390799934626557
+        },
+        {
+          "a_init_s": 0.0002593549997982336,
+          "b_init_s": 0.00020191099974908866
+        },
+        {
+          "a_init_s": 0.00023165699894889258,
+          "b_init_s": 0.00019886299924110062
+        },
+        {
+          "a_init_s": 0.0002588679999462329,
+          "b_init_s": 0.00020126900017203297
+        },
+        {
+          "a_init_s": 0.00022110600002633873,
+          "b_init_s": 0.0001987450013984926
+        },
+        {
+          "a_init_s": 0.00023126499945647083,
+          "b_init_s": 0.00022446000002673827
+        },
+        {
+          "a_init_s": 0.00023886599956313148,
+          "b_init_s": 0.00019093099945166614
+        },
+        {
+          "a_init_s": 0.0002586580012575723,
+          "b_init_s": 0.00018660000023373868
+        },
+        {
+          "a_init_s": 0.00022557400006917305,
+          "b_init_s": 0.00019651100046758074
+        },
+        {
+          "a_init_s": 0.00024664600096002687,
+          "b_init_s": 0.00019283799883851316
+        },
+        {
+          "a_init_s": 0.0002547960011725081,
+          "b_init_s": 0.0001927009998325957
+        },
+        {
+          "a_init_s": 0.00023493600019719452,
+          "b_init_s": 0.0002086770000460092
+        },
+        {
+          "a_init_s": 0.00024322700119228102,
+          "b_init_s": 0.0002005280002776999
+        },
+        {
+          "a_init_s": 0.00025951399948098697,
+          "b_init_s": 0.0002336369998374721
+        },
+        {
+          "a_init_s": 0.00023211400002765004,
+          "b_init_s": 0.00019653500021377113
+        },
+        {
+          "a_init_s": 0.0002718499999900814,
+          "b_init_s": 0.0002073539999400964
+        },
+        {
+          "a_init_s": 0.0002522889990359545,
+          "b_init_s": 0.00020241300080670044
+        },
+        {
+          "a_init_s": 0.00025127899971266743,
+          "b_init_s": 0.00020980000044801272
+        },
+        {
+          "a_init_s": 0.0002477180005371338,
+          "b_init_s": 0.000198370000362047
+        },
+        {
+          "a_init_s": 0.0002269690012326464,
+          "b_init_s": 0.00022500100021716207
+        },
+        {
+          "a_init_s": 0.00023798599977453705,
+          "b_init_s": 0.0002031599997280864
+        },
+        {
+          "a_init_s": 0.0002475279998179758,
+          "b_init_s": 0.000201458000447019
+        },
+        {
+          "a_init_s": 0.00026906499988399446,
+          "b_init_s": 0.00023686399981670547
+        },
+        {
+          "a_init_s": 0.00023774900000717025,
+          "b_init_s": 0.00020232199858583044
+        },
+        {
+          "a_init_s": 0.0002599580002424773,
+          "b_init_s": 0.0002121640009136172
+        },
+        {
+          "a_init_s": 0.0002415670005575521,
+          "b_init_s": 0.00021179800023674034
+        },
+        {
+          "a_init_s": 0.0002576340011728462,
+          "b_init_s": 0.000213470999369747
+        },
+        {
+          "a_init_s": 0.00025395000011485536,
+          "b_init_s": 0.00020111399862798862
+        },
+        {
+          "a_init_s": 0.00022537400036526378,
+          "b_init_s": 0.00020900400159007404
+        },
+        {
+          "a_init_s": 0.00022665399956167676,
+          "b_init_s": 0.00018868400002247654
+        },
+        {
+          "a_init_s": 0.00023981400045158807,
+          "b_init_s": 0.00022539100064022932
+        },
+        {
+          "a_init_s": 0.0002384590006840881,
+          "b_init_s": 0.00020675700034189504
+        },
+        {
+          "a_init_s": 0.00026399700072943233,
+          "b_init_s": 0.0001976000003196532
+        },
+        {
+          "a_init_s": 0.00025586700030544307,
+          "b_init_s": 0.00022714000078849494
+        },
+        {
+          "a_init_s": 0.0005089160003990401,
+          "b_init_s": 0.00020522699924185872
+        },
+        {
+          "a_init_s": 0.0002216039993072627,
+          "b_init_s": 0.00020448000032047275
+        },
+        {
+          "a_init_s": 0.00023909299852675758,
+          "b_init_s": 0.000201611999727902
+        },
+        {
+          "a_init_s": 0.0002262640009575989,
+          "b_init_s": 0.00018550300046626944
+        },
+        {
+          "a_init_s": 0.0002471999996487284,
+          "b_init_s": 0.00019701300152519252
+        },
+        {
+          "a_init_s": 0.00022386399905371945,
+          "b_init_s": 0.0002141959994332865
+        },
+        {
+          "a_init_s": 0.00023647600028198212,
+          "b_init_s": 0.00020699299966508988
+        },
+        {
+          "a_init_s": 0.0002474020002409816,
+          "b_init_s": 0.0002190770010201959
+        },
+        {
+          "a_init_s": 0.00026105799952347297,
+          "b_init_s": 0.0001932619998115115
+        },
+        {
+          "a_init_s": 0.00024793000011413824,
+          "b_init_s": 0.0002236460004496621
+        },
+        {
+          "a_init_s": 0.0002701640005398076,
+          "b_init_s": 0.0002157299986720318
+        },
+        {
+          "a_init_s": 0.0002475279998179758,
+          "b_init_s": 0.00020919300004607067
+        },
+        {
+          "a_init_s": 0.00023036300081002992,
+          "b_init_s": 0.00018693800120672677
+        },
+        {
+          "a_init_s": 0.00025502600146865007,
+          "b_init_s": 0.00021281000044837128
+        },
+        {
+          "a_init_s": 0.00022846300089440774,
+          "b_init_s": 0.00019892499949492048
+        },
+        {
+          "a_init_s": 0.00025074900077015627,
+          "b_init_s": 0.0002154400008294033
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 500,
+        "wins": 363
+      },
+      "seat_a_second": {
+        "games": 500,
+        "wins": 366
+      }
+    },
+    "B06_vs_F": {
+      "a": {
+        "games": 1000,
+        "wins": 695,
+        "win_rate": 0.695,
+        "ci95": 0.02853634804946141,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10015999999999974,
+        "worst_cpu_s": 0.3,
+        "decisions": 54118,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 1000,
+        "wins": 305,
+        "win_rate": 0.305,
+        "ci95": 0.02853634804946141,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10784999999999974,
+        "worst_cpu_s": 0.27,
+        "decisions": 47591,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 500,
+        "pair_bootstrap_95_descriptive": [
+          0.669,
+          0.722
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.6342638538091694,
+          0.7557361461908305
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.17,
+      "wall_elapsed_s": 294.37395210400064,
+      "loads": [
+        {
+          "a_init_s": 0.0030806520007899962,
+          "b_init_s": 0.00020528000095509924
+        },
+        {
+          "a_init_s": 0.00025982799888879526,
+          "b_init_s": 0.0001919210008054506
+        },
+        {
+          "a_init_s": 0.0002247399988846155,
+          "b_init_s": 0.00020359200061648153
+        },
+        {
+          "a_init_s": 0.0002467120011715451,
+          "b_init_s": 0.0002047380003205035
+        },
+        {
+          "a_init_s": 0.0002618099988467293,
+          "b_init_s": 0.00020333700012997724
+        },
+        {
+          "a_init_s": 0.0002459299994370667,
+          "b_init_s": 0.0001804590010578977
+        },
+        {
+          "a_init_s": 0.00022609600091527682,
+          "b_init_s": 0.0001930150010593934
+        },
+        {
+          "a_init_s": 0.0002411620007478632,
+          "b_init_s": 0.00019165699995937757
+        },
+        {
+          "a_init_s": 0.00025056200138351414,
+          "b_init_s": 0.00022213800002646167
+        },
+        {
+          "a_init_s": 0.00024405200019828044,
+          "b_init_s": 0.00023117800083127804
+        },
+        {
+          "a_init_s": 0.0002654899999470217,
+          "b_init_s": 0.00021802099945489317
+        },
+        {
+          "a_init_s": 0.0002549279997765552,
+          "b_init_s": 0.00021394400027929805
+        },
+        {
+          "a_init_s": 0.00024630100051581394,
+          "b_init_s": 0.00020102300004509743
+        },
+        {
+          "a_init_s": 0.0002185789999202825,
+          "b_init_s": 0.00018872900000133086
+        },
+        {
+          "a_init_s": 0.0002244220013380982,
+          "b_init_s": 0.00019388900000194553
+        },
+        {
+          "a_init_s": 0.0002653069986990886,
+          "b_init_s": 0.0002090620000672061
+        },
+        {
+          "a_init_s": 0.0002372149992879713,
+          "b_init_s": 0.00018708800052991137
+        },
+        {
+          "a_init_s": 0.00024448600015603006,
+          "b_init_s": 0.00021781000032206066
+        },
+        {
+          "a_init_s": 0.00025126899890892673,
+          "b_init_s": 0.0002020739993895404
+        },
+        {
+          "a_init_s": 0.00026103100026375614,
+          "b_init_s": 0.00020752299860760104
+        },
+        {
+          "a_init_s": 0.0002497200002835598,
+          "b_init_s": 0.00020376500106067397
+        },
+        {
+          "a_init_s": 0.0002779970000119647,
+          "b_init_s": 0.00020081000002392102
+        },
+        {
+          "a_init_s": 0.00023061499996401835,
+          "b_init_s": 0.00020414299979165662
+        },
+        {
+          "a_init_s": 0.00024010599918256048,
+          "b_init_s": 0.00027283700001135003
+        },
+        {
+          "a_init_s": 0.00024349499835807364,
+          "b_init_s": 0.00018644199917616788
+        },
+        {
+          "a_init_s": 0.0002316350000910461,
+          "b_init_s": 0.00021211400053289253
+        },
+        {
+          "a_init_s": 0.00022898200040799566,
+          "b_init_s": 0.00021404099970823154
+        },
+        {
+          "a_init_s": 0.000264580001385184,
+          "b_init_s": 0.0002192049996665446
+        },
+        {
+          "a_init_s": 0.0002546299983805511,
+          "b_init_s": 0.0002083470008074073
+        },
+        {
+          "a_init_s": 0.00024811900038912427,
+          "b_init_s": 0.00020158599909336772
+        },
+        {
+          "a_init_s": 0.0002395309984422056,
+          "b_init_s": 0.00018739000006462447
+        },
+        {
+          "a_init_s": 0.00025097999969148077,
+          "b_init_s": 0.0001845399983722018
+        },
+        {
+          "a_init_s": 0.00022312399960355833,
+          "b_init_s": 0.00018233499940834008
+        },
+        {
+          "a_init_s": 0.0002232349997939309,
+          "b_init_s": 0.0001851759989222046
+        },
+        {
+          "a_init_s": 0.00022664000061922707,
+          "b_init_s": 0.00018150799951399677
+        },
+        {
+          "a_init_s": 0.00025162599922623485,
+          "b_init_s": 0.00018750900017039385
+        },
+        {
+          "a_init_s": 0.00022199399973032996,
+          "b_init_s": 0.00018574500063550659
+        },
+        {
+          "a_init_s": 0.00027211399901716504,
+          "b_init_s": 0.0001857170009316178
+        },
+        {
+          "a_init_s": 0.00024215200028265826,
+          "b_init_s": 0.00018386599913355894
+        },
+        {
+          "a_init_s": 0.00023365000015473925,
+          "b_init_s": 0.00017992700122704264
+        },
+        {
+          "a_init_s": 0.00022009900021657813,
+          "b_init_s": 0.00019151199921907391
+        },
+        {
+          "a_init_s": 0.0002562059999036137,
+          "b_init_s": 0.00023028899886412546
+        },
+        {
+          "a_init_s": 0.0002462979991832981,
+          "b_init_s": 0.00018120100139640272
+        },
+        {
+          "a_init_s": 0.0002203030016971752,
+          "b_init_s": 0.0002090600009978516
+        },
+        {
+          "a_init_s": 0.0002256440002383897,
+          "b_init_s": 0.00018977000036102254
+        },
+        {
+          "a_init_s": 0.0002213990010204725,
+          "b_init_s": 0.00019582400091167074
+        },
+        {
+          "a_init_s": 0.00021964400002616458,
+          "b_init_s": 0.00019271400014986284
+        },
+        {
+          "a_init_s": 0.00022198499937076122,
+          "b_init_s": 0.00020999499975005165
+        },
+        {
+          "a_init_s": 0.00023467600112780929,
+          "b_init_s": 0.00019030899966310244
+        },
+        {
+          "a_init_s": 0.00022721499954059254,
+          "b_init_s": 0.00019043899919779506
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 500,
+        "wins": 334
+      },
+      "seat_a_second": {
+        "games": 500,
+        "wins": 361
+      }
+    },
+    "control_vs_F": {
+      "a": {
+        "games": 400,
+        "wins": 273,
+        "win_rate": 0.6825,
+        "ci95": 0.04561936841956495,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10052500000000006,
+        "worst_cpu_s": 0.28,
+        "decisions": 22496,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 400,
+        "wins": 127,
+        "win_rate": 0.3175,
+        "ci95": 0.04561936841956495,
+        "no_winner": 0,
+        "mean_cpu_s": 0.10349999999999994,
+        "worst_cpu_s": 0.24,
+        "decisions": 19331,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 200,
+        "pair_bootstrap_95_descriptive": [
+          0.6375,
+          0.7225
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.5864677208680079,
+          0.7785322791319921
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.17,
+      "wall_elapsed_s": 116.57082276800065,
+      "loads": [
+        {
+          "a_init_s": 0.0029822799988323823,
+          "b_init_s": 0.0002046450008492684
+        },
+        {
+          "a_init_s": 0.0002237940007034922,
+          "b_init_s": 0.0001822439990064595
+        },
+        {
+          "a_init_s": 0.00022288500076683704,
+          "b_init_s": 0.00018160299987357575
+        },
+        {
+          "a_init_s": 0.00025987600020016544,
+          "b_init_s": 0.00018254500173497945
+        },
+        {
+          "a_init_s": 0.00023669700021855533,
+          "b_init_s": 0.00018713599820330273
+        },
+        {
+          "a_init_s": 0.0002318400001968257,
+          "b_init_s": 0.00019359900034032762
+        },
+        {
+          "a_init_s": 0.00022248999994189944,
+          "b_init_s": 0.00018148799972550478
+        },
+        {
+          "a_init_s": 0.00021893099983572029,
+          "b_init_s": 0.00019265199989604298
+        },
+        {
+          "a_init_s": 0.00023524000062025152,
+          "b_init_s": 0.0001856420003605308
+        },
+        {
+          "a_init_s": 0.00022460200125351548,
+          "b_init_s": 0.0001855649989010999
+        },
+        {
+          "a_init_s": 0.00022792400159232784,
+          "b_init_s": 0.00019255199913459364
+        },
+        {
+          "a_init_s": 0.00022628899932897184,
+          "b_init_s": 0.0001973470007214928
+        },
+        {
+          "a_init_s": 0.00021901900072407443,
+          "b_init_s": 0.00019157000133418478
+        },
+        {
+          "a_init_s": 0.0002201629995397525,
+          "b_init_s": 0.00019600899940996896
+        },
+        {
+          "a_init_s": 0.00021994800044922158,
+          "b_init_s": 0.00018440500025462825
+        },
+        {
+          "a_init_s": 0.00021737399947596714,
+          "b_init_s": 0.00017906800167111214
+        },
+        {
+          "a_init_s": 0.00021815699983562808,
+          "b_init_s": 0.0001824490009312285
+        },
+        {
+          "a_init_s": 0.0002164390007237671,
+          "b_init_s": 0.00019048899957851972
+        },
+        {
+          "a_init_s": 0.0002232489987363806,
+          "b_init_s": 0.00017949399989447556
+        },
+        {
+          "a_init_s": 0.0002273760001116898,
+          "b_init_s": 0.0001892769996629795
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 200,
+        "wins": 132
+      },
+      "seat_a_second": {
+        "games": 200,
+        "wins": 141
+      }
+    },
+    "B05_vs_B06": {
+      "a": {
+        "games": 200,
+        "wins": 103,
+        "win_rate": 0.515,
+        "ci95": 0.0692652741278052,
+        "no_winner": 0,
+        "mean_cpu_s": 0.12285000000000004,
+        "worst_cpu_s": 0.37,
+        "decisions": 8621,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "b": {
+        "games": 200,
+        "wins": 97,
+        "win_rate": 0.485,
+        "ci95": 0.0692652741278052,
+        "no_winner": 0,
+        "mean_cpu_s": 0.08074999999999996,
+        "worst_cpu_s": 0.24,
+        "decisions": 9225,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "uncertainty": {
+        "board_pairs": 100,
+        "pair_bootstrap_95_descriptive": [
+          0.46,
+          0.57
+        ],
+        "hoeffding_95_independent_pairs": [
+          0.37918984842593806,
+          0.650810151574062
+        ],
+        "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+      },
+      "cpu_p95_a_s": 0.23,
+      "wall_elapsed_s": 55.397755259000405,
+      "loads": [
+        {
+          "a_init_s": 0.0002295949998369906,
+          "b_init_s": 0.00024959000074886717
+        },
+        {
+          "a_init_s": 0.00022828100009064656,
+          "b_init_s": 0.0002453360011713812
+        },
+        {
+          "a_init_s": 0.00022657699992123526,
+          "b_init_s": 0.0002265820003231056
+        },
+        {
+          "a_init_s": 0.00022224099848244805,
+          "b_init_s": 0.000240446999669075
+        },
+        {
+          "a_init_s": 0.0002161109987355303,
+          "b_init_s": 0.00022032400011084974
+        },
+        {
+          "a_init_s": 0.00021657800061802845,
+          "b_init_s": 0.0002438889987388393
+        },
+        {
+          "a_init_s": 0.00022565099970961455,
+          "b_init_s": 0.00021650700000463985
+        },
+        {
+          "a_init_s": 0.00022586599880014546,
+          "b_init_s": 0.00023602600049343891
+        },
+        {
+          "a_init_s": 0.00022002500008966308,
+          "b_init_s": 0.0002416930001345463
+        },
+        {
+          "a_init_s": 0.00022555000032298267,
+          "b_init_s": 0.0002610199990158435
+        }
+      ],
+      "source_unchanged": true,
+      "seat_a_first": {
+        "games": 100,
+        "wins": 50
+      },
+      "seat_a_second": {
+        "games": 100,
+        "wins": 53
+      }
+    }
+  },
+  "matched_board_differences": {
+    "B05_minus_B06_vs_F": {
+      "games_each": 1000,
+      "board_pairs": 500,
+      "win_rate_difference": 0.034,
+      "paired_bootstrap_95_descriptive": [
+        0.009,
+        0.059
+      ],
+      "hoeffding_95_independent_pairs": [
+        -0.08747229238166103,
+        0.15547229238166105
+      ],
+      "caution": "Three exploratory comparisons; intervals unadjusted, no simultaneous superiority claim."
+    },
+    "B05_minus_control_first400": {
+      "games_each": 400,
+      "board_pairs": 200,
+      "win_rate_difference": 0.0625,
+      "paired_bootstrap_95_descriptive": [
+        0.025,
+        0.1025
+      ],
+      "hoeffding_95_independent_pairs": [
+        -0.12956455826398416,
+        0.25456455826398416
+      ],
+      "caution": "Three exploratory comparisons; intervals unadjusted, no simultaneous superiority claim."
+    },
+    "B06_minus_control_first400": {
+      "games_each": 400,
+      "board_pairs": 200,
+      "win_rate_difference": 0.0475,
+      "paired_bootstrap_95_descriptive": [
+        0.0175,
+        0.0775
+      ],
+      "hoeffding_95_independent_pairs": [
+        -0.14456455826398418,
+        0.23956455826398415
+      ],
+      "caution": "Three exploratory comparisons; intervals unadjusted, no simultaneous superiority claim."
+    }
+  },
+  "records_total_main": 2600,
+  "evidence_sha256": {
+    "results/B05-dev-v001/games.json": "ca5f61902f16c0b61fc6a391d7ce323dc99212bc3979c727bc467107f6bac77b",
+    "results/B05-dev-v001/metadata.json": "492f6946eb3ff98f956083b4c65e19be8d17292484e503b209fbcaa32721e202",
+    "results/B05-dev-v001/summary.json": "a6c86915063035d13006afa006ad7d1c981c1498021c8c72a14726e3640d2f2b",
+    "results/B05-package-smoke/games.json": "13f651d9e878387651ec01bac32b60d2ff4d5572cba38fd9f338dc55a8052033",
+    "results/B05-package-smoke/metadata.json": "939d8b833ce8a413216a9eb66581c6c87725fccd85abf40ff6c01c5343646ea6",
+    "results/B05-package-smoke/summary.json": "548c39dc2427f1027825f87750025915bded89a5fc4fb08bcd7feb289add7e8d",
+    "results/B05-v002-vs-F-heldout/games.json": "f82092c21feaf2b9616732fad35e93822a2f94d74c0a7c35dc791df3a2078867",
+    "results/B05-v002-vs-F-heldout/metadata.json": "e347c14abad67f28ccb64229c71a5940930c576cbd8bc8fa92dc3b55dead616d",
+    "results/B05-v002-vs-F-heldout/partial-summary.json": "6b84e6218ae0d183b6f38cd7caf3f196cce0d937ce9c41ab5b31f7cc1986767b",
+    "results/B05-v003-vs-F/games.json": "8c0fb0b4467d8ae1c2f62753e111c95e4badd600c0f204cc66e35c5fd22081a7",
+    "results/B05-v003-vs-F/metadata.json": "04d8009554b0fdea2b08ecc1b3935f2ea43fda83a46edbc66c72e9f367588414",
+    "results/B05-v003-vs-F/summary.json": "c07dedf78c38189fe267e270a6122619fa571732a7cd5ff26018775d4f693e5e",
+    "results/B05-vs-B06/games.json": "0591ef7ef63b1b023b25110978a8d934eabaa0511be154c8ebc1a3079ec4e347",
+    "results/B05-vs-B06/metadata.json": "0c4a640304772edcc133ffa4e704e78a258feb6e34dce236e3afb6e9ce7e635f",
+    "results/B05-vs-B06/summary.json": "07c4b91ae84f4c68fb12aadf80ade878c2694f2829c6ee020cfd29f9fdc82041",
+    "results/B06-dev-v001/games.json": "328d25cbf951fda50b4e16d68cbe5fe4965de2ca64864af14700be9ab1d3af2b",
+    "results/B06-dev-v001/metadata.json": "f0efd25f8d9ec63d91f38394b16f3fa2ab649b3193914a18756bb561f083f024",
+    "results/B06-dev-v001/summary.json": "b19b44d602f424d268a2a9af988097c1ef21df6d6287816809454f67472c02ea",
+    "results/B06-package-smoke/games.json": "bc2283c60ef2594d2ff1d49c1ef59a5046c173c8e4da8d3336b0f1e25014f11c",
+    "results/B06-package-smoke/metadata.json": "18e193959a54ad85a0ec07d6209061bced746c481650e1c5e28415f035c5c681",
+    "results/B06-package-smoke/summary.json": "ac5e6a52ddd0048164b6cea5499329a12097f43ff5a4b78c1c30d7ca4155fc3b",
+    "results/B06-v003-vs-F/games.json": "fe0dba825eed802ffe817247d93cfb61cd4be6e4637aa3d50069278454c3ce26",
+    "results/B06-v003-vs-F/metadata.json": "b2fcaca963cda550d9c6a487829933e083d3ecbb934d3b93206a26a3625730da",
+    "results/B06-v003-vs-F/summary.json": "59ca3987610a631361a7bc41d9b0f6bccf70755119cda71c1ecbd797996df070",
+    "results/greedy-control-vs-F/games.json": "adfab46a49ef39f1a08c794d953ecca7ff36cae5edf2eb2afddb3170511a7d7d",
+    "results/greedy-control-vs-F/metadata.json": "5ca71be4cc2bb08182a46edc847900c68e0b8a809251367dc3da230cd90689e8",
+    "results/greedy-control-vs-F/summary.json": "ba487278f07fd290a6bfda2d3cc7055065b7d988203818ccb106026ba43cd8fb"
+  },
+  "limits": [
+    "Local public-key boards only, no O/scorer result",
+    "20-game process chunks recorded",
+    "Pair intervals assume independent board groups",
+    "No main candidate code/weights tuned after final freeze"
+  ]
+}

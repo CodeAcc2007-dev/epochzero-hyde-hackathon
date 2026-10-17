@@ -34,3 +34,7 @@ Keep every consequential assumption, result, limitation and decision in Markdown
 ## Current research handoff
 
 Member 3 Phase 1 now has [review-ready findings](04-PHASE-1-FINDINGS.md): source audit, tactical cases, threat/VP analysis, three candidate hypotheses and independent arithmetic checks. Hyde handled bounded extraction/calculator drafting; the primary assistant verified and corrected outputs. No bots or game runs were performed. Pranesh subsequently authorized sharing the research draft on GitHub. User verification and Avadooth cross-review are pending.
+
+## Implemented candidates
+
+Pranesh subsequently authorized assistant implementation. Active [B05 v003](bots/B05/v003/README.md) and [B06 v003](bots/B06/v003/README.md) have completed local F testing. See [actual results](implementation/BUILD-AND-RESULTS.md), code/package hashes and improvement tickets. Earlier no-bot statements describe the research stage. This does not imply an event upload or human sign-off.

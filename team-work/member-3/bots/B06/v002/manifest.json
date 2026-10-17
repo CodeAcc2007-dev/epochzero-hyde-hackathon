@@ -1,0 +1,37 @@
+{
+  "bot_id": "B06",
+  "version": "v002",
+  "owner": "Pranesh (Member3)",
+  "implemented_by": "Primary assistant at Pranesh explicit request; reviewed Hyde pure helper",
+  "mode": "threat",
+  "parent": "v001 internal development prototype",
+  "files_sha256": {
+    "agent.py": "90af02115f12eb37fe3a4c5a75fb8890dadc54106caf623c6853ef7d84e346b4",
+    "member3_core.py": "5206400c975e8961d83fc905dfbd349337345ed9601d24f66b279f43f57ff607",
+    "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+  },
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "entrypoint": "agent.py",
+  "runtime_dependencies": [
+    "Python3.11 standard library",
+    "pinned catanatron and its pinned networkx dependency"
+  ],
+  "scope": "10VP,2players,no peer trading; no runtime LLM/network/processes; per-decision public-state evaluation",
+  "cpu_design": {
+    "decision_soft_cap_s": 0.016,
+    "remaining_allowance_fraction": 0.22,
+    "beam_depth": 1,
+    "beam_width": 0,
+    "nonroot_expansion_cap": 0
+  },
+  "evidence": "../../../implementation/BUILD-AND-RESULTS.md",
+  "evaluation_status": "Frozen for independent held-out local comparison; results linked separately",
+  "known_limits": [
+    "Constructed fixtures are not full legally reached histories",
+    "Road settlement-cut risk not reproduced as full trace",
+    "Hidden draw model is exchangeable plus necessary VP conditioning, not calibrated posterior",
+    "Soft CPU cutoffs may vary search breadth by machine",
+    "No O/private-board validation"
+  ]
+}

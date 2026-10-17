@@ -1,0 +1,32 @@
+{
+  "B05": {
+    "zip": "team-work/member-3/artifacts/B05-v003.zip",
+    "bytes": 8235,
+    "sha256": "47592f2aeb1210e560daa3ded101d94a6b569c9928ab62989e91c9f2487fab42",
+    "files": [
+      "agent.py",
+      "member3_core.py",
+      "race_math.py",
+      "manifest.json"
+    ],
+    "clean_extract": "shared-local/member3-package-checks/B05",
+    "content_hashes_match": true,
+    "clocked_load_smoke": "Passed four official-harness games from clean extraction; no faults/exhaustion; not strength evidence",
+    "smoke_results": "team-work/member-3/implementation/results/B05-package-smoke/summary.json"
+  },
+  "B06": {
+    "zip": "team-work/member-3/artifacts/B06-v003.zip",
+    "bytes": 8236,
+    "sha256": "e6728a702dc02b8be41310ec18d8c4267765f31c362ac5290a601514046b7608",
+    "files": [
+      "agent.py",
+      "member3_core.py",
+      "race_math.py",
+      "manifest.json"
+    ],
+    "clean_extract": "shared-local/member3-package-checks/B06",
+    "content_hashes_match": true,
+    "clocked_load_smoke": "Passed four official-harness games from clean extraction; no faults/exhaustion; not strength evidence",
+    "smoke_results": "team-work/member-3/implementation/results/B06-package-smoke/summary.json"
+  }
+}
