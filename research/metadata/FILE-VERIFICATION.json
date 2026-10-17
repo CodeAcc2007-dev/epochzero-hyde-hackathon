@@ -1,0 +1,63 @@
+{
+  "scope": "File integrity and schema identification only; no outcome statistics or modelling.",
+  "lumins": {
+    "archive_crc": "PASS",
+    "member": "catanstats.csv",
+    "csv_path": "research/downloads/datasets/catanstats.csv",
+    "bytes": 16689,
+    "sha256": "5d8d31fa9623391e659f275d12c8facacf202924624fd509a1c5c6abd939b6e0",
+    "data_rows": 200,
+    "column_count": 36,
+    "columns": [
+      "gameNum",
+      "player",
+      "points",
+      "me",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "settlement1",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "settlement2",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "production",
+      "tradeGain",
+      "robberCardsGain",
+      "totalGain",
+      "tradeLoss",
+      "robberCardsLoss",
+      "tribute",
+      "totalLoss",
+      "totalAvailable"
+    ],
+    "players": "Four, per publisher metadata; not inferred from outcome analysis."
+  },
+  "g8967": {
+    "path": "research/downloads/datasets/g8967-catan-sft.parquet",
+    "bytes": 7577830,
+    "parquet_magic": "PASS; footer and header only, not a full Parquet decode",
+    "sha256": "360030808dd8f490bf2f104061856db7dcbfafc4b1e4f4e4b0f553a3101c1e6e"
+  },
+  "vvantim": {
+    "path": "research/downloads/datasets/vvantim-catan-sft.parquet",
+    "bytes": 1485529,
+    "parquet_magic": "PASS; footer and header only, not a full Parquet decode",
+    "sha256": "e1c7035007de30b97c244d57223a98b2f980834d0a22b6dbf8122156b7f44c92"
+  }
+}

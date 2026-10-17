@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/lumins/settlers-of-catan-games",
+    "path": "research/metadata/kaggle-lumins.json",
+    "bytes": 10115,
+    "sha256": "b0d1b9e999acbdc3a45217ab11ba360ccf33937a4f734dc9df9ada3c78d54055",
+    "content_type": "application/json",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/lumins/settlers-of-catan-games",
+    "path": "research/downloads/datasets/lumins-catan-games.zip",
+    "bytes": 5453,
+    "sha256": "c7a85f6c4f8bc01586f9ea84de7988855180e75d10399b560d7be78e2cd8a428",
+    "content_type": "application/zip",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://huggingface.co/api/datasets/g8967/catan-sft-dataset",
+    "path": "research/metadata/hf-g8967.json",
+    "bytes": 1067,
+    "sha256": "d501fe4597126bce5d514d718c5f6bd4f9eb35fdb4ee5478b7d17793e6e46b45",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://huggingface.co/datasets/g8967/catan-sft-dataset/resolve/0a4a50a84354338300d4ef10d6177378bb34a2f9/data/train-00000-of-00001.parquet",
+    "path": "research/downloads/datasets/g8967-catan-sft.parquet",
+    "bytes": 7577830,
+    "sha256": "360030808dd8f490bf2f104061856db7dcbfafc4b1e4f4e4b0f553a3101c1e6e",
+    "content_type": "application/octet-stream",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://huggingface.co/api/datasets/VVantim/catan-sft-data",
+    "path": "research/metadata/hf-vvantim.json",
+    "bytes": 1423,
+    "sha256": "c5d80671a90debdc64027a2de950b4c86a6051a85d9a19307d5d7b2ad4a20f75",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://huggingface.co/datasets/VVantim/catan-sft-data/resolve/aa0667e6bc37f05f0c4e85bed6ccb3b5f77e9957/data/train-00000-of-00001.parquet",
+    "path": "research/downloads/datasets/vvantim-catan-sft.parquet",
+    "bytes": 1485529,
+    "sha256": "e1c7035007de30b97c244d57223a98b2f980834d0a22b6dbf8122156b7f44c92",
+    "content_type": "application/octet-stream",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://api.github.com/repos/OrgadYron/catan_43k_games_dataset/releases",
+    "path": "research/metadata/43k-releases.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/OrgadYron/catan_43k_games_dataset/8af7edbec8b2c4adbc6d68237f2ec109c4c443f9/README.md",
+    "path": "research/metadata/43k-README.md",
+    "bytes": 3271,
+    "sha256": "92c82afe4e7e7128c4962fd91fbc3dbb65bf28692c9c9fa358c73f72c61c859c",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2008.07079",
+    "path": "research/downloads/papers/gendre-kaneko-2020-cross-dimensional.pdf",
+    "bytes": 1259035,
+    "sha256": "2e68139d56d9f7bc5db830789846ff718da8af760e8664521d571de185a247e4",
+    "content_type": "application/pdf",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/19351482/CIG2014_GS.pdf",
+    "path": "research/downloads/papers/guhe-lascarides-2014-strategies.pdf",
+    "bytes": 481387,
+    "sha256": "6de2e9dbd5c4562c385018ec74b28008dc0355b820fb2bdb773aa7180e47e34c",
+    "content_type": "application/pdf",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://eric-gan.github.io/files/catan.pdf",
+    "path": "research/downloads/papers/gan-et-al-probabilistic-approach.pdf",
+    "bytes": 85583,
+    "sha256": "380dad69497df2688af839004b091f5aa34f29f474c3885114cff4d2df1d6fa3",
+    "content_type": "application/pdf",
+    "status": "downloaded"
+  },
+  {
+    "url": "https://www.lamsade.dauphine.fr/~cazenave/papers/DeepCatanEvo.pdf",
+    "path": "research/downloads/papers/driss-cazenave-deep-catan.pdf",
+    "bytes": 817279,
+    "sha256": "03610c21ebd04ebde6b0ad6577f1ca8a87ecdf45b5198371da55194a64d9f471",
+    "content_type": "application/pdf",
+    "status": "downloaded"
+  }
+]

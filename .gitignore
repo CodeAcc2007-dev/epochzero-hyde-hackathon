@@ -1,0 +1,22 @@
+# One local installation; never include it in the future team repository.
+/shared-local/
+# Downloaded research datasets and papers stay local; share the source catalogue.
+/research/downloads/
+# Hosted viewer previews contain dataset rows; keep those local too.
+/research/metadata/*-first-row.json
+# Local credentials, private keys, scratch files and authentication helpers.
+/.local/
+/.secrets/
+*.pem
+*.key
+credentials.json
+token.json
+env/
+.venv/
+venv/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
