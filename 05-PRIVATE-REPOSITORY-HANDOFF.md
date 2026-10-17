@@ -2,7 +2,7 @@
 
 Date: **17 October 2026 (IST)**.
 
-Status: **private repository created and visibility reread; initial push and remote content verification pending**. This record will be updated after the actual push result.
+Status: **COMPLETE — private repository created, plans pushed, remote commit/tree and exclusions verified.**
 
 ## Authorized scope
 
@@ -28,11 +28,17 @@ A classic PAT needs the `repo` scope for private repository creation/access. Fin
 - Authenticated GitHub account: `CodeAcc2007-dev`.
 - Repository: [epochzero-hyde-hackathon](https://github.com/CodeAcc2007-dev/epochzero-hyde-hackathon). The name was taken from the user's local configuration.
 - Explicit private visibility on creation and authenticated reread: **verified private**.
-- Pushed branch and commit: pending.
-- Remote file tree matched against local committed paths: pending.
-- Environment/secret/raw-download exclusions in the remote tree: pending.
+- Pushed branch: `main`. Initial context commit: `a0fd90114015e4b8257d43b32b12b8c6fc3737a0`; this completion record is published in a follow-up documentation commit.
+- Remote file tree matched against local committed paths: **verified, 37 files**. The authenticated GitHub commit/tree matched the local commit/tree.
+- Environment/secret/raw-download exclusions in the remote tree: **verified**. No `.env`, environment/dependency directory, raw dataset, downloaded paper or sample-row preview is tracked.
+- Staged-content checks: token/key/service-credential signature checks and a literal check for the actual PAT passed before publication. The token was not embedded in Git config, the HTTPS remote or subprocess arguments.
+- Local `.env` remains ignored with mode `0600`. The temporary HTTPS authentication helper was removed after each push; no global Git credential store was changed.
 - Teammate invitations: not sent; share access only with intended teammates after their usernames are known.
 
 ## Scope stop
 
 Publication does not perform the assigned Phase 1 research or create bots. Existing context is shared as context, including explicit findings-pending status. Local setup logs and raw downloaded resources remain available on the original computer only.
+
+## Sharing entry point
+
+Send intended teammates the private [repository URL](https://github.com/CodeAcc2007-dev/epochzero-hyde-hackathon) after granting them access in GitHub repository settings. The root README links their individual briefs and the dataset sources. No environment or token needs to be sent to them.
