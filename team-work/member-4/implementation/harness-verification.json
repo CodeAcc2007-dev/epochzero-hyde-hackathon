@@ -1,0 +1,27 @@
+[
+  {
+    "path": "catan_kit/match.py",
+    "sha256": "89376648b400c6b6c57f6c53d028e5aba5bd9a6a7f4e8cdf014306b534435587",
+    "matches_pinned_source": true
+  },
+  {
+    "path": "catan_kit/evaluate.py",
+    "sha256": "b38d5629d22b62b112302dd5becc5498ad97df715561ee129252b612af06cda6",
+    "matches_pinned_source": true
+  },
+  {
+    "path": "catan_kit/obs.py",
+    "sha256": "093ba0a405aa1b7ee9b64511a8cf1298c321cab792a34f0b5a9445d1da4033ca",
+    "matches_pinned_source": true
+  },
+  {
+    "path": "catan_kit/host.py",
+    "sha256": "2d66dbe48247a3cd55ad793764cdf063057d4566f66c3c9f5a4acf8d1391357c",
+    "matches_pinned_source": true
+  },
+  {
+    "path": "examples/f_agent.py",
+    "sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+    "matches_pinned_source": true
+  }
+]

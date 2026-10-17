@@ -1,0 +1,26 @@
+[
+  {
+    "bot": "B01",
+    "zip": "team-work/member-1/artifacts/B01-v001.zip",
+    "agent_sha256": "e3c951ab2a9a1ca7b8e63fa04b955caade84133c7da206a7a1561bd705986a57",
+    "zip_sha256": "161c3dc7db07677accdd85bb7d67c68eafa334f6815c64616bbdf61198649c91",
+    "bytes": 8457,
+    "crc_ok": true,
+    "byte_identical_to_frozen_source": true,
+    "files": [
+      "agent.py"
+    ]
+  },
+  {
+    "bot": "B02",
+    "zip": "team-work/member-1/artifacts/B02-v001.zip",
+    "agent_sha256": "6e9a3324449a46119c3e94c60bc1ed7528644d8efffa1f457590d5036973020c",
+    "zip_sha256": "72b8aeb2e2251ebb56a34e186945f19610f5b6e18c8688b4122e883ac7965373",
+    "bytes": 8459,
+    "crc_ok": true,
+    "byte_identical_to_frozen_source": true,
+    "files": [
+      "agent.py"
+    ]
+  }
+]

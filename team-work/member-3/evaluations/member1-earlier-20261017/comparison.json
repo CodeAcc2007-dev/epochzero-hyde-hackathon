@@ -1,0 +1,284 @@
+{
+  "sources_unchanged": true,
+  "rows": [
+    {
+      "name": "agent_claude_greedy_v4",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 208,
+      "win_rate": 0.52,
+      "ci95": 0.04896078430744344,
+      "no_winner": 0,
+      "mean_cpu_s": 0.4962750000000004,
+      "worst_cpu_s": 1.23,
+      "decisions": 19840,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.4725,
+        0.565
+      ],
+      "first_seat_wins": 103,
+      "second_seat_wins": 105,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 294.2870787419997
+    },
+    {
+      "name": "agent_claude_greedy_v3",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 201,
+      "win_rate": 0.5025,
+      "ci95": 0.048999387496171824,
+      "no_winner": 0,
+      "mean_cpu_s": 0.131625,
+      "worst_cpu_s": 0.28,
+      "decisions": 22654,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.4775,
+        0.5275
+      ],
+      "first_seat_wins": 97,
+      "second_seat_wins": 104,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 144.8583841560012
+    },
+    {
+      "name": "agent_sab",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 200,
+      "win_rate": 0.5,
+      "ci95": 0.049,
+      "no_winner": 0,
+      "mean_cpu_s": 0.17132500000000017,
+      "worst_cpu_s": 0.43,
+      "decisions": 18809,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.4525,
+        0.5475
+      ],
+      "first_seat_wins": 98,
+      "second_seat_wins": 102,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 160.08341063999978
+    },
+    {
+      "name": "agent_claude_greedy_v2",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 187,
+      "win_rate": 0.4675,
+      "ci95": 0.048896377933339806,
+      "no_winner": 0,
+      "mean_cpu_s": 0.205425,
+      "worst_cpu_s": 0.49,
+      "decisions": 19202,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.425,
+        0.51
+      ],
+      "first_seat_wins": 89,
+      "second_seat_wins": 98,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 175.53550657800042
+    },
+    {
+      "name": "agent",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 162,
+      "win_rate": 0.405,
+      "ci95": 0.048107420425543494,
+      "no_winner": 0,
+      "mean_cpu_s": 0.32192500000000007,
+      "worst_cpu_s": 0.66,
+      "decisions": 18637,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.3575,
+        0.4525
+      ],
+      "first_seat_wins": 78,
+      "second_seat_wins": 84,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 228.5878252120001
+    },
+    {
+      "name": "agent_claude",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 142,
+      "win_rate": 0.355,
+      "ci95": 0.04689430562445721,
+      "no_winner": 0,
+      "mean_cpu_s": 0.3106000000000001,
+      "worst_cpu_s": 0.79,
+      "decisions": 18140,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.31,
+        0.3975
+      ],
+      "first_seat_wins": 74,
+      "second_seat_wins": 68,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 221.3367792930003
+    },
+    {
+      "name": "agent_modifiedf",
+      "group": "Member 1 earlier",
+      "games": 400,
+      "wins": 119,
+      "win_rate": 0.2975,
+      "ci95": 0.04480151755242227,
+      "no_winner": 0,
+      "mean_cpu_s": 0.08505000000000001,
+      "worst_cpu_s": 0.19,
+      "decisions": 16627,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.255,
+        0.3375
+      ],
+      "first_seat_wins": 61,
+      "second_seat_wins": 58,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 132.87569988299947
+    },
+    {
+      "name": "B05",
+      "group": "Pranesh reference",
+      "games": 400,
+      "wins": 297,
+      "win_rate": 0.7425,
+      "ci95": 0.04285119339061632,
+      "no_winner": 0,
+      "mean_cpu_s": 0.15844999999999998,
+      "worst_cpu_s": 0.5,
+      "decisions": 19853,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.6975,
+        0.785
+      ],
+      "first_seat_wins": 150,
+      "second_seat_wins": 147,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 141.02019323700006
+    },
+    {
+      "name": "B06",
+      "group": "Pranesh reference",
+      "games": 400,
+      "wins": 283,
+      "win_rate": 0.7075,
+      "ci95": 0.044581249141315005,
+      "no_winner": 0,
+      "mean_cpu_s": 0.09734999999999999,
+      "worst_cpu_s": 0.25,
+      "decisions": 21074,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0,
+      "paired_bootstrap_95_descriptive": [
+        0.6575,
+        0.75
+      ],
+      "first_seat_wins": 140,
+      "second_seat_wins": 143,
+      "f_health": {
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "wall_elapsed_s": 117.51588780800012
+    }
+  ]
+}

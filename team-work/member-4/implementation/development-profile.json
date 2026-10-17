@@ -1,0 +1,13 @@
+{
+  "method": "12 instrumented development games; diagnostic only, not main timing/strength evidence",
+  "last_cumulative_counters": {
+    "decisions": 651,
+    "nodes": 5734,
+    "cutoffs": 4,
+    "sample_attempts": 87,
+    "valid_samples": 87,
+    "reply_nodes": 1865,
+    "reply_comparisons": 25,
+    "reply_changes": 4
+  }
+}

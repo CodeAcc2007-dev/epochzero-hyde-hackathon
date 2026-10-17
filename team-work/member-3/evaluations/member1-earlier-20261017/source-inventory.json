@@ -1,0 +1,44 @@
+[
+  {
+    "path": "team-work/member-1/earlier bots/agent.py",
+    "sha256": "5aee645ff4eed999ff283657135ec04ecd530018bcd253fec0932b061d5e2d4a",
+    "bytes": 12782,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude.py",
+    "sha256": "5d2bf7cc6921c84773fec0273e7d4b1c4873ab79311df072e3d94be3aa1270a3",
+    "bytes": 5973,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v2.py",
+    "sha256": "acb428bfb98f86f546e4eaa7cdd09840e9b29c21d2c7e054b79909b1de2225a2",
+    "bytes": 2749,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v3.py",
+    "sha256": "727ee1bd264cbfd9917f59aa79ce13ce318db20ba036da62db6efb72bc9814c6",
+    "bytes": 905,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v4.py",
+    "sha256": "bcbabc5ee7a7bf6f04973f730aeb4545bb95bef45f0df9fb521ebfcf909e382e",
+    "bytes": 11905,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_modifiedf.py",
+    "sha256": "e452711a66e6607461cc70a98b51ca118ee4d5dc6231c69dd772a39134b6da5b",
+    "bytes": 14213,
+    "syntax": "pass"
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_sab.py",
+    "sha256": "f14445452afbac33625ddd462de1917afb7584bfba7fad0c86814ef92e22bfdd",
+    "bytes": 10876,
+    "syntax": "pass"
+  }
+]

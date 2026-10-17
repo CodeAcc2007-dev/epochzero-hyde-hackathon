@@ -1,0 +1,16 @@
+{
+  "bot": "B02",
+  "source_inputs": {
+    "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+    "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+    "spatial_context.py": "9ab4361ee1ec10f39a0cd2fc3fd829722f2a78263eee1777c815a08fcc3e11f0",
+    "goal_math.py": "46a3e1e47cc8000fabff463f00b6595cff1bbd7f9484993641e92869dd80b89e",
+    "economy_policies.py": "c3250bf6a8c6978e52090ba5f6054957d9bf89cfc5e8c2d8ee9bae65bf1a4095"
+  },
+  "agent_sha256": "6e9a3324449a46119c3e94c60bc1ed7528644d8efffa1f457590d5036973020c",
+  "executable_ast_preserved": true,
+  "strategy": "city/dev engine",
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "version": "development"
+}

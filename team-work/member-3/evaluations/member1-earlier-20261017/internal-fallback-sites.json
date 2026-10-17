@@ -1,0 +1,44 @@
+[
+  {
+    "path": "team-work/member-1/earlier bots/agent.py",
+    "exception_random_return_lines": [
+      128
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude.py",
+    "exception_random_return_lines": [
+      57
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v2.py",
+    "exception_random_return_lines": [
+      20
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v3.py",
+    "exception_random_return_lines": [
+      22
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_claude_greedy_v4.py",
+    "exception_random_return_lines": [
+      97
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_modifiedf.py",
+    "exception_random_return_lines": [
+      130
+    ]
+  },
+  {
+    "path": "team-work/member-1/earlier bots/agent_sab.py",
+    "exception_random_return_lines": [
+      104
+    ]
+  }
+]

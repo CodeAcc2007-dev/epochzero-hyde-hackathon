@@ -1,0 +1,59 @@
+{
+  "date_ist": "2026-10-17",
+  "checks": [
+    {
+      "path": "team-work/member-3/implementation/test_policies.py",
+      "sha256": "c19ebd34c70378f226940d1bd52c683308124b2b6f3d2e25291fcf4c9ee7e430",
+      "unittest_methods": 22,
+      "method_names": [
+        "test_runtime_modules_identical",
+        "test_own_city_win_over_ghost_opponent",
+        "test_trade_then_city_terminal",
+        "test_road_then_settlement_terminal",
+        "test_yop_then_city_terminal",
+        "test_knight_wins_before_robber_and_roll",
+        "test_new_knight_ineligible_until_next_turn",
+        "test_vp_draw_scores_immediately",
+        "test_no_build_before_roll",
+        "test_road_building_forced_second_road",
+        "test_out_of_turn_discard_fixed_quota",
+        "test_robber_expectation_matches_forced_outcomes",
+        "test_dev_value_independent_of_sample_order_and_hidden_allocation",
+        "test_monopoly_exact_transfer_and_bank_unchanged",
+        "test_yop_respects_single_card_bank",
+        "test_army_tie_does_not_transfer",
+        "test_road_tie_then_strict_takeover",
+        "test_visible_city_threat_and_hidden_risk_weight",
+        "test_sampled_hidden_allocation_does_not_change_evaluator",
+        "test_public_simultaneous_terminal_guard",
+        "test_known_opposing_terminal_is_loss",
+        "test_low_clock_fallback_is_legal"
+      ],
+      "observed_exit_code": 0,
+      "observed_result": "passed; actual primary tool execution before final benchmark freeze"
+    },
+    {
+      "path": "team-work/member-3/implementation/test_race_math.py",
+      "sha256": "ca6b0235dfcaa97567e3fa621092ae66c85af451c3a0167d13190a2fd65673c4",
+      "unittest_methods": 4,
+      "method_names": [
+        "test_deficit_and_can_afford",
+        "test_hidden_vp_cap",
+        "test_steal_break_probability_matches_card_enumeration",
+        "test_expected_stolen_value"
+      ],
+      "observed_exit_code": 0,
+      "observed_result": "passed; actual primary tool execution before final benchmark freeze"
+    }
+  ],
+  "helper_card_enumeration_subcases": 486,
+  "fixture_scope": "Constructed counterfactual engine states with resource/deck/piece/VP invariants; no full reachable-history proof",
+  "runtime_files": {
+    "team-work/member-3/bots/B05/v003/agent.py": "27813f37d9ff4d794115b19b193b3d03fb64673465555062bc9595702dafa03b",
+    "team-work/member-3/bots/B05/v003/member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+    "team-work/member-3/bots/B05/v003/race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+    "team-work/member-3/bots/B06/v003/agent.py": "7369f4f0ef4eed12794075257d6a2f630c426428982a65a5ca871b43bd2ebb66",
+    "team-work/member-3/bots/B06/v003/member3_core.py": "4fdabf1b1bb282a225701b8078b9135dc26e0622fc25e1ed9fd516bf56a6b4bd",
+    "team-work/member-3/bots/B06/v003/race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98"
+  }
+}

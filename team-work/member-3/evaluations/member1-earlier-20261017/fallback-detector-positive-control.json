@@ -1,0 +1,72 @@
+[
+  {
+    "bot": "agent",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent",
+      "line": 128,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_claude",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_claude",
+      "line": 57,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_claude_greedy_v2",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_claude_greedy_v2",
+      "line": 20,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_claude_greedy_v3",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_claude_greedy_v3",
+      "line": 22,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_claude_greedy_v4",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_claude_greedy_v4",
+      "line": 97,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_modifiedf",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_modifiedf",
+      "line": 130,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  },
+  {
+    "bot": "agent_sab",
+    "detector_positive_control": "pass",
+    "detected": {
+      "bot": "agent_sab",
+      "line": 104,
+      "exception": "RuntimeError",
+      "message": "diagnostic_positive_control"
+    }
+  }
+]

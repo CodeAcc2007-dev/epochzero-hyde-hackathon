@@ -1,0 +1,90 @@
+[
+  {
+    "bot": "B07",
+    "games": 500,
+    "wins": 361,
+    "win_rate": 0.722,
+    "ci95": 0.03927010531180175,
+    "no_winner": 0,
+    "mean_cpu_s": 0.11840000000000007,
+    "worst_cpu_s": 0.62,
+    "decisions": 25898,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "range": [
+      0.68,
+      0.76
+    ],
+    "first": {
+      "games": 250,
+      "wins": 182
+    },
+    "second": {
+      "games": 250,
+      "wins": 179
+    },
+    "p95_cpu_s": 0.26,
+    "f": {
+      "games": 500,
+      "wins": 139,
+      "win_rate": 0.278,
+      "ci95": 0.03927010531180175,
+      "no_winner": 0,
+      "mean_cpu_s": 0.11178,
+      "worst_cpu_s": 0.31,
+      "decisions": 22770,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  {
+    "bot": "B08",
+    "games": 500,
+    "wins": 363,
+    "win_rate": 0.726,
+    "ci95": 0.039094409789636166,
+    "no_winner": 0,
+    "mean_cpu_s": 0.4119199999999998,
+    "worst_cpu_s": 1.07,
+    "decisions": 23790,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0,
+    "range": [
+      0.688,
+      0.764
+    ],
+    "first": {
+      "games": 250,
+      "wins": 189
+    },
+    "second": {
+      "games": 250,
+      "wins": 174
+    },
+    "p95_cpu_s": 0.69,
+    "f": {
+      "games": 500,
+      "wins": 137,
+      "win_rate": 0.274,
+      "ci95": 0.039094409789636166,
+      "no_winner": 0,
+      "mean_cpu_s": 0.11439999999999997,
+      "worst_cpu_s": 0.28,
+      "decisions": 23016,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  }
+]

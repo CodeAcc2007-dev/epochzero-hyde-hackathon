@@ -24,3 +24,21 @@ Review the junior's actual files against the original inputs. Independently veri
 The user assigns two bots to each human member: Aroosh B01/B02; Avadooth B03/B04; Pranesh B05/B06; Anni B07/B08. Members implement, self-test and upload their own versioned code/results. When the uploaded versions are supplied in this chat, the assistant independently inspects/retests the frozen versions, runs cross-bot comparisons and writes evidence-linked owner-specific improvement instructions; members revise/upload and repeat. Research/build-assignment creation alone does not authorize taking over those human implementation tasks. A later explicit user request can change this scope. See `07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md` and the iteration protocol.
 
 The latest research request explicitly excluded Avadooth's research. Do not mark it complete or rewrite his findings; the new two-bot assignment in his folder is separately authorized. Human reviews remain pending even where assistant checks are complete.
+
+## Subsequent Member3 implementation authorization
+
+Pranesh explicitly requested primary-assistant implementation and F testing of B05/B06, with Hyde for bounded repetitive coding and primary verification. Active versions are `team-work/member-3/bots/B05/v003` and `B06/v003`; read their manifests and `implementation/BUILD-AND-RESULTS.md` before changing them. v001/v002 are superseded internal development evidence. Preserve frozen tested versions; later fixes need a new version/evidence. Other members can use `team-work/GLM-START-PROMPT.md` to retrieve their own assignments; this does not authorize modifying their research/bots here. No SSH or event submission.
+
+## Subsequent Member4 authorization and evaluation default
+
+The user explicitly requested primary implementation of Anni's B07/B08. This authorizes building and verifying these two bots in member-4, using Hyde for bounded development work and the shared local environment. Preserve research findings and other members' frozen versions.
+
+The user's latest preference is **500 games per bot for the main evaluation from now on**. Keep correctness/loading checks small. For the current B07/B08 build, use 500 paired-seat games each against F and defer extra tournament/ablation comparisons; do not present deferred comparisons as completed. No SSH or portal submission.
+
+Initial frozen Member4 versions are `team-work/member-4/bots/B07/v001` and `B08/v001`; read `team-work/member-4/implementation/BUILD-AND-RESULTS.md` before revisions. Their standalone files and ZIPs were verified; each completed 500 F games. Preserve v001 and use a new version with fresh confirmation boards for fixes.
+
+## Subsequent Member1 authorization
+
+The user explicitly requested primary implementation of Aroosh's B01/B02 as well. This authorizes implementation and local verification under member-1, with the same 500-game-per-bot main-evaluation default and bounded Hyde development assistance. Preserve `member-1/earlier bots/`, research findings and all other frozen versions. No SSH, portal submission or automatic GitHub upload.
+
+Initial frozen Member1 versions are `team-work/member-1/bots/B01/v001` and `B02/v001`; read `team-work/member-1/implementation/BUILD-AND-RESULTS.md` before revisions. Their standalone files and ZIPs were verified; each completed 500 F games. Preserve v001 and use a new version with fresh confirmation boards for fixes.

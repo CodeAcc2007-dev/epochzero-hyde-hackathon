@@ -1,0 +1,49 @@
+{
+  "started_utc": "2026-10-17T08:29:31.140257+00:00",
+  "python": "3.11.17",
+  "platform": "Linux-7.2.9-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "processor": "",
+  "repository_base_commit": "3a163059766f3cdc530ce316b519574a6dc1843e",
+  "a": {
+    "entrypoint": "team-work/member-1/earlier bots/agent_claude_greedy_v2.py",
+    "files": {
+      "team-work/member-1/earlier bots/agent.py": "5aee645ff4eed999ff283657135ec04ecd530018bcd253fec0932b061d5e2d4a",
+      "team-work/member-1/earlier bots/agent_claude.py": "5d2bf7cc6921c84773fec0273e7d4b1c4873ab79311df072e3d94be3aa1270a3",
+      "team-work/member-1/earlier bots/agent_claude_greedy_v2.py": "acb428bfb98f86f546e4eaa7cdd09840e9b29c21d2c7e054b79909b1de2225a2",
+      "team-work/member-1/earlier bots/agent_claude_greedy_v3.py": "727ee1bd264cbfd9917f59aa79ce13ce318db20ba036da62db6efb72bc9814c6",
+      "team-work/member-1/earlier bots/agent_claude_greedy_v4.py": "bcbabc5ee7a7bf6f04973f730aeb4545bb95bef45f0df9fb521ebfcf909e382e",
+      "team-work/member-1/earlier bots/agent_modifiedf.py": "e452711a66e6607461cc70a98b51ca118ee4d5dc6231c69dd772a39134b6da5b",
+      "team-work/member-1/earlier bots/agent_sab.py": "f14445452afbac33625ddd462de1917afb7584bfba7fad0c86814ef92e22bfdd"
+    },
+    "fingerprint": "d4f5fb4c173ccd797a78e71aabe1d5855b400cfb30848a1e7868652585738d3d"
+  },
+  "b": {
+    "entrypoint": "shared-local/organizer-kit/examples/f_agent.py",
+    "files": {
+      "shared-local/organizer-kit/examples/f_agent.py": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613"
+    },
+    "fingerprint": "709717a7b39b6f624b6b718ae5c47b6bbc7518eb26abe6df52346523e9605819"
+  },
+  "games": 12,
+  "seed0": 870000,
+  "vps": 10,
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+  "dice_key_id": "official-public-default; no private key/board prediction",
+  "clock": {
+    "base_s": 0.3,
+    "increment_s": 0.0125,
+    "max_s": 1.5
+  },
+  "command_arguments": {
+    "a": "team-work/member-1/earlier bots/agent_claude_greedy_v2.py",
+    "b": "shared-local/organizer-kit/examples/f_agent.py",
+    "games": 12,
+    "seed0": 870000,
+    "chunk_size": 20,
+    "out": "team-work/member-3/evaluations/member1-earlier-20261017/smoke/agent_claude_greedy_v2"
+  },
+  "status": "completed",
+  "completed_utc": "2026-10-17T08:29:36.852631+00:00"
+}

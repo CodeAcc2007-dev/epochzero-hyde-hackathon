@@ -1,0 +1,3 @@
+# Local process stdout/stderr are not publication artifacts.
+*.txt
+__pycache__/

@@ -52,3 +52,7 @@ The accepted checker is [verify_derivations.py](phase-1/verify_derivations.py); 
 ## Reuse policy
 
 Use the [junior workflow](../JUNIOR-ENGINEER-WORKFLOW.md) for later bounded mechanical tasks. Keep the original input, job manifest and raw output local; summarize the exact review and accepted paths here. Aroosh/Avadooth/Anni research files are not targets unless the relevant task explicitly authorizes shared work. Strategic decisions, factual validation, test acceptance and reporting remain with the senior assistant and Pranesh.
+
+## Jobs7–8: authorized B05/B06 implementation
+
+Hyde produced a pure arithmetic helper (`20261017T072048Z-40e44b43`,26.703s) and its unittest draft (`20261017T072449Z-6889fe8a`,63.983s). Both completed without tool errors; primary inspected the helper, strengthened the test oracle, executed verification and accepted them. Primary authored strategy/core, semantic fixtures and all actual experiments. See the [implementation acceptance log](implementation/JUNIOR-AND-VERIFICATION-LOG.md) for hashes/disposition and [actual build/results](implementation/BUILD-AND-RESULTS.md). Raw jobs/reasoning remain local; bots never call Hyde.

@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-17T09:07:35.337667+00:00",
+  "packages": [
+    {
+      "bot": "B07",
+      "archive": "team-work/member-4/artifacts/B07-v001.zip",
+      "files": [
+        "agent.py"
+      ],
+      "crc_ok": true,
+      "byte_identical_to_frozen_agent": true,
+      "agent_sha256": "9e471d1b89a2357e20e168b222347ca4901dbebd1d6ab01359a47ce84961c588",
+      "zip_sha256": "0bb2f494c79a84366b63b3722745748056661ed880113225287e51f8ee0bd3e6",
+      "bytes": 9609
+    },
+    {
+      "bot": "B08",
+      "archive": "team-work/member-4/artifacts/B08-v001.zip",
+      "files": [
+        "agent.py"
+      ],
+      "crc_ok": true,
+      "byte_identical_to_frozen_agent": true,
+      "agent_sha256": "7470a4040f4cef80b101ceae144be93d820f8ed317c0f6bb22886e2ba30cb8eb",
+      "zip_sha256": "f38fbd3feddfc6b76d0f51c6bfe6d10ce2098ff5892ff6e32efb92996439d5b3",
+      "bytes": 9609
+    }
+  ]
+}

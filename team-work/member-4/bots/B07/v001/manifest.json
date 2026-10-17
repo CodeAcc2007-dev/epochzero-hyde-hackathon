@@ -1,0 +1,17 @@
+{
+  "bot": "B07",
+  "control": false,
+  "source_inputs": {
+    "race_math.py": "e9b43a4610714cd1b79954d6b070782e0c53e36f4efb1b0d8c8d8602c51a3b98",
+    "public_context.py": "3de5bd723eb36988f347399b9a50ed5680c6e5e12effad5ddddfe741145dc3c3",
+    "route_math.py": "d9d31dde395ec2ec4a424d811b1c1094b3fabc4a5e54fb867263ea6b7fae05d6",
+    "member4_policies.py": "703565d7d77156eb0b48fb9bbad54e56f2d53a9ec8c82c3ec0dd86f673294e9b"
+  },
+  "agent_sha256": "9e471d1b89a2357e20e168b222347ca4901dbebd1d6ab01359a47ce84961c588",
+  "executable_ast_preserved": true,
+  "version": "v001",
+  "strategy": "sampled-opponent planning",
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "runtime": "stdlib + pinned catanatron; no network, I/O or worker process"
+}

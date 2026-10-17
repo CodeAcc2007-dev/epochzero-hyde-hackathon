@@ -40,3 +40,7 @@ Target zero faults/exhausted clocks. The clock is cumulative, so a three-second 
 Use Hyde/OpenCode for bounded repetitive development work only if configured locally; inspect its actual outputs and verify them. Do not rely on its stated test results. Current research jobs timed out and were rejected; logs contain no accepted code. All design/review evidence belongs in Markdown alongside actual results.
 
 First upload status: **pending human build/test**. Assistant retest status: **not started**. Improvement round: **not started**.
+
+## Subsequent explicit implementation request
+
+Pranesh asked the assistant to build/test/publish B05 and B06 using Hyde for repetitive work. This overrides the earlier human-only implementation boundary for his two bots. Use the active [B05 v003](bots/B05/v003/README.md), [B06 v003](bots/B06/v003/README.md) and [actual build/results record](implementation/BUILD-AND-RESULTS.md). Earlier pending statements describe the assignment stage, not the later implementation. No event/SSH action is implied.
