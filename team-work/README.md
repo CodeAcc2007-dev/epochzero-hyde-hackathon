@@ -1,6 +1,6 @@
 # Team workspace
 
-Four independent working folders, one shared local environment. **Phase 1 research is now assigned.** Each member has identical common context, a member assignment, a detailed research brief and a findings worksheet. Research has not been performed by preparing these instructions.
+Four independent working folders, one shared local environment. **Current status:** assistant research completed for Aroosh/Pranesh/Anni, pending human review; Avadooth's research intentionally untouched. Each member now has a two-bot human build/test assignment. The assistant verifies uploads, compares bots and returns improvement instructions for repeated rounds. No bots have been built by this research task.
 
 Start with the [phase-wise roadmap](../04-PHASE-WISE-PLAN.md), then the [common research brief](PHASE-1-COMMON-BRIEF.md). The user's intended later workflow is repeated bot clash/selection/improvement rounds, targeting eight validated local finalists. The current event permits only seven scored submissions and ten total uploads; the roadmap records that distinction.
 
@@ -77,3 +77,7 @@ The user is Pranesh (Member 3). Suitable repetitive development work now uses Hy
 Pranesh has a [junior-drafted, senior-reviewed checklist](member-3/05-PHASE-1-CHECKLIST.md) and [job/review log](member-3/06-JUNIOR-WORK-LOG.md). The checklist now tracks source/math work and remaining review; it does not authorize bot work.
 
 Subsequent research update: [Member 3's source/math findings](member-3/04-PHASE-1-FINDINGS.md) are now ready for Pranesh's verification and Avadooth's cross-review. The checklist tracks completed evidence work while human/cross-member review remains open. No bots, new matches or training were performed.
+
+## Current build and iteration assignments
+
+See [eight-bot plan](../07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md), [synthesis](PHASE-1-REVIEW-AND-SYNTHESIS.md) and [verification/work log](PHASE-1-COMPLETION-AND-VERIFICATION.md). Aroosh: B01/B02; Avadooth: B03/B04; Pranesh: B05/B06; Anni: B07/B08. Each member folder has `07-TWO-BOT-BUILD-ASSIGNMENT.md`. Members implement, self-test and upload; assistant independent review/clashes and feedback follow a later requested upload review. Historical planning paragraphs above describe their original stage.

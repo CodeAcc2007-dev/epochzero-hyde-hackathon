@@ -2,6 +2,10 @@
 
 Collected on **17 October 2026 (IST)**. Status: **resource collection complete; stopped before analysis or implementation.**
 
+## Subsequent work (17 October 2026)
+
+This catalogue preserves the original resource-collection stage. Later authorized work now includes [Aroosh's CSV/statistical audit](team-work/member-1/phase-1/01-DATA-AND-STATISTICS.md), [Pranesh's source/math research](team-work/member-3/04-PHASE-1-FINDINGS.md), and [Anni's full Parquet audit/method review](team-work/member-4/04-PHASE-1-FINDINGS.md). Those reports supersede preview-only qualifications for the specific fields they actually audited. Avadooth's research was excluded. See the [current eight-bot human build plan](07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md); no bot, training or new game result is implied by these research updates.
+
 ## Scope
 
 The user's final clarification takes precedence over the earlier request to recommend an implementation: **gather research and datasets, establish whether they are for two players, and stop**. Accordingly, this document records source claims, dataset provenance, availability and rule differences. It does not select an agent architecture or recommend strategy weights.

@@ -1,0 +1,16 @@
+[
+  {
+    "engine_file": "features.py",
+    "pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+    "source_url": "https://api.github.com/repos/bcollazo/catanatron/contents/catanatron/catanatron/features.py?ref=d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+    "sha256": "f6ec7fd7f30f740a75c978c9a8166512c6514052a79802992216dbd812553746",
+    "installed_matches": true
+  },
+  {
+    "engine_file": "models/map.py",
+    "pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+    "source_url": "https://api.github.com/repos/bcollazo/catanatron/contents/catanatron/catanatron/models/map.py?ref=d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+    "sha256": "6577ab57b893f6292fd88a0f1ca96d5ea5d6a5f343ca859302c22d1ffb74d414",
+    "installed_matches": true
+  }
+]

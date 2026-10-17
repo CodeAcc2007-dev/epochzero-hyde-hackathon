@@ -1,0 +1,305 @@
+{
+  "corpora": {
+    "g8967": {
+      "completion_duplicates": {
+        "distinct": 1000,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "completion_message_lengths": {
+        "91": 1,
+        "99": 999
+      },
+      "completion_roles": {
+        "assistant": 49996,
+        "user": 48996
+      },
+      "continuation_user_goal_mentions": {
+        "7": 48996
+      },
+      "distinct_state_action_text_pairs": 45042,
+      "distinct_state_texts_before_actions": 45038,
+      "episode_identity": "No explicit episode/seed ID column; a row is a multi-message continuation, not a verified distinct complete game.",
+      "explicit_1v1_prompts": 1000,
+      "file": "g8967-catan-sft.parquet",
+      "full_row_duplicates": {
+        "distinct": 1000,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "initial_user_text_duplicates": {
+        "distinct": 1000,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "label_provenance": "No producer/expert or reward specification in saved card; textual matching does not certify engine legality or strategic quality.",
+      "nested_null_message_fields": 0,
+      "null_counts": {
+        "completion": 0,
+        "prompt": 0,
+        "reward": 0
+      },
+      "prompt_duplicates": {
+        "distinct": 1000,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "prompt_goal_mentions": {
+        "7": 1000
+      },
+      "prompt_message_lengths": {
+        "2": 1000
+      },
+      "prompt_opponent_specific_resources_hidden": 1000,
+      "prompts_with_all_four_color_labels": 0,
+      "reader": {
+        "name": "pyarrow",
+        "version": "20.0.0"
+      },
+      "reward": {
+        "max": 0.44,
+        "mean": 0.07057000000000012,
+        "min": -0.45
+      },
+      "rows": 1000,
+      "rows_with_continuation_user_messages": 1000,
+      "schema": "prompt: list<element: struct<content: string, role: string>>\n  child 0, element: struct<content: string, role: string>\n      child 0, content: string\n      child 1, role: string\ncompletion: list<element: struct<content: string, role: string>>\n  child 0, element: struct<content: string, role: string>\n      child 0, content: string\n      child 1, role: string\nreward: double",
+      "sha256": "360030808dd8f490bf2f104061856db7dcbfafc4b1e4f4e4b0f553a3101c1e6e",
+      "state_messages_before_actions": 49996,
+      "state_texts_shared_between_rows": 0,
+      "textual_action_checks": {
+        "action_tag_found": 49996,
+        "assistant_messages": 49996,
+        "chosen_text_matches_list_entry": 49770,
+        "preceding_numbered_action_list_found": 49996,
+        "tag_and_list_parseable": 49996
+      },
+      "textual_mismatch_first_tokens": {
+        "BUILD_ROAD": 29,
+        "BUILD_SETTLEMENT": 1,
+        "DISCARD": 6,
+        "END_TURN": 9,
+        "MOVE_ROBBER": 181
+      }
+    },
+    "vvantim": {
+      "action_tag_json_checks": {
+        "json_action_tag_parseable": 2668,
+        "type_matches_meta_action_type": 2668
+      },
+      "completion_duplicates": {
+        "distinct": 2421,
+        "duplicate_excess": 247,
+        "duplicate_groups": 46
+      },
+      "completion_message_lengths": {
+        "1": 2668
+      },
+      "completion_roles": {
+        "assistant": 2668
+      },
+      "episode_identity": "meta_seed supplies 10 candidate grouping units; independent episode provenance and completeness are not established.",
+      "example_id": {
+        "distinct": 2668,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "explicit_1v1_prompts": 0,
+      "file": "vvantim-catan-sft.parquet",
+      "full_row_duplicates": {
+        "distinct": 2668,
+        "duplicate_excess": 0,
+        "duplicate_groups": 0
+      },
+      "initial_user_text_duplicates": {
+        "distinct": 2620,
+        "duplicate_excess": 48,
+        "duplicate_groups": 15
+      },
+      "label_provenance": "meta_model and meta_is_valid are publisher fields; no independent engine replay or quality validation performed.",
+      "meta_action_type": {
+        "BUILD_CITY": 30,
+        "BUILD_ROAD": 404,
+        "BUILD_SETTLEMENT": 96,
+        "BUY_DEVELOPMENT_CARD": 81,
+        "END_TURN": 1363,
+        "MOVE_ROBBER": 219,
+        "PLAY_KNIGHT": 33,
+        "PLAY_ROAD_BUILDING": 6,
+        "TRADE_WITH_BANK": 436
+      },
+      "meta_is_valid": {
+        "True": 2668
+      },
+      "meta_model": {
+        "Claude Sonnet 4": 682,
+        "DeepSeek V3": 643,
+        "GPT-4o": 732,
+        "Gemini 2.0 Flash": 611
+      },
+      "meta_player": {
+        "blue": 682,
+        "orange": 611,
+        "red": 732,
+        "white": 643
+      },
+      "meta_seed": {
+        "100": 288,
+        "101": 293,
+        "102": 283,
+        "103": 288,
+        "104": 273,
+        "105": 287,
+        "106": 164,
+        "107": 225,
+        "108": 280,
+        "109": 287
+      },
+      "meta_turn": {
+        "distinct": 300,
+        "duplicate_excess": 2368,
+        "duplicate_groups": 300
+      },
+      "meta_vp": {
+        "1": 78,
+        "10": 2,
+        "11": 1,
+        "2": 1043,
+        "3": 527,
+        "4": 485,
+        "5": 145,
+        "6": 194,
+        "7": 101,
+        "8": 52,
+        "9": 40
+      },
+      "meta_vp_at_least_10": 3,
+      "model_player_counts": {
+        "Claude Sonnet 4": {
+          "blue": 682
+        },
+        "DeepSeek V3": {
+          "white": 643
+        },
+        "GPT-4o": {
+          "red": 732
+        },
+        "Gemini 2.0 Flash": {
+          "orange": 611
+        }
+      },
+      "nested_null_message_fields": 0,
+      "null_counts": {
+        "completion": 0,
+        "example_id": 0,
+        "meta_action_type": 0,
+        "meta_is_valid": 0,
+        "meta_model": 0,
+        "meta_player": 0,
+        "meta_seed": 0,
+        "meta_turn": 0,
+        "meta_vp": 0,
+        "prompt": 0,
+        "task": 0
+      },
+      "parsed_action_types": {
+        "BUILD_CITY": 30,
+        "BUILD_ROAD": 404,
+        "BUILD_SETTLEMENT": 96,
+        "BUY_DEVELOPMENT_CARD": 81,
+        "END_TURN": 1363,
+        "MOVE_ROBBER": 219,
+        "PLAY_KNIGHT": 33,
+        "PLAY_ROAD_BUILDING": 6,
+        "TRADE_WITH_BANK": 436
+      },
+      "prompt_duplicates": {
+        "distinct": 2620,
+        "duplicate_excess": 48,
+        "duplicate_groups": 15
+      },
+      "prompt_goal_mentions": {
+        "10": 2668
+      },
+      "prompt_message_lengths": {
+        "2": 2668
+      },
+      "prompt_opponent_specific_resources_hidden": 0,
+      "prompts_with_all_four_color_labels": 2668,
+      "reader": {
+        "name": "pyarrow",
+        "version": "20.0.0"
+      },
+      "rows": 2668,
+      "rows_with_continuation_user_messages": 0,
+      "schema": "prompt: list<element: struct<content: string, role: string>>\n  child 0, element: struct<content: string, role: string>\n      child 0, content: string\n      child 1, role: string\ncompletion: list<element: struct<content: string, role: string>>\n  child 0, element: struct<content: string, role: string>\n      child 0, content: string\n      child 1, role: string\nexample_id: string\ntask: string\nmeta_seed: int64\nmeta_turn: int64\nmeta_player: string\nmeta_model: string\nmeta_action_type: string\nmeta_is_valid: bool\nmeta_vp: int64",
+      "seed_groups": {
+        "100": {
+          "duplicate_turn_excess": 0,
+          "rows": 288,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "101": {
+          "duplicate_turn_excess": 0,
+          "rows": 293,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "102": {
+          "duplicate_turn_excess": 0,
+          "rows": 283,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "103": {
+          "duplicate_turn_excess": 0,
+          "rows": 288,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "104": {
+          "duplicate_turn_excess": 0,
+          "rows": 273,
+          "turn_max": 283,
+          "turn_min": 1
+        },
+        "105": {
+          "duplicate_turn_excess": 0,
+          "rows": 287,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "106": {
+          "duplicate_turn_excess": 0,
+          "rows": 164,
+          "turn_max": 176,
+          "turn_min": 1
+        },
+        "107": {
+          "duplicate_turn_excess": 0,
+          "rows": 225,
+          "turn_max": 235,
+          "turn_min": 1
+        },
+        "108": {
+          "duplicate_turn_excess": 0,
+          "rows": 280,
+          "turn_max": 300,
+          "turn_min": 1
+        },
+        "109": {
+          "duplicate_turn_excess": 0,
+          "rows": 287,
+          "turn_max": 300,
+          "turn_min": 1
+        }
+      },
+      "sha256": "e1c7035007de30b97c244d57223a98b2f980834d0a22b6dbf8122156b7f44c92",
+      "task": {
+        "Catan": 2668
+      }
+    }
+  },
+  "scope": "Full table decoding and specified text/metadata checks, not engine replay or training validation"
+}

@@ -18,3 +18,9 @@ Review the junior's actual files against the original inputs. Independently veri
 - Phase 1 research remains governed by the existing briefs; setup/checklist work does not authorize bot implementation, training, new simulations or tournament execution.
 - Work in Pranesh's member folder unless the task explicitly concerns shared tooling/context. Do not modify another member's research findings.
 - Use the exact organizer kit/engine and honest evidence labels. Do not invent hidden information, performance claims, reproduced results or datasets.
+
+## Current eight-bot owner workflow
+
+The user assigns two bots to each human member: Aroosh B01/B02; Avadooth B03/B04; Pranesh B05/B06; Anni B07/B08. Members implement, self-test and upload their own versioned code/results. When the uploaded versions are supplied in this chat, the assistant independently inspects/retests the frozen versions, runs cross-bot comparisons and writes evidence-linked owner-specific improvement instructions; members revise/upload and repeat. Research/build-assignment creation alone does not authorize taking over those human implementation tasks. A later explicit user request can change this scope. See `07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md` and the iteration protocol.
+
+The latest research request explicitly excluded Avadooth's research. Do not mark it complete or rewrite his findings; the new two-bot assignment in his folder is separately authorized. Human reviews remain pending even where assistant checks are complete.

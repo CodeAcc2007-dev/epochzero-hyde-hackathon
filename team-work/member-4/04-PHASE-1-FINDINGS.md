@@ -1,69 +1,47 @@
-# Member 4 (Anni) — Phase 1 findings: Search/learning feasibility, text datasets and tournament design
+# Anni: Phase 1 findings — data, methods and repeated comparisons
 
-Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: **Anni**. Reviewer: Member 3 (Pranesh).
+17 October 2026. **Assistant research completed for Anni's track; human/team review pending.** No bots, training, generated games or tournament runner. User's latest workflow: every member builds/tests/uploads two bots; the assistant independently verifies, clashes and returns improvement instructions; repeat.
 
-Use [your detailed brief](03-PHASE-1-RESEARCH-BRIEF.md) and the [record template](../PHASE-1-RESEARCH-TEMPLATE.md). Replace pending fields only after completing the corresponding work. Do not describe these instructions as results.
+## Decision summary
 
-## One-page decision summary
+Both text corpora were fully decoded with an isolated research reader. Neither is ready for direct training/evaluation under our exact rules. Start with interpretable heuristics and bounded planning candidates; keep compact learning conditional on compatible future labels. Do not force RL or imitate a corpus because it is downloadable.
 
-- Highest-priority question answered: pending.
-- Supported source/reproduced/descriptive/derived findings: pending.
-- Strongest candidate and meaningful alternative: pending.
-- Exact-rules transfer limits and missing evidence: pending.
-- Recommendation for the later planning discussion, with reason: pending.
+Anni owns **B07 sampled-opponent planning** and **B08 adaptive VP-route planning**, with B08 the simpler starting point. She builds/tests these two like everyone else; independent cross-bot verification belongs to the assistant after uploads. All new CPU costs and strength remain unmeasured.
 
-## Assigned questions
+## Reports and assigned questions
 
-1. What do complete corpus contents, labels and terms actually establish? — **Pending**
-2. Which search/learning methods have plausible prerequisites under our clock, and which costs remain unmeasured? — **Pending**
-3. How should repeated rounds compare candidates fairly and select eight working local finalists within the upload limits? — **Pending**
+| Question | Completed finding / report |
+|---|---|
+| What do the actual corpus contents establish? | [Full decoding and specified audits](phase-1/01-DATASET-AUDIT.md): D2 has 1,000 multi-message rows, uniformly 1v1/7-VP/hidden resource-type prompts. D3 has 2,668 decision rows, uniformly four-color/10-VP prompts, ten seed groups, repeated prompts and complete model/color confounding. Labels/terms and exact compatibility remain inadequate. |
+| What fits the clock in principle? | [Method/source comparison](phase-1/02-METHODS-AND-SOURCES.md): fast evaluation, bounded same-turn search, sampled replies, chance search, learned ranking, large RL/MCTS and adaptive plans, with operation-count costs and failure conditions. No measured-fit claim. |
+| How do owners iterate fairly? | [Detailed protocol](phase-1/03-ITERATION-AND-TEST-PROTOCOL.md): upload manifests, eligibility, frozen artifacts, paired seats/board groups, process lifecycle, uncertainty, full matchup matrix, owner feedback and submission constraints. |
 
-## Source cards
+## Evidence and limitations
 
-Pending. Record primary URLs, revisions/pages/functions, setting, method, actual claim and transfer limits. Use two to four strong sources where available; fewer with an explicit evidence gap is acceptable.
+- [Auditor](phase-1/audit_text_corpora.py) and [actual aggregate JSON](phase-1/corpus-audit.json) include schema, nulls, duplicates, roles, rule markers, textual action checks, seeds and model/player counts. Raw text stays local; no action adapter/replay performed.
+- D2 exact action text matches 49,770/49,996 parsed message/list pairs; the 226 mismatches are diagnostics, not certified illegal actions. No state text was shared **between rows** under the exact matching definition; within-row repetition exists, and approximate/episode dependence is still unresolved.
+- D3 action tags parse and type-match metadata for all rows; that does not validate geometry or legality. All publisher validity flags are true; they are not independent evidence of good play.
+- No explicit dataset license/proven expert labels were established. No training or redistribution of raw examples was assumed.
+- Primary-source reviews distinguish two-player self-play, four-player neural MCTS, general imitation/search methods and simpler build-plan literature. Paper success and organizer timings are source reports, not our outcomes.
+- Current upstream kit changes only README paths/URLs relative to our pin; problem statement/harness/requirements unchanged. Game environment kept stable. An isolated ignored pyarrow reader was the only new research dependency.
 
-## Dataset audit / semantic audit / offline results
+## Candidate hypotheses and counterexamples
 
-Pending. Use the audit/result format appropriate to your track. Include input hashes, decision-time availability, dependence/leakage, exact commands and output paths for any calculation. If data cannot answer a question or a full reader is unavailable, document that limitation.
+M4-H1/B07 asks whether consistent hidden-world reply planning helps when hidden devs genuinely change decisions; averaging visible-only F scores is a counterexample where more samples only add cost. M4-H2/B08 asks whether adaptive VP routes beat fixed preferences; mean production can conceal burst/denial risk and cause plan thrashing. M4-H3 compact distillation remains deferred until exact expert labels and grouped splits exist. See the method report for controls and rejection criteria.
 
-## Candidate strategy cards
+Proposed screening/comparison/shortlist stages total 6,080 games before smoke, ablations and repeated rounds; this is a planning example, not a required feasible commitment. Throughput must be measured and workload cut to leave packaging time. The optional eight-finalist evidence batch is extra. Official O/private boards are unavailable locally. Eight local bots do not override 7 scored/10 total official uploads.
 
-- `M4-H1`: pending; no bot implemented.
-- `M4-H2`: pending; competing alternative or variant.
-- `M4-H3`: optional; pending evidence.
+## Review and handoff
 
-Each card needs observed inputs, decision concept, assumptions, failure case, CPU risk, future baseline/ablation and rejection criterion. Distinct candidates may feed later bots and repeated clash rounds; no candidate is selected by this template.
+The primary checked the economic report's leakage/group dependence and Anni's hidden-world assumptions against Pranesh's source audit. Human Anni/Pranesh reviews remain pending. Avadooth's research was excluded and is not marked completed. A Hyde harness-extraction job timed out with no deliverable; primary source inspection supplied the accepted report. See [verification/work log](../PHASE-1-COMPLETION-AND-VERIFICATION.md).
 
-## Concrete cases and counterexamples
+Next human work: [Anni's two-bot assignment](07-TWO-BOT-BUILD-ASSIGNMENT.md). Full vector dimensionality/profile, legal reachable Road/masking fixtures, exact dataset reconstruction, learning and all strength claims remain explicit future work.
 
-- Case 1: pending, with assumptions and evidence label.
-- Case 2: pending, with assumptions and evidence label.
-- How the preferred concept could fail: pending.
+## Completion status
 
-## Proposed later experiments and tournament implications
-
-Pending. Describe tests without running them in Phase 1. Explain what a candidate should be compared with, which seed/seat/split controls matter, which weak matchups it may have and what could disqualify it operationally. Larger candidate portfolios must fit the future round budget; eight finalists must pass eligibility.
-
-## Cross-member handoff and open questions
-
-- Inputs requested and whether they block progress: pending.
-- Outputs supplied to other members: pending.
-- Conflicting evidence, unresolved assumptions and next planning decisions: pending.
-
-## Reviewer response
-
-Reviewer Member 3 (Pranesh): pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
-
-## Work log and evidence index
-
-- Planning task: worksheet created; no analysis, training or new matches performed.
-- Research commands, files under `phase-1/`, result paths, source access dates and decisions: pending.
-
-## Completion check
-
-- [ ] Assigned questions answered or bounded by named evidence gaps.
-- [ ] Source claims, own results and hypotheses remain distinguishable.
-- [ ] Raw inputs preserved; reproducible methods and relevant limits recorded.
-- [ ] Alternatives, counterexamples and refutable future experiments included.
-- [ ] Reviewer response recorded; disagreements handed to synthesis.
-- [ ] Stopped before bot implementation/training/new game experiments.
+- [x] Both full tables decoded and the specified text/metadata audit run.
+- [x] Dataset roles, training rejection and unresolved terms/provenance recorded.
+- [x] Methods, costs, assumptions, alternatives and failure cases compared.
+- [x] Repeated owner-build/assistant-review protocol and budget specified.
+- [ ] Anni/Pranesh human review and corrections.
+- [ ] Bots, runner, training, fixtures and matches — not implemented by this task.

@@ -124,3 +124,7 @@ No gameplay analysis or candidate performance was produced by creating this plan
 ## 8. Documentation handoff verification
 
 The planning task checked 21 current Markdown files and 124 local links: no missing targets or unbalanced code fences. All four common-context files are identical; each member has an assignment, detailed brief and explicitly unstarted findings worksheet. The organizer checkout remains clean at its pinned revision, and all 12 originally downloaded resources/metadata files listed in the acquisition manifest still match their recorded SHA-256 checksums. No agent file, environment copy, training result or tournament run was created.
+
+## Subsequent authorized handoff
+
+On 17 October, the user requested completing research for Aroosh/Pranesh/Anni while excluding Avadooth, then assigning eight strategies to four human builders. See [current synthesis](team-work/PHASE-1-REVIEW-AND-SYNTHESIS.md) and [two-bots-per-member plan](07-EIGHT-BOT-BUILD-AND-ITERATION-PLAN.md). Each member builds, self-tests and uploads; on receiving uploaded versions here, the assistant independently verifies/compares them and returns improvements; owners revise and repeat. Earlier deferred-ownership statements describe the original planning stage. Human reviews remain pending; no bots or new matches were produced by this research task.

@@ -2,7 +2,7 @@
 
 The [main catalogue](../03-RESEARCH-AND-DATASET-CATALOGUE.md) is the authoritative list of collected sources, revisions, licenses, numerical claims and limitations. The [root README](../README.md) gives direct dataset-page links for a quick start.
 
-## Included in the private repository
+## Included in the team repository (currently public)
 
 - Publisher metadata for Kaggle and both Hugging Face datasets.
 - [Acquisition manifest](metadata/download-manifest.json): public source URLs, revisions where applicable, byte counts and SHA-256 hashes.
@@ -27,3 +27,7 @@ These provenance files do not make the external corpora exact-match, expert-labe
 Restore only resources needed for your assigned research, respecting source terms. Compare their hashes with the manifest/catalogue. Do not interpret a GitHub clone as transferring these local files or the shared environment. Keep raw inputs unchanged and place derived research outputs under your member folder.
 
 The manifest also describes excluded downloads and a file-verification record may mention local previews. Those references preserve provenance; they do not imply the bytes are committed. Full Parquet decoding/whole-corpus consistency was not established during collection.
+
+## Subsequent research audits
+
+The original collection statements above are historical. [Aroosh's CSV audit](../team-work/member-1/phase-1/01-DATA-AND-STATISTICS.md) reproduces selected statistics and records parsing/confounding limits. [Anni's corpus audit](../team-work/member-4/phase-1/01-DATASET-AUDIT.md) now fully decodes both Parquet tables and checks specified patterns. Neither corpus is accepted for direct exact-rules training. All raw downloads/previews and the isolated reader remain excluded from Git.

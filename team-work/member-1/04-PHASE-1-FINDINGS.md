@@ -1,69 +1,43 @@
-# Member 1 (Aroosh) — Phase 1 findings: Statistical evidence and resource economics
+# Aroosh: Phase 1 findings — statistics and resource economics
 
-Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: **Aroosh**. Reviewer: Member 4 (Anni).
+17 October 2026. **Assistant research completed for Aroosh's track; human/team review pending.** No bots, training or game experiments. The user excluded Avadooth's research; his files were not used as completed findings.
 
-Use [your detailed brief](03-PHASE-1-RESEARCH-BRIEF.md) and the [record template](../PHASE-1-RESEARCH-TEMPLATE.md). Replace pending fields only after completing the corresponding work. Do not describe these instructions as results.
+## Decision summary
 
-## One-page decision summary
+The original CSV supports narrow descriptive reproductions, not a winning two-player policy. It has 50 four-player game groups and one repeated contributor, not 200 independent matches. Seat wins and game length reproduce the article; development-card/road purchase effects and the contributor's regression do not have sufficient specifications/fields for reproduction here. Two undocumented zero-number B tokens remain unresolved.
 
-- Highest-priority question answered: pending.
-- Supported source/reproduced/descriptive/derived findings: pending.
-- Strongest candidate and meaningful alternative: pending.
-- Exact-rules transfer limits and missing evidence: pending.
-- Recommendation for the later planning discussion, with reason: pending.
+Recommend testing **B01 bottleneck economy** against **B02 city/dev engine**, with a port-conversion handoff to Avadooth. Exact purchase costs, observed hands and integer trades justify the hypotheses more directly than post-game correlations. No strategy is measured as stronger yet.
 
-## Assigned questions
+## Evidence pack and answers
 
-1. Which numerical claims can be reproduced from the actual fields and game groups? — **Pending**
-2. Which associations are post-game, confounded or incompatible with an opening decision? — **Pending**
-3. Which economy alternatives deserve later exact-rules bot comparisons? — **Pending**
+| Assigned question | Completed answer / evidence |
+|---|---|
+| What can be reproduced? | Seat wins 8/18/14/10 and rolls mean64.28/sampleSD12.7408, using one histogram per game. [Dictionary, quality and statistics](phase-1/01-DATA-AND-STATISTICS.md) distinguish these from new complete-case descriptors. |
+| What leaks or confounds? | Final points, collection/trade/discard totals and realized dice are unavailable at opening. The observed me flag has 25/50 flagged wins versus 25/150 unflagged; seat/person selection matters. Within-game player dependence is explicit. |
+| What economy alternatives deserve bots? | Complete-ingredient valuation versus concentrated productive city/dev investment, with port access conditional on route cost. [Hypotheses and cases](phase-1/02-ECONOMY-AND-HYPOTHESES.md) provide inputs, assumptions, counterexamples and rejection tests. |
 
-## Source cards
+Source links and exact input hash are in the data audit; raw data stays local. Published/source statements, our descriptive calculations, hand-worked arithmetic and untested hypotheses are labelled separately. No arbitrary regression was substituted for the contributor's reported 40/50 result.
 
-Pending. Record primary URLs, revisions/pages/functions, setting, method, actual claim and transfer limits. Use two to four strong sources where available; fewer with an explicit evidence gap is acceptable.
+## Reproducible outputs
 
-## Dataset audit / semantic audit / offline results
+- [CSV auditor](phase-1/audit_csv.py), standard-library only, and [actual aggregate JSON](phase-1/csv-audit.json).
+- Data dictionary preserves all 36 original header positions and blanks. Duplicate/group/winner checks and gain/loss identities pass; settlement parsing retains unresolved tokens.
+- Complete-case initial descriptors use 198 player records /49 winners; all 200 remain in placement/roll audits. Resource associations are not causal effects or exact reproductions of every article chart.
+- Focused planning-paper/source review, four concrete economy cases and three hypothesis cards are in the [economics report](phase-1/02-ECONOMY-AND-HYPOTHESES.md).
 
-Pending. Use the audit/result format appropriate to your track. Include input hashes, decision-time availability, dependence/leakage, exact commands and output paths for any calculation. If data cannot answer a question or a full reader is unavailable, document that limitation.
+The primary independently recomputed winners, dice summaries and token inventories before reconciling the script results. A Hyde draft task timed out with no output; no junior code was accepted. See [shared verification/work log](../PHASE-1-COMPLETION-AND-VERIFICATION.md).
 
-## Candidate strategy cards
+## Handoff and review
 
-- `M1-H1`: pending; no bot implemented.
-- `M1-H2`: pending; competing alternative or variant.
-- `M1-H3`: optional; pending evidence.
+Avadooth supplies spatial/port legality and his own pending research. Pranesh supplies terminal/timing and denial semantics. Anni's dataset/method findings support grouped evaluation and no immediate imitation dependency. The primary cross-checked these reports for consistency; no human reviewer response is invented. Anni's requested human review remains pending.
 
-Each card needs observed inputs, decision concept, assumptions, failure case, CPU risk, future baseline/ablation and rejection criterion. Distinct candidates may feed later bots and repeated clash rounds; no candidate is selected by this template.
+Future assignment: [Aroosh builds, self-tests and uploads B01/B02](07-TWO-BOT-BUILD-ASSIGNMENT.md). The assistant later verifies uploaded versions and gives specific fixes. That loop is planned, not executed here.
 
-## Concrete cases and counterexamples
+## Completion status
 
-- Case 1: pending, with assumptions and evidence label.
-- Case 2: pending, with assumptions and evidence label.
-- How the preferred concept could fail: pending.
-
-## Proposed later experiments and tournament implications
-
-Pending. Describe tests without running them in Phase 1. Explain what a candidate should be compared with, which seed/seat/split controls matter, which weak matchups it may have and what could disqualify it operationally. Larger candidate portfolios must fit the future round budget; eight finalists must pass eligibility.
-
-## Cross-member handoff and open questions
-
-- Inputs requested and whether they block progress: pending.
-- Outputs supplied to other members: pending.
-- Conflicting evidence, unresolved assumptions and next planning decisions: pending.
-
-## Reviewer response
-
-Reviewer Member 4 (Anni): pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
-
-## Work log and evidence index
-
-- Planning task: worksheet created; no analysis, training or new matches performed.
-- Research commands, files under `phase-1/`, result paths, source access dates and decisions: pending.
-
-## Completion check
-
-- [ ] Assigned questions answered or bounded by named evidence gaps.
-- [ ] Source claims, own results and hypotheses remain distinguishable.
-- [ ] Raw inputs preserved; reproducible methods and relevant limits recorded.
-- [ ] Alternatives, counterexamples and refutable future experiments included.
-- [ ] Reviewer response recorded; disagreements handed to synthesis.
-- [ ] Stopped before bot implementation/training/new game experiments.
+- [x] Numerical study checked against actual fields, groups and encodings.
+- [x] Reproductions, new descriptors, confounding and unresolved claims separated.
+- [x] Economic alternatives, cases, counterexamples and future ablations documented.
+- [x] Research scripts run; raw inputs preserved and excluded from Git.
+- [ ] Aroosh/Anni human review and requested corrections.
+- [ ] Exact-rules fixtures, bots, CPU profiles and comparative games — future work.

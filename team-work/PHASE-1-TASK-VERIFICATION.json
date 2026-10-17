@@ -1,0 +1,59 @@
+{
+  "date_ist": "2026-10-17",
+  "scope": "Assistant research and eight human build assignments; pre-publication verification snapshot",
+  "markdown_files_checked": 48,
+  "valid_local_links": 327,
+  "missing_local_links": [],
+  "shareable_files_credential_and_path_scan": 68,
+  "credential_scan": "passed (known values and signatures; no scanner guarantees exhaustive detection)",
+  "original_download_manifest_hashes": "all passed",
+  "independent_csv_aggregate_checks": "passed",
+  "independent_corpus_aggregate_checks": "passed",
+  "additional_pinned_engine_source_matches": 2,
+  "organizer_checkout": "clean at04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "observed_upstream_head": "efaa27e7aef628994313bf4080deb4e191491d1e",
+  "upstream_difference": "README only; rules, harness and requirements unchanged",
+  "game_environment_reader_absent": true,
+  "research_only_reader": "pyarrow20.0.0 in ignored target directory",
+  "existing_avadooth_files_byte_identical": true,
+  "avadooth_new_file": "07-TWO-BOT-BUILD-ASSIGNMENT.md only",
+  "human_reviews": "pending; not inferred from assistant checks",
+  "new_bots": 0,
+  "new_game_runs": 0,
+  "training_runs": 0,
+  "new_hyde_jobs": {
+    "rejected_timeout_no_outputs": 2,
+    "accepted_outputs": 0
+  },
+  "initial_strategy_assignments": {
+    "Aroosh": [
+      "B01",
+      "B02"
+    ],
+    "Avadooth": [
+      "B03",
+      "B04"
+    ],
+    "Pranesh": [
+      "B05",
+      "B06"
+    ],
+    "Anni": [
+      "B07",
+      "B08"
+    ]
+  },
+  "workflow": "Human owners build/self-test/upload; assistant verifies/compares/returns improvements; owners revise/upload; repeat",
+  "evidence_hashes": {
+    "team-work/member-1/phase-1/01-DATA-AND-STATISTICS.md": "cec7be5e6ffcfe14875f7f8528c35fa7ac719ed23d81b08442e2c069f716992e",
+    "team-work/member-1/phase-1/02-ECONOMY-AND-HYPOTHESES.md": "ae367cad10264350a90962d6430d43166ebf0db8e4e26c0b2e65a8ca12acd7a0",
+    "team-work/member-1/phase-1/audit_csv.py": "154c6fcfbf5e4eec5dbe0ef7e0917acd2a19c302d4f8ba5b66e21c8f406dd0c3",
+    "team-work/member-1/phase-1/csv-audit.json": "6e9aa6ddd501f7bc3b7b1cc4c754df98fecb1e205fac0f72034b13f089289042",
+    "team-work/member-4/phase-1/01-DATASET-AUDIT.md": "e6540a2f3e48d0717db424550a0020c36f6e79ce56b1bd1f1b5ff321d698e0ed",
+    "team-work/member-4/phase-1/02-METHODS-AND-SOURCES.md": "2fc88f860e07a2e5c83fdad29735d9a29f8f06214893bd321bbbd5a5d6bd44c2",
+    "team-work/member-4/phase-1/03-ITERATION-AND-TEST-PROTOCOL.md": "e11eb3f4429381e98d27209001f4ed399f4bdb9708ae68f03bed5ddf12484d83",
+    "team-work/member-4/phase-1/additional-source-verification.json": "4f859ea8d402e751402c8bd92c375f491c21a38c17c32483ac26b08f66037dee",
+    "team-work/member-4/phase-1/audit_text_corpora.py": "5467155bbeed77b75bdd3ed64b6f266f256419e3096d37c6a0492fe1a890080f",
+    "team-work/member-4/phase-1/corpus-audit.json": "69dc9facbb6e51e522de14e1e58672e1907a4d7e93591607cd0ebaee0ef94d24"
+  }
+}
