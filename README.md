@@ -1,6 +1,6 @@
 # Catan hackathon: shared research and strategy workspace
 
-Private team context for the Hyde two-player Catan hackathon. This repository contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Phase 1 research is assigned; the findings worksheets remain unstarted.** No competition bots or trained policies have been created yet.
+Team context for the Hyde two-player Catan hackathon. The repository was made **public at the user's request**. It contains our plans, research instructions, source catalogue, provenance metadata and four teammate workspaces. **Phase 1 research is assigned; the findings worksheets remain unstarted.** No competition bots or trained policies have been created yet.
 
 ## Start here
 
@@ -9,6 +9,7 @@ Private team context for the Hyde two-player Catan hackathon. This repository co
 3. [Research papers, numerical studies and dataset catalogue](03-RESEARCH-AND-DATASET-CATALOGUE.md).
 4. [Phase-wise plan and repeated bot tournaments](04-PHASE-WISE-PLAN.md).
 5. [Team workspace entry point](team-work/README.md) and [Phase 1 common brief](team-work/PHASE-1-COMMON-BRIEF.md).
+6. [OpenCode–Hyde setup and verification](06-OPENCODE-HYDE-SETUP.md) and [junior-engineer workflow](team-work/JUNIOR-ENGINEER-WORKFLOW.md). Pranesh is Member 3; routine work goes to GLM-5.3 Flash with primary-assistant review.
 
 The numbered reports preserve what was known/done at each stage. Earlier statements such as “setup deferred” describe that historical stage; the later setup report records its completion.
 
@@ -57,6 +58,6 @@ Replace the example paths locally. The launcher does not clone, install or upgra
 
 ## Sharing and work boundaries
 
-Share this private repository with the four team members through GitHub access controls. Collaborators have not been invited automatically; their GitHub usernames have not been supplied. Keep changes in your assigned folder until shared-file work is coordinated. Do not upload team material publicly or send credentials through Markdown/chat.
+The repository is public at the user's request; reading it does not require an invitation. Writing still requires GitHub access. Collaborators have not been invited automatically; their GitHub usernames have not been supplied. Keep changes in your assigned folder until shared-file work is coordinated. Never send credentials through Markdown/chat.
 
 The local `.env` is exclusively for repository publication authentication, has restricted file permissions, and is ignored by Git. It is not required by any teammate to read these plans or use an existing game environment. Remote event SSH/portal work remains with the teammate already handling it.

@@ -2,6 +2,8 @@
 
 Date: **17 October 2026 (IST)**.
 
+Historical record: this repository was initially published privately, then made **public at the user's explicit request**. The private-visibility checks below describe that initial publication; the current visibility is public.
+
 Status: **COMPLETE — private repository created, plans pushed, remote commit/tree and exclusions verified.**
 
 ## Authorized scope

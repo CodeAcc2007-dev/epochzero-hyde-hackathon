@@ -69,3 +69,9 @@ Phase 1 ownership and handoffs:
 Keep research outputs in your own member folder. Coordinate changes to shared dependencies; changing them affects everyone. Later benchmarks should initially run sequentially to avoid distorted timings and excess RAM. Bot implementation, training, match experiments, bot-building assignments and GitHub creation have not been performed by this planning task. Use the [research record template](PHASE-1-RESEARCH-TEMPLATE.md) and [synthesis worksheet](PHASE-1-REVIEW-AND-SYNTHESIS.md) for handoff.
 
 See [setup and verification results](../02-LOCAL-SETUP-AND-VALIDATION.md) and [problem analysis](../01-PROBLEM-AND-ENVIRONMENT-ANALYSIS.md).
+
+## Pranesh's junior-engineer workflow
+
+The user is Pranesh (Member 3). Suitable repetitive development work now uses Hyde GLM-5.3 Flash through OpenCode, with the primary assistant owning strategy, review, verification and reporting. See the [tested setup](../06-OPENCODE-HYDE-SETUP.md), [operating guide](JUNIOR-ENGINEER-WORKFLOW.md) and [bounded runner](run-hyde-junior.py). Drafts and session logs stay in local job folders until senior review; no credentials are in this repository.
+
+Pranesh has a [junior-drafted, senior-reviewed checklist](member-3/05-PHASE-1-CHECKLIST.md) and [job/review log](member-3/06-JUNIOR-WORK-LOG.md). The checklist does not mark research complete or start bot work.

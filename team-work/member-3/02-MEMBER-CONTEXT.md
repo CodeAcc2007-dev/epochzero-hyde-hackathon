@@ -26,6 +26,7 @@ The later objective is multiple bots and repeated clash/selection/improvement ro
 
 - 17 October 2026: detailed instructions and a findings worksheet prepared; no research results produced by this planning task.
 - 17 October 2026: user assigned **Pranesh** to member 3; folder paths remain stable.
+- 17 October 2026: Pranesh requested Hyde GLM-5.3 Flash as a junior engineer for routine work, retaining primary-assistant reasoning, verification and reporting. See [checklist](05-PHASE-1-CHECKLIST.md), [job reviews](06-JUNIOR-WORK-LOG.md), and [workflow](../JUNIOR-ENGINEER-WORKFLOW.md). Setup and documentation checks passed; tactical research remains pending.
 - Pending: completed research, exact commands/evidence, reviewer response and unresolved issues.
 
 Keep every consequential assumption, result, limitation and decision in Markdown, with evidence links. Never record credentials or package an environment here.
