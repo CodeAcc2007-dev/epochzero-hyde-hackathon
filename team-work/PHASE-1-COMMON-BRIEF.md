@@ -35,10 +35,10 @@ Paths below are relative to the **project root**:
 
 | Resource | Shared path | Current evidence / limitation | Main owner |
 |---|---|---|---|
-| Statistical CSV | `research/downloads/datasets/catanstats.csv` | 50 four-player games, 200 player rows, 36 columns; summaries, not full trajectories; CC BY-NC-SA 4.0 metadata | Member 1 |
-| Original CSV archive | `research/downloads/datasets/lumins-catan-games.zip` | Unchanged source archive; blank column headers require documented interpretation | Member 1 |
-| HF 1v1 text corpus | `research/downloads/datasets/g8967-catan-sft.parquet` | Metadata: 1,000 rows; inspected prompt 1v1, **7 VP**, hidden resource types; whole file not decoded yet; license unconfirmed | Member 4 |
-| HF second text corpus | `research/downloads/datasets/vvantim-catan-sft.parquet` | Metadata: 2,668 rows; inspected example **four-player**, 10 VP; whole file not decoded yet; license unconfirmed | Member 4 |
+| Statistical CSV | `research/downloads/datasets/catanstats.csv` | 50 four-player games, 200 player rows, 36 columns; summaries, not full trajectories; CC BY-NC-SA 4.0 metadata | Member 1 (Aroosh) |
+| Original CSV archive | `research/downloads/datasets/lumins-catan-games.zip` | Unchanged source archive; blank column headers require documented interpretation | Member 1 (Aroosh) |
+| HF 1v1 text corpus | `research/downloads/datasets/g8967-catan-sft.parquet` | Metadata: 1,000 rows; inspected prompt 1v1, **7 VP**, hidden resource types; whole file not decoded yet; license unconfirmed | Member 4 (Anni) |
+| HF second text corpus | `research/downloads/datasets/vvantim-catan-sft.parquet` | Metadata: 2,668 rows; inspected example **four-player**, 10 VP; whole file not decoded yet; license unconfirmed | Member 4 (Anni) |
 | Dataset evidence | `research/metadata/` | Download manifest/checksums, publisher cards, first-row previews and file-verification record | All, read-only |
 | Papers | `research/downloads/papers/` | Four saved PDFs and their source URLs in the catalogue; no paper's training corpus acquired | All, read-only |
 | Official kit | `shared-local/organizer-kit/` | Shared pinned code, source inspection and examples; do not edit | All, read-only |
@@ -48,7 +48,7 @@ The 43,947-game collection has documentation only; raw logs were not downloaded.
 
 From your member folder, use `../run-python.sh` for research scripts. Root resources are reached with `../../research/...`; keep any derived output under your own `phase-1/` folder and link it from your findings. Preserve raw files byte-for-byte and record hashes of inputs. No clone, reinstall or environment copy is needed.
 
-A full local Parquet reader was not validated during collection. Member 4 first checks what is available read-only. If a reader is missing, document the dependency and coordinate a research-only setup before any install; do not change shared pinned dependencies or count viewer previews as a full-corpus audit. Other members continue without waiting.
+A full local Parquet reader was not validated during collection. Member 4 (Anni) first checks what is available read-only. If a reader is missing, document the dependency and coordinate a research-only setup before any install; do not change shared pinned dependencies or count viewer previews as a full-corpus audit. Other members continue without waiting.
 
 When forwarding context to another computer, send the Markdown bundle plus source metadata. Data downloads remain local and ignored by Git; use pinned source links/checksums and suitable access or separately obtain permitted copies. Licenses/terms still apply. An existing compatible installation on that machine can be selected with `CATAN_PYTHON` and `CATAN_KIT_DIR`; this laptop's environment is not remotely shared.
 

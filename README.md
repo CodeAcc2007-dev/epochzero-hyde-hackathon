@@ -16,10 +16,10 @@ The numbered reports preserve what was known/done at each stage. Earlier stateme
 
 | Teammate | Research focus | Detailed instructions | Findings worksheet |
 |---|---|---|---|
-| Member 1 | Numerical study, statistical evidence and resource economics | [Brief](team-work/member-1/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-1/04-PHASE-1-FINDINGS.md) |
-| Member 2 | Opening placement, expansion and ports | [Brief](team-work/member-2/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-2/04-PHASE-1-FINDINGS.md) |
-| Member 3 | Tactical sequences, opponent threats and VP races | [Brief](team-work/member-3/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-3/04-PHASE-1-FINDINGS.md) |
-| Member 4 | Search/learning, text-data suitability and tournament design | [Brief](team-work/member-4/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-4/04-PHASE-1-FINDINGS.md) |
+| Member 1 (Aroosh) | Numerical study, statistical evidence and resource economics | [Brief](team-work/member-1/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-1/04-PHASE-1-FINDINGS.md) |
+| Member 2 (Avadooth) | Opening placement, expansion and ports | [Brief](team-work/member-2/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-2/04-PHASE-1-FINDINGS.md) |
+| Member 3 (Pranesh) | Tactical sequences, opponent threats and VP races | [Brief](team-work/member-3/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-3/04-PHASE-1-FINDINGS.md) |
+| Member 4 (Anni) | Search/learning, text-data suitability and tournament design | [Brief](team-work/member-4/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](team-work/member-4/04-PHASE-1-FINDINGS.md) |
 
 Each folder has common context, member-specific context, detailed instructions and a findings worksheet. Record source-backed findings, assumptions, alternative strategies and counterexamples in Markdown. Use the [research record template](team-work/PHASE-1-RESEARCH-TEMPLATE.md); bring completed reports to the [review and synthesis worksheet](team-work/PHASE-1-REVIEW-AND-SYNTHESIS.md). Bot-building and test assignments follow the research.
 

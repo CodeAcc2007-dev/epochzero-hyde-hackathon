@@ -1,6 +1,6 @@
-# Member 2 — Phase 1 findings: Opening placement, expansion and ports
+# Member 2 (Avadooth) — Phase 1 findings: Opening placement, expansion and ports
 
-Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: pending. Reviewer: Member 1.
+Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: **Avadooth**. Reviewer: Member 1 (Aroosh).
 
 Use [your detailed brief](03-PHASE-1-RESEARCH-BRIEF.md) and the [record template](../PHASE-1-RESEARCH-TEMPLATE.md). Replace pending fields only after completing the corresponding work. Do not describe these instructions as results.
 
@@ -52,7 +52,7 @@ Pending. Describe tests without running them in Phase 1. Explain what a candidat
 
 ## Reviewer response
 
-Reviewer Member 1: pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
+Reviewer Member 1 (Aroosh): pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
 
 ## Work log and evidence index
 

@@ -1,4 +1,4 @@
-# Member 2 — Phase 1: opening placement, expansion and ports
+# Member 2 (Avadooth) — Phase 1: opening placement, expansion and ports
 
 Status: **assigned research; not executed by this planning task**. Read [common context](01-COMMON-CONTEXT.md), the [shared brief](../PHASE-1-COMMON-BRIEF.md) and [your findings worksheet](04-PHASE-1-FINDINGS.md).
 
@@ -6,7 +6,7 @@ Status: **assigned research; not executed by this planning task**. Read [common 
 
 Develop source-backed alternatives for opening placement and spatial growth. Explain which board features could distinguish good choices and when those features conflict. Our goal is an implementable decision specification later, not a list of generic four-player tips.
 
-You own placement/expansion reasoning. Member 1 owns Kaggle numerical results; request their audit instead of producing a second incompatible CSV analysis. You can work immediately with explicit provisional economy assumptions.
+You own placement/expansion reasoning. Member 1 (Aroosh) owns Kaggle numerical results; request their audit instead of producing a second incompatible CSV analysis. You can work immediately with explicit provisional economy assumptions.
 
 ## Inputs and source targets
 
@@ -36,7 +36,7 @@ For each concept, specify inputs, units, what it rewards, what it omits and a fa
 - Port type, resource surplus, accessibility and the investment required to benefit.
 - Opponent denial: lost opportunity to the opponent versus forgone own development in a two-player race.
 
-Use Member 1's economic findings when available, but label four-player statistical associations separately from mathematical production definitions. The Kaggle summaries do not encode a complete board graph or full placement choice set; they cannot directly identify optimal road paths or placement regret.
+Use Member 1 (Aroosh)'s economic findings when available, but label four-player statistical associations separately from mathematical production definitions. The Kaggle summaries do not encode a complete board graph or full placement choice set; they cannot directly identify optimal road paths or placement regret.
 
 ## Work package C — expansion specifications
 
@@ -50,7 +50,7 @@ For each, explain:
 4. How the value changes after an opponent settlement, robber move or depleted expansion space.
 5. Which features are available directly versus requiring graph traversal or repeated successor copies.
 
-Keep Longest Road as a contested bonus, not a count of purchased roads. Member 3 owns exact route/bonus tactics; pass them spatial assumptions rather than duplicating the semantic audit.
+Keep Longest Road as a contested bonus, not a count of purchased roads. Member 3 (Pranesh) owns exact route/bonus tactics; pass them spatial assumptions rather than duplicating the semantic audit.
 
 ## Concrete examples required
 
@@ -67,7 +67,7 @@ Produce up to three hypothesis cards. Each should describe an opening-only or ex
 
 Fill [04-PHASE-1-FINDINGS.md](04-PHASE-1-FINDINGS.md) with the semantic reference table, feature specifications, examples, source cards and proposed variants. Optional diagrams/calculation scripts belong under your `phase-1/` folder; do not create a board simulator or bot in Phase 1.
 
-Member 1 reviews your economic/statistical assumptions. You review Member 3's spatial/bonus claims. Give Member 4 the feature-cost dependencies and candidate action-ranking concepts for its search/CPU feasibility review.
+Member 1 (Aroosh) reviews your economic/statistical assumptions. You review Member 3 (Pranesh)'s spatial/bonus claims. Give Member 4 (Anni) the feature-cost dependencies and candidate action-ranking concepts for its search/CPU feasibility review.
 
 ## Acceptance and stop
 

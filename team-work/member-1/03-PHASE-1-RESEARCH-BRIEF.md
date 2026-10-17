@@ -1,4 +1,4 @@
-# Member 1 — Phase 1: statistical evidence and resource economics
+# Member 1 (Aroosh) — Phase 1: statistical evidence and resource economics
 
 Status: **assigned research; not executed by this planning task**. Read [common context](01-COMMON-CONTEXT.md), the [shared Phase 1 brief](../PHASE-1-COMMON-BRIEF.md) and [your findings worksheet](04-PHASE-1-FINDINGS.md).
 
@@ -64,9 +64,9 @@ Fill [04-PHASE-1-FINDINGS.md](04-PHASE-1-FINDINGS.md) with:
 - Data dictionary/quality audit, decision-time availability table and reproducible result records.
 - Optional `phase-1/` analysis scripts/notebooks, derived tables/figures and exact commands. Raw data stays shared and unchanged.
 - Up to three hypothesis cards, two counterexamples and future experiment/ablation designs.
-- Questions for Members 2–4, and a response to Member 4's review.
+- Questions for Avadooth, Pranesh and Anni, and a response to Member 4 (Anni)'s review.
 
-Give Member 2 production/bottleneck assumptions and known statistical limits. Give Member 3 purchase-cost/discard tradeoffs. Review Member 2's economic reasoning. Ask Member 4 to inspect leakage, group dependence and the proposed uncertainty method.
+Give Member 2 (Avadooth) production/bottleneck assumptions and known statistical limits. Give Member 3 (Pranesh) purchase-cost/discard tradeoffs. Review Member 2 (Avadooth)'s economic reasoning. Ask Member 4 (Anni) to inspect leakage, group dependence and the proposed uncertainty method.
 
 ## Acceptance and stop
 

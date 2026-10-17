@@ -1,6 +1,6 @@
-# Member 4: Phase 1 assignment
+# Member 4 (Anni): Phase 1 assignment
 
-Status: **Research assigned; findings pending.** Actual teammate name: not yet recorded. Research roles do not determine later bot-building roles.
+Status: **Research assigned; findings pending.** Actual teammate name: **Anni**. Research roles do not determine later bot-building roles.
 
 ## Your research track
 
@@ -10,8 +10,8 @@ Read [common context](01-COMMON-CONTEXT.md), [Phase 1 shared instructions](../PH
 
 - Main inputs: Both HF corpora/metadata; two-player RL/search/imitation literature; pinned harness, evaluator and clock source.
 - Required handoff: Dataset suitability verdicts; method feasibility matrix; strategy alternatives; tournament, split, uncertainty and logging specification.
-- Reviewer of your handoff: **Member 3**.
-- You review: **Member 1**.
+- Reviewer of your handoff: **Member 3 (Pranesh)**.
+- You review: **Member 1 (Aroosh)**.
 - Owned editable files: this folder's context, findings and optional `phase-1/` research outputs. Shared raw inputs and installed code remain unchanged.
 
 ## Access and scope
@@ -25,6 +25,7 @@ The later objective is multiple bots and repeated clash/selection/improvement ro
 ## Work log
 
 - 17 October 2026: detailed instructions and a findings worksheet prepared; no research results produced by this planning task.
-- Pending: teammate name, completed research, exact commands/evidence, reviewer response and unresolved issues.
+- 17 October 2026: user assigned **Anni** to member 4; folder paths remain stable.
+- Pending: completed research, exact commands/evidence, reviewer response and unresolved issues.
 
 Keep every consequential assumption, result, limitation and decision in Markdown, with evidence links. Never record credentials or package an environment here.

@@ -26,23 +26,23 @@ Phases 3–5 may repeat on **development** data. Do not repeatedly revisit the f
 
 ## 3. Phase 1 division among four teammates
 
-Member numbers identify working folders; actual names can be added later. These are **research ownership assignments**, not permanent implementation roles.
+Member numbers identify stable working folders: **1 — Aroosh; 2 — Avadooth; 3 — Pranesh; 4 — Anni**. These are **research ownership assignments**, not permanent implementation roles.
 
 | Member | Research ownership | Main evidence | Required contribution to later planning | Reviewer |
 |---|---|---|---|---|
-| **1** | Statistical evidence, resource economics and interpretation of the existing numerical study | Kaggle 50-game CSV, original metadata, Chabot article, Guhe–Lascarides | Reproducible statistical findings with limits; economy/production hypotheses; which claims survive basic leakage and dependence checks | Member 4 |
-| **2** | Opening placement, spatial expansion, ports and production risk | Exact board/feature/value source, probabilistic report; Member 1's evidence when available | Opening and expansion decision specifications; useful board features; tradeoffs and counterexamples | Member 1 |
-| **3** | Tactical sequences, opponent threats and victory races | Exact legal-action/application/win source, observation/masking source, heuristic planning literature | Tactical priority proposals, threat/bonus rules and hand-worked legal cases; boundaries on hidden information | Member 2 |
-| **4** | Search/learning feasibility, text-dataset audit and fair evaluation design | Two-player RL paper, search/imitation references, both HF corpora, exact harness/clock | Dataset suitability verdicts; feasible method options with unmeasured cost labelled; comparison and logging specification | Member 3 |
+| **1 — Aroosh** | Statistical evidence, resource economics and interpretation of the existing numerical study | Kaggle 50-game CSV, original metadata, Chabot article, Guhe–Lascarides | Reproducible statistical findings with limits; economy/production hypotheses; which claims survive basic leakage and dependence checks | Member 4 (Anni) |
+| **2 — Avadooth** | Opening placement, spatial expansion, ports and production risk | Exact board/feature/value source, probabilistic report; Member 1 (Aroosh)'s evidence when available | Opening and expansion decision specifications; useful board features; tradeoffs and counterexamples | Member 1 (Aroosh) |
+| **3 — Pranesh** | Tactical sequences, opponent threats and victory races | Exact legal-action/application/win source, observation/masking source, heuristic planning literature | Tactical priority proposals, threat/bonus rules and hand-worked legal cases; boundaries on hidden information | Member 2 (Avadooth) |
+| **4 — Anni** | Search/learning feasibility, text-dataset audit and fair evaluation design | Two-player RL paper, search/imitation references, both HF corpora, exact harness/clock | Dataset suitability verdicts; feasible method options with unmeasured cost labelled; comparison and logging specification | Member 3 (Pranesh) |
 
-Each teammate can start immediately. Member 2 does not wait for Member 1's final statistics; it marks any economic premise as provisional. Member 3 owns tactical semantics; Member 4 checks their implications for search and measurement. Review is a written check of claims, not permission to edit someone else's raw data or results.
+Each teammate can start immediately. Member 2 (Avadooth) does not wait for Member 1 (Aroosh)'s final statistics; it marks any economic premise as provisional. Member 3 (Pranesh) owns tactical semantics; Member 4 (Anni) checks their implications for search and measurement. Review is a written check of claims, not permission to edit someone else's raw data or results.
 
 Shared instructions: [Phase 1 common brief](team-work/PHASE-1-COMMON-BRIEF.md). Individual briefs:
 
-1. [Member 1: statistical evidence and economy](team-work/member-1/03-PHASE-1-RESEARCH-BRIEF.md)
-2. [Member 2: opening and expansion](team-work/member-2/03-PHASE-1-RESEARCH-BRIEF.md)
-3. [Member 3: tactics and threats](team-work/member-3/03-PHASE-1-RESEARCH-BRIEF.md)
-4. [Member 4: methods, datasets and evaluation](team-work/member-4/03-PHASE-1-RESEARCH-BRIEF.md)
+1. [Member 1 (Aroosh): statistical evidence and economy](team-work/member-1/03-PHASE-1-RESEARCH-BRIEF.md)
+2. [Member 2 (Avadooth): opening and expansion](team-work/member-2/03-PHASE-1-RESEARCH-BRIEF.md)
+3. [Member 3 (Pranesh): tactics and threats](team-work/member-3/03-PHASE-1-RESEARCH-BRIEF.md)
+4. [Member 4 (Anni): methods, datasets and evaluation](team-work/member-4/03-PHASE-1-RESEARCH-BRIEF.md)
 
 ## 4. How Phase 1 feeds multiple later bots
 
@@ -87,7 +87,7 @@ These are planning requirements, not results from new matches.
 2. Use even game counts and the harness's paired boards/alternating seats. Its keyed dice setup is preserved; do not predict hidden rolls from seeds. Shared initial dice setup does not make divergent policies experience identical trajectories.
 3. Separate development, model/parameter selection and final evaluation by board-seed groups. Record game order and whether cross-game opponent adaptation is enabled; one process spans multiple games.
 4. Log per-game outcomes and operating counters as well as summaries. No-winner games count as losses. Record opponent/configuration, code/data hashes, seed group, seat, load time, decisions, own CPU, over-budget games, fallback moves, faults, timeouts and crashes. Supplemental diagnostics must not change the rules.
-5. Treat the board/seat pair as a dependence unit in uncertainty analysis. Do not use a zero-width normal interval at 0% or 100% as proof of certainty. Member 4 proposes the method; Member 1 reviews its statistical assumptions.
+5. Treat the board/seat pair as a dependence unit in uncertainty analysis. Do not use a zero-width normal interval at 0% or 100% as proof of certainty. Member 4 (Anni) proposes the method; Member 1 (Aroosh) reviews its statistical assumptions.
 6. Use small tests for legality and profiling, then larger comparisons for selection. The organizer recommends at least 400 games for training comparisons and 1,000 before submission; these are planning targets subject to actual resources, not evidence of guaranteed statistical power.
 7. Compare across distinct opponent styles, report weak matchups and run component ablations. A team-internal worst-matchup result is a robustness proxy, not the official group-stage score.
 8. Measure CPU under controlled local load, initially running matches sequentially. Keep a safety reserve and document hardware; local milliseconds do not certify scorer compliance. Target zero faults and exhausted-clock games, rather than treating the disqualification threshold as an acceptable error allowance.
@@ -112,7 +112,7 @@ Planning decisions made here:
 
 | Decision | Reason | Deferred decision |
 |---|---|---|
-| Divide by evidence/economy, position, tactics, and methods/evaluation | Covers distinct parts of play while giving every member a strategy contribution | Names, later bot owners and exact implementation modules |
+| Divide by evidence/economy, position, tactics, and methods/evaluation | Covers distinct parts of play while giving every member a strategy contribution | Later bot owners and exact implementation modules |
 | Give the numerical CSV one main analysis owner | Prevents duplicate incompatible analyses and lost provenance | Whether any inferred relationship deserves a bot feature |
 | Give both text corpora one audit owner | Their rule mismatch and unverified full contents need a consistent verdict | Training use, labels, conversion and model choice |
 | Require counterexamples and competing hypotheses | Reduces premature commitment to one strategy | Which bot families survive the research |

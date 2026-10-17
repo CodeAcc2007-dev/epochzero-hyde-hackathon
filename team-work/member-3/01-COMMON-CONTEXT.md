@@ -70,7 +70,7 @@ On another computer with an already installed environment, set `CATAN_PYTHON` to
 ## Collaboration boundaries
 
 - Use your own member folder for assigned research and derived outputs. Do not modify another member's files without coordination.
-- Phase 1 research roles are assigned in the member briefs. Actual names, later bot-building ownership and integration interfaces remain to be decided after research.
+- Phase 1 research roles are assigned in the member briefs. Names are assigned: Aroosh (1), Avadooth (2), Pranesh (3), Anni (4). Later bot-building ownership and integration interfaces remain to be decided after research.
 - Do not modify the organizer kit/harness to make an agent appear stronger or faster.
 - SSH, organizer-machine credentials, remote uploads and the portal belong to the teammate already handling them.
 - Keep environments, API keys, passwords, caches and credentials outside shareable folders and future Git history.
@@ -84,7 +84,7 @@ Python 3.11.17, the exact engine commit, all supplied package pins and CPU-only 
 
 ## Current Phase 1 assignment and stop point
 
-The four research tracks are: Member 1 statistical evidence/economy; Member 2 opening/expansion/ports; Member 3 tactics/threats/VP races; Member 4 methods/text-data audit/tournament design. Read your detailed brief and complete your findings report. Offline research analysis is now part of those instructions; no research has been performed merely by creating the briefs.
+The four research tracks are: Member 1 (Aroosh) statistical evidence/economy; Member 2 (Avadooth) opening/expansion/ports; Member 3 (Pranesh) tactics/threats/VP races; Member 4 (Anni) methods/text-data audit/tournament design. Read your detailed brief and complete your findings report. Offline research analysis is now part of those instructions; no research has been performed merely by creating the briefs.
 
 The later workflow is multiple candidate bots, repeated eligibility/clash/selection/improvement rounds, and eight validated local finalists. The current event permits **7 scored submissions and 10 total uploads**, so eight local finalists are not eight scored submissions. The portal teammate must track remaining slots.
 

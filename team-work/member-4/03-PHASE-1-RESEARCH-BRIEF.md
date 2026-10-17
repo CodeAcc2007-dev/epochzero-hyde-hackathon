@@ -1,4 +1,4 @@
-# Member 4 — Phase 1: search/learning, dataset suitability and tournament design
+# Member 4 (Anni) — Phase 1: search/learning, dataset suitability and tournament design
 
 Status: **assigned research; not executed by this planning task**. Read [common context](01-COMMON-CONTEXT.md), the [shared brief](../PHASE-1-COMMON-BRIEF.md) and [your findings worksheet](04-PHASE-1-FINDINGS.md).
 
@@ -36,7 +36,7 @@ Create a feasibility table for at least these families, grouping related variant
 | Family | Questions to answer |
 |---|---|
 | Fast heuristic / greedy successor evaluation | Which missing visible features or wasted computations might matter? How is actual weight use verified given the factory bug? |
-| Bounded same-turn search / beam shortlist | Which Member 3 sequences become expressible? What causes branching explosions in trades, roads, discards or development actions? |
+| Bounded same-turn search / beam shortlist | Which Member 3 (Pranesh) sequences become expressible? What causes branching explosions in trades, roads, discards or development actions? |
 | Sampled-world / opponent-aware planning | When can hidden-card uncertainty change action ranking? Why might extra samples add no value to a visible-only evaluator? |
 | Compact learned value/action ranking / imitation | What exact target, compatible data and legality mask would be required? What information is absent from the default 614-vector? |
 | Larger self-play RL / MCTS / Expert Iteration | What data-generation, training and inference requirements exist? Which must be deferred given available evidence and clock constraints? |
@@ -55,7 +55,7 @@ Specify:
 2. A broad small-sample screening stage, larger comparison stage and finalist selection/confirmation stages. Propose sizes and resource estimates as planning assumptions, not power guarantees or measured throughput.
 3. Head-to-head matrix plus F anchor, paired boards/seats and game order. Preserve no-winner losses and all faults. O is unavailable locally; no substitute is O.
 4. Development/selection/confirmation separation, no row/seed leakage, fresh development batches across repeated rounds, and explicit handling of adaptive agents/process history.
-5. Pair-aware uncertainty and uncertain ties. Ask Member 1 to review statistical assumptions. The CLI's normal interval can be misleading at extremes; a bracket and a single mean win rate can hide cyclic matchups.
+5. Pair-aware uncertainty and uncertain ties. Ask Member 1 (Aroosh) to review statistical assumptions. The CLI's normal interval can be misleading at extremes; a bracket and a single mean win rate can hide cyclic matchups.
 6. A selection rule balancing anchor strength, head-to-head results, weak matchups and operational reliability. Do not retain a broken candidate merely to reach eight or assume diversity alone makes a candidate strong.
 7. Eligibility/rejection criteria for CPU exhaustion, errors, timeouts, crashes, load time, memory and prohibited dependencies. Measure initially without concurrent matches on this laptop; scorer timing is the reference.
 8. Per-game logging schema with code/config/data hashes, opponents, seeds/pairs, seat, outcome, turns, CPU, decisions and fault counters. Explain which fields the harness already returns and which require a later wrapper.
@@ -68,7 +68,7 @@ Do not implement the runner or create bots during this phase. The deliverable is
 
 Fill [04-PHASE-1-FINDINGS.md](04-PHASE-1-FINDINGS.md) with dataset verdicts, method/source cards, up to three strategy hypothesis cards, cost assumptions, two failure counterexamples, and the tournament/logging specification. Give a serious alternative to your preferred method, including a simple non-learning fallback if data is unsuitable.
 
-Review Member 1's data leakage/group-dependence reasoning. Member 3 reviews your tactics/hidden-card assumptions. Ask Members 1 and 2 which economy/position features require expensive recomputation; do not block their research while reader availability is unresolved.
+Review Member 1 (Aroosh)'s data leakage/group-dependence reasoning. Member 3 (Pranesh) reviews your tactics/hidden-card assumptions. Ask Aroosh and Avadooth which economy/position features require expensive recomputation; do not block their research while reader availability is unresolved.
 
 ## Acceptance and stop
 

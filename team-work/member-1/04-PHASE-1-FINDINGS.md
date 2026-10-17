@@ -1,6 +1,6 @@
-# Member 1 — Phase 1 findings: Statistical evidence and resource economics
+# Member 1 (Aroosh) — Phase 1 findings: Statistical evidence and resource economics
 
-Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: pending. Reviewer: Member 4.
+Status: **NOT STARTED — worksheet prepared, no findings yet.** Author name: **Aroosh**. Reviewer: Member 4 (Anni).
 
 Use [your detailed brief](03-PHASE-1-RESEARCH-BRIEF.md) and the [record template](../PHASE-1-RESEARCH-TEMPLATE.md). Replace pending fields only after completing the corresponding work. Do not describe these instructions as results.
 
@@ -52,7 +52,7 @@ Pending. Describe tests without running them in Phase 1. Explain what a candidat
 
 ## Reviewer response
 
-Reviewer Member 4: pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
+Reviewer Member 4 (Anni): pending. Check evidence support, information/rule compatibility, failure cases and proposed experiment. Author response/corrections: pending.
 
 ## Work log and evidence index
 

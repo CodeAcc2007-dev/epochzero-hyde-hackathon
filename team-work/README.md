@@ -61,10 +61,10 @@ Phase 1 ownership and handoffs:
 
 | Member | Research track | Detailed brief | Findings worksheet | Reviewer |
 |---|---|---|---|---|
-| 1 | Statistics and resource economy | [Instructions](member-1/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-1/04-PHASE-1-FINDINGS.md) | 4 |
-| 2 | Opening, expansion and ports | [Instructions](member-2/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-2/04-PHASE-1-FINDINGS.md) | 1 |
-| 3 | Tactics, threats and VP races | [Instructions](member-3/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-3/04-PHASE-1-FINDINGS.md) | 2 |
-| 4 | Methods, dataset audit and tournament design | [Instructions](member-4/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-4/04-PHASE-1-FINDINGS.md) | 3 |
+| 1 — Aroosh | Statistics and resource economy | [Instructions](member-1/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-1/04-PHASE-1-FINDINGS.md) | 4 — Anni |
+| 2 — Avadooth | Opening, expansion and ports | [Instructions](member-2/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-2/04-PHASE-1-FINDINGS.md) | 1 — Aroosh |
+| 3 — Pranesh | Tactics, threats and VP races | [Instructions](member-3/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-3/04-PHASE-1-FINDINGS.md) | 2 — Avadooth |
+| 4 — Anni | Methods, dataset audit and tournament design | [Instructions](member-4/03-PHASE-1-RESEARCH-BRIEF.md) | [Findings](member-4/04-PHASE-1-FINDINGS.md) | 3 — Pranesh |
 
 Keep research outputs in your own member folder. Coordinate changes to shared dependencies; changing them affects everyone. Later benchmarks should initially run sequentially to avoid distorted timings and excess RAM. Bot implementation, training, match experiments, bot-building assignments and GitHub creation have not been performed by this planning task. Use the [research record template](PHASE-1-RESEARCH-TEMPLATE.md) and [synthesis worksheet](PHASE-1-REVIEW-AND-SYNTHESIS.md) for handoff.
 

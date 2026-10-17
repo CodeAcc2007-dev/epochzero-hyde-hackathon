@@ -6,10 +6,10 @@ Status: **NOT STARTED — template prepared during planning.** No research findi
 
 | Research track | Findings | Reviewer | Review status |
 |---|---|---|---|
-| Member 1: statistics/economy | [Findings](member-1/04-PHASE-1-FINDINGS.md) | Member 4 | Pending |
-| Member 2: opening/expansion | [Findings](member-2/04-PHASE-1-FINDINGS.md) | Member 1 | Pending |
-| Member 3: tactics/threats | [Findings](member-3/04-PHASE-1-FINDINGS.md) | Member 2 | Pending |
-| Member 4: methods/data/evaluation | [Findings](member-4/04-PHASE-1-FINDINGS.md) | Member 3 | Pending |
+| Member 1 (Aroosh): statistics/economy | [Findings](member-1/04-PHASE-1-FINDINGS.md) | Member 4 (Anni) | Pending |
+| Member 2 (Avadooth): opening/expansion | [Findings](member-2/04-PHASE-1-FINDINGS.md) | Member 1 (Aroosh) | Pending |
+| Member 3 (Pranesh): tactics/threats | [Findings](member-3/04-PHASE-1-FINDINGS.md) | Member 2 (Avadooth) | Pending |
+| Member 4 (Anni): methods/data/evaluation | [Findings](member-4/04-PHASE-1-FINDINGS.md) | Member 3 (Pranesh) | Pending |
 
 ## Evidence to consolidate after research
 
@@ -31,9 +31,9 @@ Consider at least two distinct alternatives if evidence permits. Do not force a 
 
 | Dataset | Whole-corpus audit completed? | Rule/observation match | Decision-time fields / leakage | License / proposed permitted use | Suitable role and limits |
 |---|---|---|---|---|---|
-| Kaggle 50 games | Pending Member 1 | Known four-player/peer-trade mismatch | Pending | CC BY-NC-SA 4.0 metadata; verify conditions for intended use | Pending |
-| g8967 HF corpus | Pending Member 4 | Inspected example 1v1 / 7 VP / hidden resource types | Pending | Unconfirmed | Pending |
-| VVantim HF corpus | Pending Member 4 | Inspected example four-player / 10 VP | Pending | Unconfirmed | Pending |
+| Kaggle 50 games | Pending Member 1 (Aroosh) | Known four-player/peer-trade mismatch | Pending | CC BY-NC-SA 4.0 metadata; verify conditions for intended use | Pending |
+| g8967 HF corpus | Pending Member 4 (Anni) | Inspected example 1v1 / 7 VP / hidden resource types | Pending | Unconfirmed | Pending |
+| VVantim HF corpus | Pending Member 4 (Anni) | Inspected example four-player / 10 VP | Pending | Unconfirmed | Pending |
 
 ## Phase 2 decisions still to make
 
