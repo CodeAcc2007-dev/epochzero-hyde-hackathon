@@ -1,0 +1,23 @@
+{
+  "artifact_sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+  "constructed_fixtures_only": true,
+  "not_scorer_hardware_or_serialization_timing": true,
+  "rows": [
+    {
+      "seat": 0,
+      "calls": 100,
+      "mean_ms": 1.154354180000002,
+      "max_ms": 1.3015500000000124,
+      "max_copies": 10,
+      "certified_roots": 100
+    },
+    {
+      "seat": 1,
+      "calls": 100,
+      "mean_ms": 0.9464215300000026,
+      "max_ms": 0.9910760000000074,
+      "max_copies": 10,
+      "certified_roots": 100
+    }
+  ]
+}

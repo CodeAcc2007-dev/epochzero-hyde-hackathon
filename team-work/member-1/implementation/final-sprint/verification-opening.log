@@ -1,0 +1,43 @@
+test_blocked_road_extension_uses_engine_geometry (test_round2.Round2Tests.test_blocked_road_extension_uses_engine_geometry) ... ok
+test_depleted_bank_and_no_road_piece_legal_menus (test_round2.Round2Tests.test_depleted_bank_and_no_road_piece_legal_menus) ... ok
+test_full_discard_sequences_record_retained_goal_and_oracle (test_round2.Round2Tests.test_full_discard_sequences_record_retained_goal_and_oracle) ... ok
+test_immediate_win_precedes_trade_search (test_round2.Round2Tests.test_immediate_win_precedes_trade_search) ... ok
+test_low_clock_city_and_road_bonus_both_seats (test_round2.Round2Tests.test_low_clock_city_and_road_bonus_both_seats) ... ok
+test_low_clock_old_knight_before_roll_both_seats (test_round2.Round2Tests.test_low_clock_old_knight_before_roll_both_seats) ... ok
+test_no_terminal_fallback_and_expired_trade_deadline (test_round2.Round2Tests.test_no_terminal_fallback_and_expired_trade_deadline) ... ok
+test_nonterminal_road_and_opponent_road_tie_or_longer (test_round2.Round2Tests.test_nonterminal_road_and_opponent_road_tie_or_longer) ... ok
+test_parent_goal_filter_failure_and_new_trade_road_win_both_seats (test_round2.Round2Tests.test_parent_goal_filter_failure_and_new_trade_road_win_both_seats) ... ok
+test_parent_low_clock_failure_and_new_settlement_win (test_round2.Round2Tests.test_parent_low_clock_failure_and_new_settlement_win) ... ok
+test_trade_certificate_honors_reordered_original_roots (test_round2.Round2Tests.test_trade_certificate_honors_reordered_original_roots) ... ok
+test_trade_certificates_against_independent_engine_oracle (test_round2.Round2Tests.test_trade_certificates_against_independent_engine_oracle) ... ok
+test_new_knight_tie_owned_army_and_already_played_are_not_wins (test_terminal_guards.TerminalGuards.test_new_knight_tie_owned_army_and_already_played_are_not_wins) ... ok
+test_no_chance_execution_or_identity_dependence_in_certificates (test_terminal_guards.TerminalGuards.test_no_chance_execution_or_identity_dependence_in_certificates) ... ok
+test_public_guard_ignores_hidden_ghost_and_checks_new_public_vp (test_terminal_guards.TerminalGuards.test_public_guard_ignores_hidden_ghost_and_checks_new_public_vp) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.181s
+
+OK
+test_gap_against_exhaustive_trade_oracle (adapted_opening.GoalMathTests.test_gap_against_exhaustive_trade_oracle) ... ok
+test_nine_cards_without_wheat_and_reserved_last_wood (adapted_opening.GoalMathTests.test_nine_cards_without_wheat_and_reserved_last_wood) ... ok
+test_citydev_escapes_when_ore_supply_blocked (adapted_opening.EconomicEngineTests.test_citydev_escapes_when_ore_supply_blocked) ... ok
+test_depleted_bank_prevents_wheat_trade (adapted_opening.EconomicEngineTests.test_depleted_bank_prevents_wheat_trade) ... ok
+test_discard_preserves_selected_bundle (adapted_opening.EconomicEngineTests.test_discard_preserves_selected_bundle) ... ok
+test_distinct_economic_goal_choice (adapted_opening.EconomicEngineTests.test_distinct_economic_goal_choice) ... ok
+test_free_road_subphases_do_not_spend_cards (adapted_opening.EconomicEngineTests.test_free_road_subphases_do_not_spend_cards) ... ok
+test_known_city_and_trade_wins (adapted_opening.EconomicEngineTests.test_known_city_and_trade_wins) ... ok
+test_low_clock_before_sampling (adapted_opening.EconomicEngineTests.test_low_clock_before_sampling) ... ok
+test_nearly_empty_deck_probabilities_not_actual_order (adapted_opening.EconomicEngineTests.test_nearly_empty_deck_probabilities_not_actual_order) ... ok
+test_no_extra_army_bonus_when_already_owned (adapted_opening.EconomicEngineTests.test_no_extra_army_bonus_when_already_owned) ... ok
+test_no_legal_settlement_or_city_piece (adapted_opening.EconomicEngineTests.test_no_legal_settlement_or_city_piece) ... ok
+test_no_unmodeled_chance_execution (adapted_opening.EconomicEngineTests.test_no_unmodeled_chance_execution) ... ok
+test_old_new_knight_and_army_terminal (adapted_opening.EconomicEngineTests.test_old_new_knight_and_army_terminal) ... ok
+test_owned_port_only_not_map_presence (adapted_opening.EconomicEngineTests.test_owned_port_only_not_map_presence) ... ok
+test_policy_rejects_last_wood_trade (adapted_opening.EconomicEngineTests.test_policy_rejects_last_wood_trade) ... ok
+test_strict_army_takeover_requires_more_than_tie (adapted_opening.EconomicEngineTests.test_strict_army_takeover_requires_more_than_tie) ... ok
+test_unused_dev_stock_limit_and_deck_order (adapted_opening.EconomicEngineTests.test_unused_dev_stock_limit_and_deck_order) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.170s
+
+OK

@@ -1,0 +1,155 @@
+{
+  "finished_utc": "2026-10-17T11:09:55.832534+00:00",
+  "comparisons": {
+    "v003": {
+      "version": "v003",
+      "seed0": 939000,
+      "candidate": {
+        "games": 500,
+        "wins": 374,
+        "win_rate": 0.748,
+        "ci95": 0.03805591238165234,
+        "no_winner": 0,
+        "mean_cpu_s": 0.22847999999999993,
+        "worst_cpu_s": 0.58,
+        "decisions": 23746,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "baseline": {
+        "games": 500,
+        "wins": 375,
+        "win_rate": 0.75,
+        "ci95": 0.037955236792832685,
+        "no_winner": 0,
+        "mean_cpu_s": 0.21452000000000027,
+        "worst_cpu_s": 0.61,
+        "decisions": 24115,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "difference_pp": -0.2,
+      "paired_board_bootstrap_95_pp": [
+        -2.6,
+        2.1999999999999997
+      ],
+      "reset_chunk_bootstrap_95_pp": [
+        -2.8000000000000003,
+        2.6
+      ],
+      "candidate_only_wins": 19,
+      "parent_only_wins": 20,
+      "candidate_first_seat_wins": 182,
+      "candidate_second_seat_wins": 192,
+      "candidate_p95_cpu_s": 0.42,
+      "candidate_source_sha256": "c290e9f5e0f4591e7ac730725cc5e3f9f687dfc76315d4fb194fff1e6e2af037",
+      "records_sha256": {
+        "candidate": "c30f178ccee6da90683aead762a0a0a6774e7807ab585818d35407375c9c7ab7",
+        "parent": "ab15bc0073de53dd23460b2ca628c81734af4f13613ce5d143da533f9f68c4c4"
+      }
+    },
+    "v004": {
+      "version": "v004",
+      "seed0": 943000,
+      "candidate": {
+        "games": 500,
+        "wins": 390,
+        "win_rate": 0.78,
+        "ci95": 0.03631028945078791,
+        "no_winner": 0,
+        "mean_cpu_s": 0.23932000000000003,
+        "worst_cpu_s": 0.71,
+        "decisions": 24085,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "baseline": {
+        "games": 500,
+        "wins": 388,
+        "win_rate": 0.776,
+        "ci95": 0.03654482941265426,
+        "no_winner": 0,
+        "mean_cpu_s": 0.20935999999999982,
+        "worst_cpu_s": 0.55,
+        "decisions": 24232,
+        "games_over_budget": 0,
+        "random_moves": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "crashes": 0
+      },
+      "difference_pp": 0.4,
+      "paired_board_bootstrap_95_pp": [
+        -1.6,
+        2.4
+      ],
+      "reset_chunk_bootstrap_95_pp": [
+        -1.2,
+        2.0
+      ],
+      "candidate_only_wins": 14,
+      "parent_only_wins": 12,
+      "candidate_first_seat_wins": 193,
+      "candidate_second_seat_wins": 197,
+      "candidate_p95_cpu_s": 0.42,
+      "candidate_source_sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+      "records_sha256": {
+        "candidate": "913d50bdbd44ca9b454320fd4a89de627e052c5398d27878fcd76c7de25421cf",
+        "parent": "d21be3fc7133c1d9594531ac47762bbd8b904a92c5b35d8f909684dcd6080d7b"
+      }
+    }
+  },
+  "direct_comparison": {
+    "candidate": {
+      "games": 500,
+      "wins": 251,
+      "win_rate": 0.502,
+      "ci95": 0.04382658174213453,
+      "no_winner": 0,
+      "mean_cpu_s": 0.21445999999999987,
+      "worst_cpu_s": 0.66,
+      "decisions": 21949,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "baseline": {
+      "games": 500,
+      "wins": 249,
+      "win_rate": 0.498,
+      "ci95": 0.04382658174213453,
+      "no_winner": 0,
+      "mean_cpu_s": 0.19541999999999987,
+      "worst_cpu_s": 0.69,
+      "decisions": 22403,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "seed0": 944000,
+    "board_bootstrap_95_win_rate_percent": [
+      47.599999999999994,
+      52.800000000000004
+    ],
+    "records_sha256": "f66490c14da58ea53d98fdfb93aaa80d8631d2c5f39cde761ec523a4b3e2ef69"
+  },
+  "recommended_version": "v004",
+  "recommendation_rule": "Prefer the correctness-repaired final v004 when its fault-free fresh F point estimate is at least baseline and it scores at least250/500 directly against v002; otherwise retain v002 for submission. Point-estimate selection is not a proof of superiority.",
+  "main_games": 2500,
+  "development_games": 500,
+  "separate_zip_smoke_games": 4,
+  "no_event_submission": true
+}

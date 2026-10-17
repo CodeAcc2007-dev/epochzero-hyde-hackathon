@@ -1,0 +1,25 @@
+{
+  "bot": "B01",
+  "version": "v004",
+  "parent_version": "v003",
+  "comparison_baseline": "v002",
+  "comparison_baseline_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+  "agent_sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+  "development_variant": "tactical",
+  "development_sha256": "18cd4595eab93c07e9d00361c0c93dafa9397636a323085962e8589960a19cd5",
+  "executable_ast_equal_to_development": true,
+  "frozen_utc": "2026-10-17T11:01:19.646121+00:00",
+  "changes": [
+    "Inherits frozen v003 flexible purchase and diverse roots",
+    "Exact bounded enabling action plus two-road terminal certificate before heuristic search"
+  ],
+  "new_helper_sha256": "df3ecef0eb18ec31dbad48b08f630164638e59837cfae48101e092e488d2a8d4",
+  "game_clock_unchanged": true,
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "confirmation": "completed",
+  "confirmation_seed0": 943000,
+  "confirmation_games": 500,
+  "confirmation_wins": 390,
+  "matched_v002_wins": 388
+}

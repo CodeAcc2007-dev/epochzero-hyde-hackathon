@@ -1,0 +1,9 @@
+test_goal_reconsiders_changed_hand_instead_of_stale_family (test_sprint.SprintTests.test_goal_reconsiders_changed_hand_instead_of_stale_family) ... ok
+test_reordered_opening_indices_and_observation_immutability (test_sprint.SprintTests.test_reordered_opening_indices_and_observation_immutability) ... ok
+test_trade_retains_monotone_certificate_and_no_reexport (test_sprint.SprintTests.test_trade_retains_monotone_certificate_and_no_reexport) ... ok
+test_reordered_rich_turn_roots_legal_and_nonmutating (test_sprint.SprintTests.test_reordered_rich_turn_roots_legal_and_nonmutating) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.096s
+
+OK

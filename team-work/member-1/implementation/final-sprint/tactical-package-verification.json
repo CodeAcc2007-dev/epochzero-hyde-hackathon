@@ -1,0 +1,40 @@
+{
+  "agent_sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+  "zip_sha256": "c13a0ef3ec15bb2a0b0869c3c7608ed395e32b26ab7131b138a57e9aa01b04dd",
+  "zip_exact_agent_only": true,
+  "f_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+  "kit_tracked_source_clean": true,
+  "runtime_imports": [
+    "catanatron.models.board",
+    "catanatron.models.enums",
+    "math",
+    "random",
+    "time"
+  ],
+  "forbidden_dynamic_io_calls": [],
+  "verification": {
+    "tactical-frozen": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+      "extra_sprint_methods": 4,
+      "extra_passed": true,
+      "new_road_methods": 6,
+      "road_passed": true
+    },
+    "tactical-zip-extracted": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb",
+      "extra_sprint_methods": 4,
+      "extra_passed": true,
+      "new_road_methods": 6,
+      "road_passed": true
+    }
+  },
+  "parent_preserved": true
+}

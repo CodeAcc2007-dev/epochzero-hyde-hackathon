@@ -1,0 +1,77 @@
+{
+  "a": {
+    "games": 100,
+    "wins": 75,
+    "win_rate": 0.75,
+    "ci95": 0.08487048957087498,
+    "no_winner": 0,
+    "mean_cpu_s": 0.20360000000000011,
+    "worst_cpu_s": 0.51,
+    "decisions": 4680,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "b": {
+    "games": 100,
+    "wins": 25,
+    "win_rate": 0.25,
+    "ci95": 0.08487048957087498,
+    "no_winner": 0,
+    "mean_cpu_s": 0.10139999999999999,
+    "worst_cpu_s": 0.21,
+    "decisions": 4108,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "uncertainty": {
+    "board_pairs": 50,
+    "pair_bootstrap_95_descriptive": [
+      0.68,
+      0.83
+    ],
+    "hoeffding_95_independent_pairs": [
+      0.5579354417360158,
+      0.9420645582639842
+    ],
+    "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+  },
+  "cpu_p95_a_s": 0.37,
+  "wall_elapsed_s": 38.84296127400012,
+  "loads": [
+    {
+      "a_init_s": 0.00023509300081059337,
+      "b_init_s": 0.00020620799841708504
+    },
+    {
+      "a_init_s": 0.00022307000108412467,
+      "b_init_s": 0.0002134240021405276
+    },
+    {
+      "a_init_s": 0.00023747099839965813,
+      "b_init_s": 0.00020497799778240733
+    },
+    {
+      "a_init_s": 0.00020761899941135198,
+      "b_init_s": 0.0001834130016504787
+    },
+    {
+      "a_init_s": 0.00023183099983725697,
+      "b_init_s": 0.0002109080014633946
+    }
+  ],
+  "source_unchanged": true,
+  "seat_a_first": {
+    "games": 50,
+    "wins": 31
+  },
+  "seat_a_second": {
+    "games": 50,
+    "wins": 44
+  }
+}

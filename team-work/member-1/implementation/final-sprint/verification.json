@@ -1,0 +1,37 @@
+{
+  "menu": {
+    "terminal_regression_methods": 15,
+    "terminal_passed": true,
+    "economic_methods": 18,
+    "economic_passed": true,
+    "sha256": "559fdb91f32857ed848b67eaacf4460f92a38bfe4952563fb31490f2d78d69a1"
+  },
+  "opening": {
+    "terminal_regression_methods": 15,
+    "terminal_passed": true,
+    "economic_methods": 18,
+    "economic_passed": true,
+    "sha256": "3e2eb38ac72f5f40763e65bbda48bce79f4c02a02b0029ccc83791a81e152f38"
+  },
+  "combined": {
+    "terminal_regression_methods": 15,
+    "terminal_passed": true,
+    "economic_methods": 18,
+    "economic_passed": true,
+    "sha256": "fe71dd55be02319b7d2638cf68aaae845a77c4170b5bc5b18122a669d861c04e"
+  },
+  "search": {
+    "terminal_regression_methods": 15,
+    "terminal_passed": true,
+    "economic_methods": 18,
+    "economic_passed": true,
+    "sha256": "9fceffbfb866c2a545529724270ef8abae5d82b5c1fac62facc2fa55cb8aeb33"
+  },
+  "tactical": {
+    "terminal_regression_methods": 15,
+    "terminal_passed": true,
+    "economic_methods": 18,
+    "economic_passed": true,
+    "sha256": "18cd4595eab93c07e9d00361c0c93dafa9397636a323085962e8589960a19cd5"
+  }
+}

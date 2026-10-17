@@ -1,0 +1,9 @@
+# Hyde bounded checklist review
+
+Job20261017T105223Z-b54b0382, pinned hyde-inference/hyde/glm-5.3-flash,61.024seconds, exit0, no tool errors. Input only frozen B01v002 source. Output review-checklist.md SHA2564deca056f33efb48a59d0bb1a49ecb6c8df89bbf2a3cb836359986dea76fcb4b. Provider logs stay outside Git.
+
+Primary read the checklist against the source. Accepted as a navigation/invariant checklist, not executed-test evidence. The statement that all plans are feasible is qualified: spatial_plans is a bounded geometry potential, not a proof that all intermediate roads remain available. The directive to add no new loops is an efficiency recommendation; a bounded pass over the cached small purchase menu is intentional. Removing family retention leaves constructor family unused in B01; it is harmless compatibility state, not an active commitment. No junior code was accepted. Primary authored candidates and independently ran the actual standalone terminal/economic tests. Checklist highlights root-index preservation; the new root diversity uses child action records rather than indexing world.playable_actions with possibly reordered supplied roots.
+
+## Second bounded job: handoff readability
+
+Job20261017T110651Z-82891546, same pinned model,83.251seconds, exit0, no tool errors. Inputs only the already-public B01/B05 handoff Markdown files. Output hashes c5a52e295a3f7dbf0189231d0082902d7f80999486b1a7ef99ec60f4b702227f and3c215d6b616d4080bb75644c1075635b632b86875f49c34666006eeae7faa8a8. Primary verified non-whitespace identity, byte-identical code spans and link targets, and read the diff. Accepted the whitespace-only cleanup. Primary separately clarified the ambiguous seed wording to `--seed0 942000` and updated the frozen-version list; subsequent final-result notes are primary-authored. No bot code or strategy came from this job.

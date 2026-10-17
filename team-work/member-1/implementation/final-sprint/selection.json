@@ -1,0 +1,102 @@
+{
+  "selected": "menu",
+  "reason": "Tied highest screen wins; prefer original opening and smaller search over extra changes without observed win gain. Screen alone does not establish improvement.",
+  "screen": {
+    "parent": {
+      "games": 100,
+      "wins": 75,
+      "win_rate": 0.75,
+      "ci95": 0.08487048957087498,
+      "no_winner": 0,
+      "mean_cpu_s": 0.21650000000000008,
+      "worst_cpu_s": 0.52,
+      "decisions": 4866,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "menu": {
+      "games": 100,
+      "wins": 77,
+      "win_rate": 0.77,
+      "ci95": 0.08248317161700318,
+      "no_winner": 0,
+      "mean_cpu_s": 0.2404,
+      "worst_cpu_s": 0.67,
+      "decisions": 4799,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "opening": {
+      "games": 100,
+      "wins": 75,
+      "win_rate": 0.75,
+      "ci95": 0.08487048957087498,
+      "no_winner": 0,
+      "mean_cpu_s": 0.20360000000000011,
+      "worst_cpu_s": 0.51,
+      "decisions": 4680,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "combined": {
+      "games": 100,
+      "wins": 77,
+      "win_rate": 0.77,
+      "ci95": 0.08248317161700318,
+      "no_winner": 0,
+      "mean_cpu_s": 0.23399999999999996,
+      "worst_cpu_s": 0.65,
+      "decisions": 4664,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    },
+    "search": {
+      "games": 100,
+      "wins": 77,
+      "win_rate": 0.77,
+      "ci95": 0.08248317161700318,
+      "no_winner": 0,
+      "mean_cpu_s": 0.24889999999999993,
+      "worst_cpu_s": 0.58,
+      "decisions": 4779,
+      "games_over_budget": 0,
+      "random_moves": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "crashes": 0
+    }
+  },
+  "frozen_manifest": {
+    "bot": "B01",
+    "version": "v003",
+    "parent_version": "v002",
+    "parent_sha256": "cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4",
+    "agent_sha256": "c290e9f5e0f4591e7ac730725cc5e3f9f687dfc76315d4fb194fff1e6e2af037",
+    "development_variant": "menu",
+    "development_sha256": "559fdb91f32857ed848b67eaacf4460f92a38bfe4952563fb31490f2d78d69a1",
+    "executable_ast_equal_to_screened_candidate": true,
+    "frozen_utc": "2026-10-17T10:57:09.854763+00:00",
+    "changes": [
+      "Dynamic best feasible purchase goal",
+      "Monotone trades toward competitive alternatives with no-reexport preserved",
+      "One distinct action-family root within original width4",
+      "Bank and trade history included in continuation deduplication"
+    ],
+    "clock_limits_unchanged": true,
+    "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+    "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+    "confirmation": "pending"
+  }
+}
