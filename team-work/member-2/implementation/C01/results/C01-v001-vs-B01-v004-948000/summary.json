@@ -1,0 +1,97 @@
+{
+  "a": {
+    "games": 200,
+    "wins": 101,
+    "win_rate": 0.505,
+    "ci95": 0.06929299964642893,
+    "no_winner": 0,
+    "mean_cpu_s": 0.21895000000000003,
+    "worst_cpu_s": 0.66,
+    "decisions": 8665,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "b": {
+    "games": 200,
+    "wins": 99,
+    "win_rate": 0.495,
+    "ci95": 0.06929299964642893,
+    "no_winner": 0,
+    "mean_cpu_s": 0.1918,
+    "worst_cpu_s": 0.59,
+    "decisions": 8639,
+    "games_over_budget": 0,
+    "random_moves": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "crashes": 0
+  },
+  "uncertainty": {
+    "board_pairs": 100,
+    "pair_bootstrap_95_descriptive": [
+      0.465,
+      0.545
+    ],
+    "hoeffding_95_independent_pairs": [
+      0.36918984842593805,
+      0.640810151574062
+    ],
+    "assumptions": "Fixed nonadaptive policies, independent board pairs; lifecycle/chance sampling and timing can affect replay. Bootstrap is descriptive and degenerates at extremes."
+  },
+  "cpu_p95_a_s": 0.42,
+  "wall_elapsed_s": 95.63325268399967,
+  "loads": [
+    {
+      "a_init_s": 0.008859389999997802,
+      "b_init_s": 0.007373567999820807
+    },
+    {
+      "a_init_s": 0.005956786999377073,
+      "b_init_s": 0.005586375000348198
+    },
+    {
+      "a_init_s": 0.00682273299935332,
+      "b_init_s": 0.005491732999871601
+    },
+    {
+      "a_init_s": 0.006138362999990932,
+      "b_init_s": 0.005446757000754587
+    },
+    {
+      "a_init_s": 0.008545668000806472,
+      "b_init_s": 0.00802137299979222
+    },
+    {
+      "a_init_s": 0.0055727880007907515,
+      "b_init_s": 0.007481729000573978
+    },
+    {
+      "a_init_s": 0.005555110001296271,
+      "b_init_s": 0.004912255999443005
+    },
+    {
+      "a_init_s": 0.005598914000074728,
+      "b_init_s": 0.00543032600035076
+    },
+    {
+      "a_init_s": 0.006578385999091552,
+      "b_init_s": 0.005195752000872744
+    },
+    {
+      "a_init_s": 0.006227466001291759,
+      "b_init_s": 0.005736207000154536
+    }
+  ],
+  "source_unchanged": true,
+  "seat_a_first": {
+    "games": 100,
+    "wins": 53
+  },
+  "seat_a_second": {
+    "games": 100,
+    "wins": 48
+  }
+}

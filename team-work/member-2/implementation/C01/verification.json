@@ -1,0 +1,41 @@
+{
+  "agent_sha256": "4176863e03074df3aa24b87dbab776dc8b2b15b50e6c1cb4b88de08175e3690c",
+  "zip_sha256": "c8ddc8d5b2c2463a967ed07ebfcfae44723b01da138b9d67c960c21a0935845d",
+  "zip_members": [
+    "agent.py"
+  ],
+  "zip_bytes_equal_source": true,
+  "preserved_sources_unchanged": [
+    "team-work/member-1/bots/B01/v004/agent.py",
+    "team-work/member-1/bots/B01/v005/agent.py",
+    "team-work/member-3/bots/B05/v004/agent.py",
+    "shared-local/organizer-kit/examples/f_agent.py"
+  ],
+  "imports": [
+    "catanatron.models.board",
+    "catanatron.models.enums",
+    "math",
+    "random",
+    "time"
+  ],
+  "verification": {
+    "frozen": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "4176863e03074df3aa24b87dbab776dc8b2b15b50e6c1cb4b88de08175e3690c",
+      "extra_methods": 13,
+      "extra_passed": true
+    },
+    "zip-extracted": {
+      "terminal_regression_methods": 15,
+      "terminal_passed": true,
+      "economic_methods": 18,
+      "economic_passed": true,
+      "sha256": "4176863e03074df3aa24b87dbab776dc8b2b15b50e6c1cb4b88de08175e3690c",
+      "extra_methods": 13,
+      "extra_passed": true
+    }
+  }
+}

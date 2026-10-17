@@ -1,0 +1,18 @@
+{
+ "bot_id": "C01", "version": "v001",
+ "built_by": "Avadooth (Member 2), combining existing team bots at the user's request",
+ "base": "team-work/member-1/bots/B01/v005/agent.py (sha256 63ab59c8b302a863dab38e07c461338be7cbbbe91b254b96fe359c8786fb9bd5)",
+ "transplanted_from": "team-work/member-3/bots/B05/v004/agent.py (sha256 8226e2c978cd6ec48fee2939dd4ccf021acb64e131b87bc71ddfcd29e0d05cbf): enabler-reserving search roots; 8-VP Road/Knight completion scan",
+ "excluded": "B02 engine=True traits (-2.8pp vs B01 on identical boards); opening/deeper-search variants (no measured gain)",
+ "agent_sha256": "4176863e03074df3aa24b87dbab776dc8b2b15b50e6c1cb4b88de08175e3690c",
+ "zip": "team-work/member-2/artifacts/C01-v001.zip",
+ "zip_sha256": "c8ddc8d5b2c2463a967ed07ebfcfae44723b01da138b9d67c960c21a0935845d",
+ "zip_members": ["agent.py"],
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816", "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "f_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+ "result_vs_F": "398/500 (79.6%) on boards 947000-947249; matched B01 v005 401/500 (80.2%); paired -0.6pp [-2.0, +0.8]",
+ "result_vs_B01_v004": "101/200 (50.5%) on boards 948000-948099",
+ "faults": "zero errors/timeouts/crashes/over-budget/random moves in all 1,204 games",
+ "tests": "46 methods on frozen and ZIP-extracted forms (15 terminal, 18 economic, 4 sprint, 6 two-road, 3 C01)",
+ "findings": "team-work/member-2/implementation/C01/FINDINGS.md"
+}

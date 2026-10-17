@@ -1,0 +1,18 @@
+test_goal_reconsiders_changed_hand_instead_of_stale_family (test_sprint.SprintTests.test_goal_reconsiders_changed_hand_instead_of_stale_family) ... ok
+test_reordered_opening_indices_and_observation_immutability (test_sprint.SprintTests.test_reordered_opening_indices_and_observation_immutability) ... ok
+test_trade_retains_monotone_certificate_and_no_reexport (test_sprint.SprintTests.test_trade_retains_monotone_certificate_and_no_reexport) ... ok
+test_reordered_rich_turn_roots_legal_and_nonmutating (test_sprint.SprintTests.test_reordered_rich_turn_roots_legal_and_nonmutating) ... ok
+test_bank_and_card_eligibility_follow_legal_roots (test_two_roads.TwoRoadTests.test_bank_and_card_eligibility_follow_legal_roots) ... ok
+test_deadline_and_phase_guards (test_two_roads.TwoRoadTests.test_deadline_and_phase_guards) ... ok
+test_old_misses_and_new_completes_win_in_both_seats (test_two_roads.TwoRoadTests.test_old_misses_and_new_completes_win_in_both_seats) ... ok
+test_original_indices_copy_bound_immutability_and_chance_boundary (test_two_roads.TwoRoadTests.test_original_indices_copy_bound_immutability_and_chance_boundary) ... ok
+test_road_building_card_can_complete_without_resource_cost (test_two_roads.TwoRoadTests.test_road_building_card_can_complete_without_resource_cost) ... ok
+test_strict_opponent_road_target (test_two_roads.TwoRoadTests.test_strict_opponent_road_target) ... ok
+test_takes_two_road_longest_road_win_from_eight_points_both_seats (test_c01.EightPointCompletionTests.test_takes_two_road_longest_road_win_from_eight_points_both_seats) ... ok
+test_no_progress_means_no_reserved_roots (test_c01.EnablerTests.test_no_progress_means_no_reserved_roots) ... ok
+test_reserves_only_positive_progress_roots_at_most_two (test_c01.EnablerTests.test_reserves_only_positive_progress_roots_at_most_two) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.193s
+
+OK

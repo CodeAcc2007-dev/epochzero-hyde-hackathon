@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-10-17T11:29:57.011487+00:00",
+  "python": "3.11.17",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "processor": "",
+  "repository_base_commit": "80d3aab9908ce098d8d94841e02ed876ccce9ee7",
+  "a": {
+    "entrypoint": "team-work/member-2/bots/C01/v001/agent.py",
+    "files": {
+      "team-work/member-2/bots/C01/v001/agent.py": "4176863e03074df3aa24b87dbab776dc8b2b15b50e6c1cb4b88de08175e3690c"
+    },
+    "fingerprint": "09b8cb717a937c58501afe1c301f13c418a6908b9de7bf1b97fd1b8b74c6a8d9"
+  },
+  "b": {
+    "entrypoint": "team-work/member-1/bots/B01/v004/agent.py",
+    "files": {
+      "team-work/member-1/bots/B01/v004/agent.py": "a0ed4450b3aa23eff97ab44fbe185e2d089ddc9516a1703e4b483389ed8ff2fb"
+    },
+    "fingerprint": "ff142146af4d82c4fb4abc06b79349edca1703abdab6417bbfcf387fcf71a7e7"
+  },
+  "games": 200,
+  "seed0": 948000,
+  "vps": 10,
+  "kit_commit": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+  "engine_commit": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+  "process_lifecycle": "Both agents reload every 20 games, sequential chunks; global indices preserved",
+  "dice_key_id": "official-public-default; no private key/board prediction",
+  "clock": {
+    "base_s": 0.3,
+    "increment_s": 0.0125,
+    "max_s": 1.5
+  },
+  "command_arguments": {
+    "a": "team-work/member-2/bots/C01/v001/agent.py",
+    "b": "team-work/member-1/bots/B01/v004/agent.py",
+    "games": 200,
+    "seed0": 948000,
+    "chunk_size": 20,
+    "out": "team-work/member-2/implementation/C01/results/C01-v001-vs-B01-v004-948000"
+  },
+  "status": "completed",
+  "completed_utc": "2026-10-17T11:31:32.651835+00:00"
+}
