@@ -1,0 +1,37 @@
+{
+ "bot_id": "B04",
+ "version": "v002",
+ "parent": "team-work/member-2/bots/B04/v001/agent.py (sha256 75bd348de82418a89e0a51e0ddbe04db71c4a7e492cc082d56e628b748f1e7c5)",
+ "owner": "Avadooth (Member 2)",
+ "strategy": "Port specialization, rebuilt on F's own one-ply mechanism: for every legal action, execute a real copy of the game (game.copy().execute(action), the same call ValueFunctionPlayer.decide() makes) and score the RESULTING state with catanatron.players.value.base_fn(DEFAULT_WEIGHTS) -- the exact function/weights F runs. B04's identity (port conversion) is an additive bonus on top, scaled below base_fn's production weight (1e8) so it only breaks near-ties base_fn already found close: a bonus for BUILD_SETTLEMENT/BUILD_ROAD actions that land on or route toward a port node whose matching resource my own simulated resultant production (catanatron.features.build_production_features, read from the real post-action state, not a static lookup) actually justifies; withdrawn once the opponent reaches PORT_URGENCY_CUTOFF=9 public VP.",
+ "entrypoint": "team-work/member-2/bots/B04/v002/agent.py",
+ "source_sha256": "763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45",
+ "config": "weights inline in agent.py (PORT_BONUS_STRONG=3.0e6, PORT_BONUS_ROUTE=1.0e6); no external dependencies beyond the supplied engine",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "human_builder": "Avadooth (implemented and tested with coding-assistant review in this session)",
+ "independent_assistant_review": "this version is the assistant-reviewed rebuild; human (Avadooth) review still pending",
+ "runtime_contract": {
+  "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
+  "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to the harness",
+  "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
+  "runtime_llm_or_network": "none"
+ },
+ "calibration_history": [
+  "first cut used PORT_BONUS_STRONG=2.0e7, PORT_BONUS_ROUTE=0.6e7 (same over-scaling mistake as B03's first cut); screen result 28/80 (35%), an improvement over v001 (18/80, 22.5%) but still below even",
+  "applying the same lesson from B03's recalibration, rescaled to PORT_BONUS_STRONG=3.0e6, PORT_BONUS_ROUTE=1.0e6 (~1/10 of a typical production delta); rerun screen-b04v2-vs-f-02: 32/80 (40%)"
+ ],
+ "results_vs_v001": {
+  "v001_screen_seat_paired": 0.225,
+  "v002_screen_seat_paired_final": 0.4,
+  "evidence": "team-work/member-2/bots/results/screen-b04v2-vs-f-01.json (final consolidated run, seeds 771200-771239)"
+ },
+ "known_weaknesses": [
+  "still below 50% vs F at this sample size (seat-paired 0.4 +/- 0.2147, 95% Hoeffding); B03 v002 now leads it evenly (20/40, 50%) rather than the wider v001 gap (B03 55%)",
+  "port justification reads the simulated resultant production once per candidate via build_production_features; no attempt to price the full acquisition road path's opportunity cost beyond what base_fn's own production/reachable_production terms already capture",
+  "bonus magnitude was tuned by one recalibration pass against one 40-board screen, not cross-validated against a held-out board set",
+  "CPU rose from v001's ~0.018s/game mean to ~0.4s/game mean (game.copy()+execute() per candidate action, same mechanism F itself uses) -- comfortably inside the per-game budget (up to 1.5s)"
+ ],
+ "next_question": "does cross-validating the port-bonus scale on a disjoint board set change the result, and is PORT_URGENCY_CUTOFF=9 still the right cutoff once B04 plays closer to F's level generally?",
+ "frozen_git_commit": "pending next commit in this session"
+}

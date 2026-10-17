@@ -15,7 +15,15 @@ import time
 import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = "hyde-inference/hyde/glm-5.3-flash"
+# Pinned to the locally configured "hyde" provider (opencode.json under the hyde-opencode
+# XDG profile), which authenticates via {env:HYDE_INFERENCE_API_KEY} directly. The
+# well-known "hyde-inference" provider id documented in 06-OPENCODE-HYDE-SETUP.md returns
+# 401 on this machine's installed OpenCode CLI (npm opencode-ai 1.19.3): its wellknown-login
+# credential is stored keyed by the login URL, not the "hyde-inference" provider id the
+# config expects, so the model never receives an API key. Verified 17 October 2026
+# (Avadooth): `opencode run --model hyde/hyde/glm-5.3-flash ...` replies correctly;
+# `hyde-inference/hyde/glm-5.3-flash` fails Authentication Error 401 on this install.
+MODEL = "hyde/hyde/glm-5.3-flash"
 SECRET_SIGNATURE = re.compile(
     rb"(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}"
     rb"|-----BEGIN [A-Z0-9 ]*PRIVATE KEY-----|(?:sk-proj-|sk-ant-)[A-Za-z0-9_-]{20,})"
@@ -112,7 +120,11 @@ def main():
     prompt = task.decode() + "\n\nSupplied input paths:\n" + "\n".join(
         "inputs/" + str(relative) for relative, _ in selected
     ) + "\nWrite deliverables under outputs/. Summarize changed files and any gaps."
-    command = [executable, "run", "--standalone", "--auto", "--model", MODEL,
+    # "--standalone" is not a recognized flag on this installed OpenCode CLI (opencode-ai
+    # 1.19.3); passing it makes "run" print its usage text and exit 1 before any inference
+    # call. Dropped 17 October 2026 (Avadooth) after confirming the job fails identically
+    # with or without a server attach, so no standalone-vs-server behavior is lost here.
+    command = [executable, "run", "--auto", "--model", MODEL,
                "--agent", "hyde-junior", "--format", "json", "--title", args.title, prompt]
     started = time.monotonic()
     process = subprocess.Popen(command, cwd=workspace, env=env, stdout=subprocess.PIPE,

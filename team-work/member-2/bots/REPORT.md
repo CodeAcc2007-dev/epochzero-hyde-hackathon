@@ -124,6 +124,92 @@ CPU/wall/decisions/fault counters per seat) are preserved in `bots/results/*.jso
 - Local runs only; O is unavailable locally, and event strength is unknown.
 - Batches ran sequentially on a quiet machine; local timing does not certify the scorer.
 
+## v002: rebuilt on F's own one-ply mechanism (17 October 2026)
+
+Status: **built, self-tested, assistant-reviewed in this session; Avadooth's own review still pending.**
+Parent: v001 above (both bots, frozen at commit `abfd50204766fa87c88711eb85951167c2ad0112`).
+
+### Root cause of v001's loss to F
+
+Reading F's actual implementation (`catanatron.players.value.ValueFunctionPlayer` /
+`base_fn`, installed at `shared-local/.venv/lib/python3.11/site-packages/catanatron/players/value.py`)
+shows F does not score the *current* state with hand-rolled heuristics. For every legal
+action it executes a real copy of the game (`game.copy().execute(action)`) and scores the
+*resulting* state with `base_fn`, which is lexicographically dominated by public VP
+(weight `3e14`), then production (`1e8`), then enemy-denied production (`-1e8`), then
+reachable production / buildable nodes / hand synergy / dev cards / army size. v001's
+static current-state pip counts never saw second-order effects of an action (new reachable
+production, buildable-node count changes, a trade's effect on hand synergy) that F's real
+simulation captures directly.
+
+### Fix
+
+Both v002 agents now run the identical mechanism: `game.copy()`, `execute(act)`,
+`base_fn(DEFAULT_WEIGHTS)(game_copy, me)` — the same call and weights F itself uses,
+imported from the installed engine (not copied/reimplemented). Each bot keeps its assigned
+hypothesis as a small *additive* bonus on top (B03: contest premium for occupying a node in
+the opponent's real board-graph reach, computed via `STATIC_GRAPH`, never a snake-order or
+Manhattan-coordinate assumption; B04: port-acquisition bonus gated on the *simulated*
+resultant production via `catanatron.features.build_production_features`, not a static
+lookup, withdrawn once the opponent reaches 9 public VP).
+
+### A real calibration mistake, caught and fixed before upload
+
+The first cut scaled both bonuses at the same order of magnitude as base_fn's production
+weight (`CONTEST_BONUS=2.5e7`, `PORT_BONUS_STRONG=2.0e7`), reasoning only that they were
+"below 1e8." On the 40-board screen this made B03 **worse** than v001 (21/80 vs v001's
+29/80) because the bonus was large enough to override genuine production differences
+between candidate sites, not just break near-ties. Diagnosis: a typical production delta
+between two candidate sites is itself `~1e7`-`4e7` (pips `0.1`-`0.4` times `1e8`), so a
+`2.5e7` bonus was competing with, not supplementing, base_fn's own judgment. Both bonuses
+were rescaled to roughly 1/10 of a typical production delta (`3.0e6` / `1.0e6`), and
+B03 then went from worse-than-v001 to the best result recorded here.
+
+### Results (official harness, unchanged F, both seats per board; faults: zero throughout)
+
+| Matchup | v001 seat-paired | v002 seat-paired (mis-scaled bonus) | v002 seat-paired (final, rescaled) |
+|---|---|---|---|
+| B03 vs F (40 boards / 80 games) | 0.3625 | 0.2625 (worse — diagnosed above) | **0.4875 ± 0.2147** |
+| B04 vs F (40 boards / 80 games) | 0.2250 | 0.3500 | **0.4000 ± 0.2147** |
+| B03 vs B04 (20 boards / 40 games) | 0.55 (B03 led) | 0.575 | 0.50 (even) |
+
+CPU rose from v001's ~0.02 s/game mean to ~0.4 s/game mean for both bots (the `game.copy()`+
+`execute()` call per candidate action, the same cost F itself pays — its own measured mean
+is 137 ms/game per the setup report). Still comfortably inside the per-game budget
+(`min(0.300 + 0.0125*decisions, 1.500)` s). Zero errors, timeouts, crashes, overruns or
+random-fallback moves across all 240 v002 games recorded here (`bots/results/screen-b03v2-vs-f-01.json`,
+`screen-b04v2-vs-f-01.json`, `screen-b03v2-vs-b04v2-01.json`, plus the two single-batch
+recalibration reruns `screen-b03v2-vs-f-02.json`, `screen-b04v2-vs-f-02.json`).
+
+### Honest interpretation
+
+Both bots improved substantially and neither has yet clearly beaten F at this sample size
+(95% Hoeffding half-width ±0.2147 on 40 board-pairs still covers 0.5 for both). B03 is now
+statistically close to even with F and exactly even with B04; B04 improved the most in
+relative terms but remains the weaker of the two. This is **screen-level evidence, not
+final strength** — same caveat as v001. No semantic-case suite was rewritten for v002 (the
+v001 suite calls v001-only private methods like `_road_score`/`_road_site` that no longer
+exist in v002's simplified internals); legality/contract correctness for v002 is evidenced
+instead by zero faults across all 240 recorded v002 games, which is itself the harness's
+own per-game legality check. A dedicated v002 semantic suite is the natural next step before
+this is treated as upload-ready.
+
+### Tooling note: Hyde/GLM connectivity fix (shared, not Catan-specific)
+
+While setting up delegation to the Hyde GLM-5.3-Flash junior worker on this machine, the
+model ID documented in `06-OPENCODE-HYDE-SETUP.md` (`hyde-inference/hyde/glm-5.3-flash`)
+returned `401 Authentication Error` on this machine's installed OpenCode CLI
+(`opencode-ai` 1.19.3 via npm, vs the `v2.0.32` standalone build that setup report used):
+the well-known login's credential is stored keyed by the login URL rather than the
+`hyde-inference` provider id the config expects, so the model never received an API key.
+Fixed in `team-work/run-hyde-junior.py` by pinning the locally pre-configured `hyde`
+provider (`hyde/hyde/glm-5.3-flash`, authenticating directly via
+`{env:HYDE_INFERENCE_API_KEY}`) and dropping an unsupported `--standalone` flag on this CLI
+version. Verified live (`HYDE_READY` smoke reply) and end-to-end through the runner before
+this build session; no Hyde/GLM delegation was actually used for B03/B04 v002 itself — all
+reasoning, code and test-running above is this session's own work, reviewed against F's
+real source rather than drafted and reviewed after the fact.
+
 ## Boundaries kept
 
 No other member's files were touched (`git status` shows only

@@ -1,0 +1,38 @@
+{
+ "bot_id": "B03",
+ "version": "v002",
+ "parent": "team-work/member-2/bots/B03/v001/agent.py (sha256 190ade935a26f4ddc98dba39c62c64e068612fe513d4bf0c56dedf02cf208f0e)",
+ "owner": "Avadooth (Member 2)",
+ "strategy": "Frontier expansion and space denial, rebuilt on F's own one-ply mechanism: for every legal action, execute a real copy of the game (game.copy().execute(action), the same call ValueFunctionPlayer.decide() makes) and score the RESULTING state with catanatron.players.value.base_fn(DEFAULT_WEIGHTS) -- the exact function/weights F runs. B03's identity (denial) is an additive bonus on top, scaled below base_fn's production weight (1e8) so it only breaks near-ties base_fn already found close: a contest premium when the targeted settlement node or road's far node lies in the opponent's real board-graph reach (2 hops, computed from STATIC_GRAPH + current road/building state, never a snake-order or Manhattan-coordinate assumption), plus a small steal bonus on MOVE_ROBBER when a victim is available.",
+ "entrypoint": "team-work/member-2/bots/B03/v002/agent.py",
+ "source_sha256": "1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30",
+ "config": "weights inline in agent.py (CONTEST_BONUS=3.0e6, STEAL_BONUS=1.0e6); no external dependencies beyond the supplied engine",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "human_builder": "Avadooth (implemented and tested with coding-assistant review in this session)",
+ "independent_assistant_review": "this version is the assistant-reviewed rebuild; human (Avadooth) review still pending",
+ "runtime_contract": {
+  "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
+  "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to the harness",
+  "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
+  "runtime_llm_or_network": "none"
+ },
+ "calibration_history": [
+  "first cut used CONTEST_BONUS=2.5e7 (reasoned as 'well below the 1e8 production weight'); screen result 21/80 (26.25%), WORSE than v001's 29/80 (36.25%)",
+  "diagnosed: typical production deltas between candidate sites are themselves ~1e7-4e7 (pips 0.1-0.4 times 1e8), so 2.5e7 was overriding genuine production differences rather than only breaking near-ties",
+  "rescaled to CONTEST_BONUS=3.0e6 (~1/10 of a typical production delta); rerun screen-b03v2-vs-f-02: 39/80 (48.75%)"
+ ],
+ "results_vs_v001": {
+  "v001_screen_seat_paired": 0.3625,
+  "v002_screen_seat_paired_final": 0.4875,
+  "evidence": "team-work/member-2/bots/results/screen-b03v2-vs-f-01.json (final consolidated run, seeds 771100-771139)"
+ },
+ "known_weaknesses": [
+  "still below 50% in the final head-to-head vs B04 v002 was exactly even (20/40); vs F it is close but not proven superior at this sample size (seat-paired 0.4875 +/- 0.2147, 95% Hoeffding)",
+  "no sampling of hidden dev worlds (unlike F's own epsilon/search variants); single real-state 1-ply lookahead only",
+  "contest bonus magnitude was tuned by one recalibration pass against one 40-board screen, not cross-validated against a held-out board set",
+  "CPU rose from v001's ~0.02s/game mean to ~0.44s/game mean (game.copy()+execute() per candidate action, same mechanism F itself uses) -- still comfortably inside the per-game budget (up to 1.5s) but worth monitoring if the action-list fans out wider on other maps"
+ ],
+ "next_question": "does cross-validating the contest-bonus scale on a disjoint board set change the result, and does B03 v002 hold its edge over a larger sample (e.g. 200 boards)?",
+ "frozen_git_commit": "pending next commit in this session"
+}
