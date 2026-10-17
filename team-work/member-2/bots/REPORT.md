@@ -5,6 +5,13 @@ session (per the working agreement's junior-engineer workflow; all code was exec
 verified locally). Assignment: [`07-TWO-BOT-BUILD-ASSIGNMENT.md`](../07-TWO-BOT-BUILD-ASSIGNMENT.md).
 Status: **built and self-tested; independent assistant review not started.**
 
+Frozen build commit: **`abfd50204766fa87c88711eb85951167c2ad0112`**
+(branch `member-2/avadooth-bots`). Both manifests record the same commit. Push to GitHub
+was **not** possible from this machine — no GitHub write authentication exists here
+(no credential helper, no PAT/`.env`, no `gh`, and SSH is out of scope per the working
+agreement). The exact remaining blocker for upload: a collaborator token or the original
+computer's `.env` publication credentials.
+
 ## Artifacts
 
 | Item | Path | SHA-256 |

@@ -1,28 +1,29 @@
 {
-  "bot_id": "B04",
-  "version": "v001",
-  "parent": null,
-  "owner": "Avadooth (Member 2)",
-  "strategy": "Port specialization: same legality/robber/discard scaffolding as B03 but a distinct conversion objective - port nodes valued by production-justified surplus (2:1 needs >= one 6/8-equivalent pip of that resource, 3:1 needs real surplus), opening roads price corridors toward justified ports, trades convert surplus toward the next purchase in integer bundles (deficit-reducing) while unlocking same-turn purchases at the best legal owned-port rate, and all port chasing stops when the opponent reaches 9 public VP.",
-  "entrypoint": "team-work/member-2/bots/B04/v001/agent.py",
-  "source_sha256": "75bd348de82418a89e0a51e0ddbe04db71c4a7e492cc082d56e628b748f1e7c5",
-  "config": "weights inline in agent.py (single file; deliberately different constants and trade policy from B03)",
-  "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
-  "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
-  "human_builder": "Avadooth (implemented with coding assistance in this session)",
-  "independent_assistant_review": "not started (this is the owner self-test upload)",
-  "runtime_contract": {
-    "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
-    "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to harness",
-    "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
-    "runtime_llm_or_network": "none"
-  },
-  "semantic_cases": "team-work/member-2/bots/tests/semantic_cases.py (6 cases, all pass)",
-  "known_weaknesses": [
-    "loses to unchanged F on smoke and screen batches (22.5% seat-paired on 80 games)",
-    "port-acquisition weight not tuned; port term may over- or under-pull on some boards",
-    "surplus conversion at 4:1 (no owned port) is expensive and may waste surplus",
-    "no sampling of hidden dev worlds; no search"
-  ],
-  "next_question": "does the port term help or hurt relative to the port-disabled ablation on port-rich boards?"
+ "bot_id": "B04",
+ "version": "v001",
+ "parent": null,
+ "owner": "Avadooth (Member 2)",
+ "strategy": "Port specialization: same legality/robber/discard scaffolding as B03 but a distinct conversion objective - port nodes valued by production-justified surplus (2:1 needs >= one 6/8-equivalent pip of that resource, 3:1 needs real surplus), opening roads price corridors toward justified ports, trades convert surplus toward the next purchase in integer bundles (deficit-reducing) while unlocking same-turn purchases at the best legal owned-port rate, and all port chasing stops when the opponent reaches 9 public VP.",
+ "entrypoint": "team-work/member-2/bots/B04/v001/agent.py",
+ "source_sha256": "75bd348de82418a89e0a51e0ddbe04db71c4a7e492cc082d56e628b748f1e7c5",
+ "config": "weights inline in agent.py (single file; deliberately different constants and trade policy from B03)",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "human_builder": "Avadooth (implemented with coding assistance in this session)",
+ "independent_assistant_review": "not started (this is the owner self-test upload)",
+ "runtime_contract": {
+  "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
+  "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to harness",
+  "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
+  "runtime_llm_or_network": "none"
+ },
+ "semantic_cases": "team-work/member-2/bots/tests/semantic_cases.py (6 cases, all pass)",
+ "known_weaknesses": [
+  "loses to unchanged F on smoke and screen batches (22.5% seat-paired on 80 games)",
+  "port-acquisition weight not tuned; port term may over- or under-pull on some boards",
+  "surplus conversion at 4:1 (no owned port) is expensive and may waste surplus",
+  "no sampling of hidden dev worlds; no search"
+ ],
+ "next_question": "does the port term help or hurt relative to the port-disabled ablation on port-rich boards?",
+ "frozen_git_commit": "abfd50204766fa87c88711eb85951167c2ad0112"
 }
