@@ -1,0 +1,40 @@
+{
+ "bot_id": "B04",
+ "version": "v003",
+ "parent": "team-work/member-2/bots/B04/v002/agent.py (sha256 763c88df0a815aeb97bf6cc1bb02865f8bb148c58bed6965ffb54911907d0b45, commit 791e6705d09f62ceba691777e041980d673f1c69)",
+ "owner": "Avadooth (Member 2)",
+ "strategy": "Port specialization; same one-ply simulate-and-score backbone as v002 (game.copy().execute(act) + catanatron.players.value.base_fn). This version fixes verified correctness defects in the port bonus; it does not change the strategic hypothesis.",
+ "entrypoint": "team-work/member-2/bots/B04/v003/agent.py",
+ "source_sha256": "fa978918ed90ce00ac322aaab6fbac102c66f60d81ddd6bb90f4f1f5223d14d8",
+ "config": "weights inline in agent.py (PORT_BONUS_STRONG=3.0e6, PORT_BONUS_ROUTE=1.0e6 unchanged from v002; PROBA_6 now exact 5/36; CPU_SAFETY_FLOOR=0.05s new in v003)",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "human_builder": "Avadooth (implemented and tested with coding-assistant review in this session)",
+ "independent_assistant_review": "this version implements the 2026-10-17 independent review's verified P1 tickets for B04; a further independent review round has not yet run against v003",
+ "runtime_contract": {
+  "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
+  "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to the harness",
+  "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
+  "runtime_llm_or_network": "none"
+ },
+ "tickets_addressed": [
+  "B04-01 (P1, verified): the newly-reached endpoint of a BUILD_ROAD action is now determined from pre-action connectivity (board.connected_components), not from tuple position. v002's `_, far = act.value` assumed edges are given in (near, far) order; Board.buildable_edges actually returns (n1, n2) with n1 < n2, an arbitrary sort order. The review's constructed fixture (new port at the lower-numbered endpoint, already-connected higher-numbered endpoint) is now scored correctly.",
+  "B04-02 (P1, verified): _justified_port_value no longer grants any bonus at zero specialized production (v002 granted scale*0.1 even at exactly zero); the generic 3:1 port case now requires real two-resource-equivalent surplus (>= 2*PROBA_6) instead of merely two nonzero production entries; PROBA_6 is now the exact fraction 5/36 instead of the rounded decimal 0.1389, which was slightly larger than 5/36 and so failed the review's exact-threshold probe.",
+  "M2-C01 (P1): same per-candidate exception handling and diagnostic counters as B03 v003 -- a failing candidate no longer discards every already-scored action for the turn.",
+  "M2-C02 (P1): same explicit immediate-own-win short-circuit as B03 v003, bypassing base_fn and the port bonus entirely rather than relying on a bonus-scale argument.",
+  "CPU budgeting: obs.cpu_left is now read; below CPU_SAFETY_FLOOR=0.05s the agent uses a cheap win-only check instead of the full simulate-and-score loop."
+ ],
+ "tickets_deferred": [
+  "B04-03 (P2 hypothesis, deferred this round): a bounded port-to-purchase trade-chain search so MARITIME_TRADE itself is priced toward a named purchase. See implementation/BUILD-AND-RESULTS.md for the explicit rejection rationale -- this is a separate experiment from the two P1 correctness fixes above."
+ ],
+ "regressions": "team-work/member-2/implementation/test_b03_b04_v003.py (B04EndpointTests, B04ProductionThresholdTests, ObservabilityTests, GuaranteedWinTests, ContractTests, ParentHashTests) -- each test reproduces the v002 defect first, then asserts the v003 fix on the identical fixture",
+ "main_evaluation": "team-work/member-2/implementation/results/B04-v003-vs-F-dev-500 (500 games, boards 933500-933749) with matched-parent rerun team-work/member-2/implementation/results/B04-v002-vs-F-dev-500-matched on the identical 250 boards; see implementation/BUILD-AND-RESULTS.md for the numbers",
+ "known_weaknesses": [
+  "the port-bonus magnitude itself is unchanged from v002 and was tuned by one recalibration pass against one 40-board screen, not cross-validated (unchanged limitation, not newly introduced)",
+  "B04-03's bounded trade-chain search is not implemented; MARITIME_TRADE is still priced entirely by base_fn with no port-specific term",
+  "no sampling of hidden dev worlds; single real-state 1-ply lookahead only",
+  "the port-acquisition cost model still only prices the immediately-reached node/edge, not the full remaining road path to a port, as the original v001 hypothesis intended"
+ ],
+ "next_question": "does fixing the endpoint and zero-production defects change B04's measured win rate against F on a fresh board group, holding the port-bonus magnitude fixed?",
+ "frozen_git_commit": "pending next commit in this session"
+}

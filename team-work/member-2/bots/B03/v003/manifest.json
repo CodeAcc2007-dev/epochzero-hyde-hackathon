@@ -1,0 +1,39 @@
+{
+ "bot_id": "B03",
+ "version": "v003",
+ "parent": "team-work/member-2/bots/B03/v002/agent.py (sha256 1a4a304932718ba2b76af1ff966bb08c55c5c00c7a0ef5c0f9cf788bdcc66e30, commit 791e6705d09f62ceba691777e041980d673f1c69)",
+ "owner": "Avadooth (Member 2)",
+ "strategy": "Frontier expansion and space denial; same one-ply simulate-and-score backbone as v002 (game.copy().execute(act) + catanatron.players.value.base_fn), with the contest-denial bonus unchanged (CONTEST_BONUS=3.0e6, STEAL_BONUS=1.0e6, already calibrated in v002). This version fixes verified correctness defects, it does not change the strategic hypothesis.",
+ "entrypoint": "team-work/member-2/bots/B03/v003/agent.py",
+ "source_sha256": "796c80b827515cbdc76a6ca4b41520924e439c2e6f18d5821fa36f28f4b17ffd",
+ "config": "weights inline in agent.py (unchanged from v002); CPU_SAFETY_FLOOR=0.05s new in v003",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "human_builder": "Avadooth (implemented and tested with coding-assistant review in this session)",
+ "independent_assistant_review": "this version implements the 2026-10-17 independent review's verified P1 tickets for B03; a further independent review round has not yet run against v003",
+ "runtime_contract": {
+  "decide_signature": "Agent.decide(obs, playable_actions) -> int index",
+  "fallback": "first ROLL, else first END_TURN, else index 0; wrapper never raises to the harness",
+  "hidden_information_used": "none (no dev identities, no seeds, no dice inference)",
+  "runtime_llm_or_network": "none"
+ },
+ "tickets_addressed": [
+  "B03-01 (P1, verified): _opp_reach now seeds its BFS from the opponent's full existing connected-component node set (board.connected_components), not just their settlement/city nodes, so nodes already reachable at zero additional road cost (the review's constructed node 39, reached via a 6-road network) are correctly included. Also filters the result to board.board_buildable_ids (distance-rule legality), which v002 never did.",
+  "M2-C01 (P1): exception handling moved inside the per-candidate loop; a failing candidate is skipped and counted (self.diagnostics['exceptions']) instead of discarding every already-scored action for the whole turn. The best already-evaluated incumbent is retained.",
+  "M2-C02 (P1): an explicit immediate-own-win check (game_copy.winning_color() == me) runs before heuristic scoring on every candidate and returns that action immediately, bypassing base_fn and the contest bonus entirely, rather than relying on an argument about bonus scale.",
+  "CPU budgeting (contract 'Clock allowance' section): obs.cpu_left is now read; below CPU_SAFETY_FLOOR=0.05s the agent uses a cheap win-only check instead of the full simulate-and-score loop over all candidates."
+ ],
+ "tickets_deferred": [
+  "B03-02 (P2 hypothesis, deferred this round): connect the denial reward to actual route/resource cost and site quality rather than a flat bonus. See implementation/BUILD-AND-RESULTS.md for the explicit rejection rationale -- this is a separate experiment from the two P1 correctness fixes above, and the contract asks for one interpretable change at a time."
+ ],
+ "regressions": "team-work/member-2/implementation/test_b03_b04_v003.py (B03ReachTests, ObservabilityTests, GuaranteedWinTests, ContractTests, ParentHashTests) -- each test reproduces the v002 defect first, then asserts the v003 fix on the identical fixture",
+ "main_evaluation": "team-work/member-2/implementation/results/B03-v003-vs-F-dev-500 (500 games, boards 933000-933249) with matched-parent rerun team-work/member-2/implementation/results/B03-v002-vs-F-dev-500-matched on the identical 250 boards; see implementation/BUILD-AND-RESULTS.md for the numbers",
+ "known_weaknesses": [
+  "the contest-bonus magnitude itself is unchanged from v002 and was tuned by one recalibration pass against one 40-board screen, not cross-validated (unchanged limitation, not newly introduced)",
+  "B03-02's route-cost-aware denial pricing is not implemented; the current bonus is still a flat per-node premium",
+  "no sampling of hidden dev worlds; single real-state 1-ply lookahead only",
+  "ROLL/BUY_DEVELOPMENT_CARD/MOVE_ROBBER chance boundaries are not explicitly modeled beyond the guaranteed-win short-circuit; the review's M2-C02 ticket's broader request for 'explicit expectation/cutoff' chance handling is only partially addressed"
+ ],
+ "next_question": "does fixing _opp_reach change B03's measured win rate against F on a fresh board group, holding the contest-bonus magnitude fixed?",
+ "frozen_git_commit": "pending next commit in this session"
+}
