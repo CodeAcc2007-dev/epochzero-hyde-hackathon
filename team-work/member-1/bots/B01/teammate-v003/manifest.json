@@ -1,0 +1,19 @@
+{
+ "bot_id": "B01",
+ "version": "teammate-v003",
+ "owner": "Aroosh (Member 1); independent upgrade branch run by Avadooth (Member 2) at the user's request",
+ "branch": "member-1/b01-independent-upgrade",
+ "parent": "team-work/member-1/bots/B01/v002/agent.py (sha256 cc53c58ca1867678ad6be9ca074ed6dabdffb54aa9b1c7ca1d83f52271c723f4, verified before editing)",
+ "entrypoint": "team-work/member-1/bots/B01/teammate-v003/agent.py",
+ "source_sha256": "504f11305e1e9a7d1d3db456563a8ec32315fc84a2a675c190e2db7f7da8a868",
+ "zip": "team-work/member-1/artifacts/B01-teammate-v003.zip",
+ "zip_sha256": "d13fdae6559128155c4258674db73c2bcc8db8bea8ff21cf777b5041bd8a496c",
+ "zip_members": ["agent.py"],
+ "change": "Single change to the non-engine initial-settlement score: + 0.25 * best site_quality among distance-2 legal nodes (board_buildable_ids) from the candidate, i.e. the expansion site a two-road follow-up can reach. Everything else is byte-identical to v002.",
+ "engine_pin": "d3f4ad05bb78d8b2309631d6d3cfa8fcb6fda816",
+ "kit_pin": "04fffac90e00610f60e0b06d919f262f4b3ed9db",
+ "f_sha256": "72df6e45f9a37370f661cbfc4e626d67af6fb3c5907523e27ba0a29567d8f613",
+ "confirmation_boards": "942000-942249 (500 games, swapped seats, 20-game chunks)",
+ "result_942000": "361/500 (72.2%) vs F; matched v002 on identical boards also 361/500; paired mean difference 0.000, bootstrap 95% [-0.028, +0.026]; zero faults both",
+ "status": "REJECTED experiment, improvement not supported. Keep B01 v002 as the baseline. Details: team-work/member-1/implementation/TEAMMATE-V003-FINDINGS.md"
+}
